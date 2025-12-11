@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // For GitHub Pages - you'll need to set this when deploying
-  basePath: process.env.NODE_ENV === 'production' ? '/elore' : '',
   trailingSlash: true,
 }
 
