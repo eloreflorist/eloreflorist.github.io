@@ -1,8 +1,7 @@
 // next.config.js
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  distDir: 'out',
-  basePath: '', // Explicitly set to empty for root domain
   images: {
     unoptimized: true,
   },
