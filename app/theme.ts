@@ -6,7 +6,7 @@ export const colors = {
     white: '#FFFFFF',      // White
   };
   
-  export const fonts = {
-    heading: 'system-ui, -apple-system, sans-serif',
-    body: 'system-ui, -apple-system, sans-serif',
-  };
+export const fonts = {
+  heading: 'system-ui, -apple-system, sans-serif',
+  body: 'system-ui, -apple-system, sans-serif',
+};

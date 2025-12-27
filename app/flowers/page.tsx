@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Link from "next/link";
+import flowerProducts from "@/data/flowers.json";
 
 export default function Flowers() {
   return (
@@ -13,17 +15,19 @@ export default function Flowers() {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[1, 2, 3, 4, 5, 6].map((item) => (
-              <div key={item} className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-                <div className="h-64 bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center">
-                  <span className="text-gray-400">Flower {item}</span>
+            {flowerProducts.map((product) => (
+              <Link key={product.slug} href={`/flowers/${product.slug}`}>
+                <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow cursor-pointer">
+                  <div className="h-64 bg-gradient-to-br from-pink-100 to-purple-100 flex items-center justify-center">
+                    <span className="text-gray-400">{product.image}</span>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-semibold mb-2">{product.name}</h3>
+                    <p className="text-sm text-gray-600 mb-4">{product.description}</p>
+                    <p className="text-lg font-semibold text-primary">${product.price}</p>
+                  </div>
                 </div>
-                <div className="p-4">
-                  <h3 className="font-semibold mb-2">Beautiful Bloom {item}</h3>
-                  <p className="text-sm text-gray-600 mb-4">Premium quality fresh flowers</p>
-                  <p className="text-lg font-semibold text-primary">From $45</p>
-                </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -32,4 +36,3 @@ export default function Flowers() {
     </>
   );
 }
-

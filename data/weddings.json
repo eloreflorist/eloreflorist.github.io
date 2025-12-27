@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "classic-white-green-bridal-bouquet",
+    "name": "Wedding Package 1",
+    "category": "weddings",
+    "price": 150,
+    "image": "Wedding Design 1",
+    "description": "Classic white and green bridal bouquet.",
+    "fullDescription": "A timeless classic that never goes out of style. This elegant white and green bouquet features premium white roses and fresh greenery, perfect for the modern bride who appreciates simplicity and elegance.",
+    "details": "Timeless elegance for the modern bride",
+    "includes": ["20 White roses", "White lisianthus", "Green eucalyptus", "Pearl accents"],
+    "inStock": true
+  },
+  {
+    "slug": "blush-cream-romantic-bride",
+    "name": "Wedding Package 2",
+    "category": "weddings",
+    "price": 180,
+    "image": "Wedding Design 2",
+    "description": "Blush and cream romantic bride bouquet.",
+    "fullDescription": "Soft, romantic, and utterly feminine. This dreamy bouquet combines blush roses and cream peonies to create a soft, romantic aesthetic that's perfect for the romantic bride.",
+    "details": "Soft, romantic, and utterly feminine",
+    "includes": ["Blush roses", "Cream peonies", "Baby's breath", "Vintage lace wrap"],
+    "inStock": true
+  },
+  {
+    "slug": "garden-style-mixed-flowers",
+    "name": "Wedding Package 3",
+    "category": "weddings",
+    "price": 200,
+    "image": "Wedding Design 3",
+    "description": "Garden-style mixed flower bouquet.",
+    "fullDescription": "Inspired by lush English gardens, this abundant and natural-looking arrangement celebrates the beauty of mixed flowers and greenery. Perfect for the bride who loves nature and garden aesthetics.",
+    "details": "Natural, abundant, and full of character",
+    "includes": ["Mixed roses", "Garden flowers", "Greenery", "Ribbon bow"],
+    "inStock": true
+  },
+  {
+    "slug": "purple-lavender-sophisticated",
+    "name": "Wedding Package 4",
+    "category": "weddings",
+    "price": 160,
+    "image": "Wedding Design 4",
+    "description": "Purple and lavender sophisticated bouquet.",
+    "fullDescription": "Regal and enchanting, this purple and lavender bouquet is for the bride who dares to be different. The rich, sophisticated colors create an unforgettable statement.",
+    "details": "Regal and enchanting for the unique bride",
+    "includes": ["Purple roses", "Lavender", "White accents", "Purple ribbon"],
+    "inStock": true
+  },
+  {
+    "slug": "premium-luxury-bride-bouquet",
+    "name": "Wedding Package 5",
+    "category": "weddings",
+    "price": 220,
+    "image": "Wedding Design 5",
+    "description": "Premium luxury bride bouquet.",
+    "fullDescription": "The ultimate in luxury and sophistication. This premium bouquet features the finest flowers available, with rare exotic blooms and luxurious wrapping for the bride who wants the very best.",
+    "details": "Ultimate luxury and sophistication",
+    "includes": ["Premium roses", "Exotic flowers", "Gold accents", "Designer wrap"],
+    "inStock": true
+  },
+  {
+    "slug": "tropical-beach-wedding-flowers",
+    "name": "Wedding Package 6",
+    "category": "weddings",
+    "price": 170,
+    "image": "Wedding Design 6",
+    "description": "Tropical wedding floral arrangement.",
+    "fullDescription": "Perfect for destination and beach weddings. This tropical arrangement captures the beauty of paradise with exotic flowers and lush greenery, creating a vacation-ready aesthetic.",
+    "details": "Perfect for destination and beach weddings",
+    "includes": ["Tropical flowers", "Orchids", "Exotic foliage", "Beach styling"],
+    "inStock": false
+  }
+]
+
