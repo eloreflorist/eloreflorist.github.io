@@ -10,4 +10,4 @@ const nextConfig = {
   trailingSlash: false,
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
