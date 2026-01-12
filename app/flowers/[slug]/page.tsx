@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import ProductCarousel from "@/components/ProductCarousel";
 import flowerProducts from "@/data/flowers.json";
 
 export function generateStaticParams() {
@@ -37,12 +38,10 @@ export default function FlowerDetail({ params }: { readonly params: { readonly s
             ← Back to Flowers
           </Link>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* Product Image */}
-            <div>
-              <div className="h-96 bg-gradient-to-br from-pink-100 to-purple-100 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-lg">{product.image}</span>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+            {/* Product Carousel */}
+            <div className="h-full">
+              <ProductCarousel productName={product.name} images={product.images} />
             </div>
 
             {/* Product Details */}

@@ -9,7 +9,8 @@
     "fullDescription": "Express your deepest feelings with this romantic gift set. Hand-selected roses are paired with premium chocolates and a personalized handwritten card for the perfect romantic gesture.",
     "details": "Perfect for anniversaries and romantic gestures",
     "includes": ["12 Red Roses", "Premium chocolates", "Personalized card", "Gift box"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
   },
   {
     "slug": "luxury-flowers-candle-relaxation",
@@ -21,7 +22,8 @@
     "fullDescription": "Create a spa-like atmosphere with our luxury relaxation set. Beautiful flowers combined with scented candles create the perfect ambiance for unwinding and self-care.",
     "details": "Create a spa-like atmosphere at home",
     "includes": ["Mixed flowers", "Scented candles", "Luxury wrapping", "Decorative box"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
   },
   {
     "slug": "premium-flowers-wine-gourmet",
@@ -33,7 +35,8 @@
     "fullDescription": "Impress your loved ones with this luxurious combination. Premium flowers, fine wine, and gourmet snacks come together in an elegant presentation.",
     "details": "An impressive gift for special celebrations",
     "includes": ["Premium flowers", "Wine bottle", "Gourmet snacks", "Luxury presentation"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
   },
   {
     "slug": "birthday-flowers-balloons-celebration",
@@ -45,7 +48,8 @@
     "fullDescription": "Make birthdays unforgettable with this festive arrangement. Colorful flowers paired with celebratory balloons create the perfect birthday surprise.",
     "details": "Make birthdays memorable and festive",
     "includes": ["Colorful flowers", "Balloons", "Birthday card", "Gift wrap"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
   },
   {
     "slug": "congratulations-success-flowers",
@@ -57,7 +61,8 @@
     "fullDescription": "Celebrate achievements and milestones with our special congratulations bouquet. Perfect for promotions, graduations, and new beginnings.",
     "details": "Celebrate achievements and milestones",
     "includes": ["Yellow flowers", "Congratulations ribbon", "Gift box", "Card"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
   },
   {
     "slug": "get-well-healing-flowers",
@@ -69,7 +74,7 @@
     "fullDescription": "Send love and support during times of recovery. Our get well bouquet combines beautiful flowers with uplifting sentiments to brighten someone's day.",
     "details": "Send love and support during recovery",
     "includes": ["Uplifting flowers", "Get well card", "Premium box", "Positive message"],
-    "inStock": false
+    "inStock": false,
+    "images": ["/beautiful-bloom-1.jpg"]
   }
 ]
-

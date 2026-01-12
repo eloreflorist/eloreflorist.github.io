@@ -9,7 +9,8 @@
     "fullDescription": "This exquisite arrangement combines the timeless elegance of red roses with the delicate beauty of white lilies. Each stem is hand-selected and arranged by our expert florists to create a stunning centerpiece that will brighten any room.",
     "details": "Hand-arranged with premium quality stems, guaranteed fresh for 7+ days",
     "includes": ["12 Red Roses", "5 White Lilies", "Green foliage", "Ceramic vase"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
   },
   {
     "slug": "vibrant-sunflower-daisy-mix",
@@ -21,7 +22,8 @@
     "fullDescription": "Bring sunshine into someone's day with this cheerful combination of sunflowers and daisies. This arrangement radiates happiness and positivity, making it perfect for celebrations and special moments.",
     "details": "Cheerful and long-lasting, perfect for any occasion",
     "includes": ["8 Sunflowers", "10 Daisies", "Eucalyptus", "Transparent vase"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
   },
   {
     "slug": "elegant-purple-orchids",
@@ -33,7 +35,8 @@
     "fullDescription": "Experience luxury with these stunning purple orchids. A symbol of elegance and sophistication, this arrangement is perfect for those who appreciate the finer things in life.",
     "details": "Luxurious and sophisticated, perfect for special celebrations",
     "includes": ["6 Purple Orchids", "White roses", "Premium foliage", "Luxury box"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
   },
   {
     "slug": "pastel-tulip-collection",
@@ -45,7 +48,8 @@
     "fullDescription": "Welcome the spring season with our beautiful pastel tulips. These soft-colored blooms create a gentle, romantic atmosphere perfect for any space.",
     "details": "Perfect for spring celebrations and fresh home decor",
     "includes": ["15 Mixed Tulips", "Green stems", "Decorative wrapping", "Vase"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
   },
   {
     "slug": "premium-rose-collection",
@@ -57,7 +61,8 @@
     "fullDescription": "Our premium rose collection features the most beautiful blooms available. Each rose is carefully selected for its color intensity and petal quality.",
     "details": "High-end arrangement for premium occasions",
     "includes": ["20 Premium Roses", "Baby's breath", "Leather wrap", "Premium vase"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
   },
   {
     "slug": "tropical-exotic-flowers",
@@ -69,7 +74,7 @@
     "fullDescription": "Escape to a tropical paradise with this exotic flower arrangement. Featuring rare blooms from around the globe, this arrangement is truly one-of-a-kind.",
     "details": "Unique and eye-catching arrangement",
     "includes": ["Exotic flowers", "Bird of Paradise", "Tropical foliage", "Artistic vase"],
-    "inStock": false
+    "inStock": false,
+    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
   }
 ]
-

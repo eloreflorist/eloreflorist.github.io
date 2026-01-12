@@ -18,8 +18,18 @@ export default function Gifts() {
             {giftProducts.map((product) => (
               <Link key={product.slug} href={`/gifts/${product.slug}`}>
                 <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow cursor-pointer">
-                  <div className="h-64 bg-gradient-to-br from-yellow-100 to-orange-100 flex items-center justify-center">
-                    <span className="text-gray-400">{product.image}</span>
+                  <div 
+                    className="flex items-center justify-center bg-gradient-to-br from-yellow-100 to-orange-100"
+                    style={{
+                      aspectRatio: '1 / 1',
+                      width: '100%'
+                    }}
+                  >
+                    <img 
+                      src={product.images?.[0] || '/flower.jpg'} 
+                      alt={product.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="p-4">
                     <h3 className="font-semibold mb-2">{product.name}</h3>

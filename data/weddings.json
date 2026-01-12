@@ -9,7 +9,8 @@
     "fullDescription": "A timeless classic that never goes out of style. This elegant white and green bouquet features premium white roses and fresh greenery, perfect for the modern bride who appreciates simplicity and elegance.",
     "details": "Timeless elegance for the modern bride",
     "includes": ["20 White roses", "White lisianthus", "Green eucalyptus", "Pearl accents"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
   },
   {
     "slug": "blush-cream-romantic-bride",
@@ -21,7 +22,8 @@
     "fullDescription": "Soft, romantic, and utterly feminine. This dreamy bouquet combines blush roses and cream peonies to create a soft, romantic aesthetic that's perfect for the romantic bride.",
     "details": "Soft, romantic, and utterly feminine",
     "includes": ["Blush roses", "Cream peonies", "Baby's breath", "Vintage lace wrap"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
   },
   {
     "slug": "garden-style-mixed-flowers",
@@ -33,7 +35,8 @@
     "fullDescription": "Inspired by lush English gardens, this abundant and natural-looking arrangement celebrates the beauty of mixed flowers and greenery. Perfect for the bride who loves nature and garden aesthetics.",
     "details": "Natural, abundant, and full of character",
     "includes": ["Mixed roses", "Garden flowers", "Greenery", "Ribbon bow"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
   },
   {
     "slug": "purple-lavender-sophisticated",
@@ -45,7 +48,8 @@
     "fullDescription": "Regal and enchanting, this purple and lavender bouquet is for the bride who dares to be different. The rich, sophisticated colors create an unforgettable statement.",
     "details": "Regal and enchanting for the unique bride",
     "includes": ["Purple roses", "Lavender", "White accents", "Purple ribbon"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-6.jpg"]
   },
   {
     "slug": "premium-luxury-bride-bouquet",
@@ -57,7 +61,8 @@
     "fullDescription": "The ultimate in luxury and sophistication. This premium bouquet features the finest flowers available, with rare exotic blooms and luxurious wrapping for the bride who wants the very best.",
     "details": "Ultimate luxury and sophistication",
     "includes": ["Premium roses", "Exotic flowers", "Gold accents", "Designer wrap"],
-    "inStock": true
+    "inStock": true,
+    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg", "/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg"]
   },
   {
     "slug": "tropical-beach-wedding-flowers",
@@ -69,7 +74,7 @@
     "fullDescription": "Perfect for destination and beach weddings. This tropical arrangement captures the beauty of paradise with exotic flowers and lush greenery, creating a vacation-ready aesthetic.",
     "details": "Perfect for destination and beach weddings",
     "includes": ["Tropical flowers", "Orchids", "Exotic foliage", "Beach styling"],
-    "inStock": false
+    "inStock": false,
+    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg"]
   }
 ]
-

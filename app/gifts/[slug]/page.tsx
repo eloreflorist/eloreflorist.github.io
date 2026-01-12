@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import ProductCarousel from "@/components/ProductCarousel";
 import giftProducts from "@/data/gifts.json";
 
 export function generateStaticParams() {
@@ -37,12 +38,10 @@ export default function GiftDetail({ params }: { readonly params: { readonly slu
             ← Back to Gifts
           </Link>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* Product Image */}
-            <div>
-              <div className="h-96 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-lg">{product.image}</span>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+            {/* Product Carousel */}
+            <div className="h-full">
+              <ProductCarousel productName={product.name} images={product.images} />
             </div>
 
             {/* Product Details */}
