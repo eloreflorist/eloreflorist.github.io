@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import ProductCarousel from "@/components/ProductCarousel";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import flowerProducts from "@/data/flowers.json";
 
 export function generateStaticParams() {
@@ -47,7 +48,6 @@ export default function FlowerDetail({ params }: { readonly params: { readonly s
             {/* Product Details */}
             <div>
               <h1 className="text-4xl font-semibold mb-4">{product.name}</h1>
-              <p className="text-3xl font-bold text-primary mb-6">${product.price}</p>
 
               <p className="text-gray-700 mb-6 leading-relaxed">
                 {product.fullDescription}
@@ -70,17 +70,8 @@ export default function FlowerDetail({ params }: { readonly params: { readonly s
                 </ul>
               </div>
 
-              <div className="flex gap-4">
-                <button
-                  className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
-                    product.inStock
-                      ? "bg-primary text-white hover:opacity-90"
-                      : "bg-gray-300 text-gray-600 cursor-not-allowed"
-                  }`}
-                  disabled={!product.inStock}
-                >
-                  {product.inStock ? "Add to Cart" : "Out of Stock"}
-                </button>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <WhatsAppButton productName={product.name} />
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import ProductCarousel from "@/components/ProductCarousel";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import weddingProducts from "@/data/weddings.json";
 
 export function generateStaticParams() {
@@ -47,7 +48,6 @@ export default function WeddingDetail({ params }: { readonly params: { readonly 
             {/* Product Details */}
             <div>
               <h1 className="text-4xl font-semibold mb-4">{product.name}</h1>
-              <p className="text-3xl font-bold text-primary mb-6">${product.price}</p>
 
               <p className="text-gray-700 mb-6 leading-relaxed">
                 {product.fullDescription}
@@ -70,7 +70,7 @@ export default function WeddingDetail({ params }: { readonly params: { readonly 
                 </ul>
               </div>
 
-              <div className="flex gap-4">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
                     product.inStock
@@ -81,6 +81,8 @@ export default function WeddingDetail({ params }: { readonly params: { readonly 
                 >
                   {product.inStock ? "Add to Cart" : "Out of Stock"}
                 </button>
+                
+                <WhatsAppButton productName={product.name} />
               </div>
             </div>
           </div>
