@@ -25,12 +25,12 @@ export default function ProductCarousel({ productName, images }: ProductCarousel
 
   return (
     <div className="w-full flex flex-col">
-      {/* Main Image Display - 3:4 Aspect Ratio */}
+      {/* Main Image Display - 4:5 Aspect Ratio */}
       <div 
         className="rounded-lg flex items-center justify-center mb-4 relative overflow-hidden" 
         style={{ 
           backgroundColor: colors.secondary,
-            aspectRatio: '1 / 1',
+            aspectRatio: '4 / 5',
         }}
       >
         <img

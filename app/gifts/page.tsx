@@ -59,7 +59,7 @@ export default function Gifts() {
                   <div 
                     className="flex items-center justify-center bg-gradient-to-br from-yellow-100 to-orange-100"
                     style={{
-                      aspectRatio: '1 / 1',
+                      aspectRatio: '4 / 5',
                       width: '100%'
                     }}
                   >

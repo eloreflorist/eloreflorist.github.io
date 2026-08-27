@@ -59,7 +59,7 @@ export default function Weddings() {
                   <div 
                     className="flex items-center justify-center bg-gradient-to-br from-rose-100 to-pink-100"
                     style={{
-                      aspectRatio: '1 / 1',
+                      aspectRatio: '4 / 5',
                       width: '100%'
                     }}
                   >

@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "slug": "beautiful-bloom-roses-lilies",
     "name": "Beautiful Bloom 1",
@@ -10,7 +10,7 @@
     "details": "Hand-arranged with premium quality stems, guaranteed fresh for 7+ days",
     "includes": ["12 Red Roses", "5 White Lilies", "Green foliage", "Ceramic vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
+    "images": ["/1-33/1/a.jpg", "/1-33/1/b.jpg"]
   },
   {
     "slug": "vibrant-sunflower-daisy-mix",
@@ -23,7 +23,7 @@
     "details": "Cheerful and long-lasting, perfect for any occasion",
     "includes": ["8 Sunflowers", "10 Daisies", "Eucalyptus", "Transparent vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": ["/1-33/2/a.jpg", "/1-33/2/b.jpg", "/1-33/2/c.jpg"]
   },
   {
     "slug": "elegant-purple-orchids",
@@ -36,7 +36,7 @@
     "details": "Luxurious and sophisticated, perfect for special celebrations",
     "includes": ["6 Purple Orchids", "White roses", "Premium foliage", "Luxury box"],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": ["/1-33/3/a.jpg"]
   },
   {
     "slug": "pastel-tulip-collection",
@@ -49,7 +49,7 @@
     "details": "Perfect for spring celebrations and fresh home decor",
     "includes": ["15 Mixed Tulips", "Green stems", "Decorative wrapping", "Vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": ["/1-33/4/a.jpg", "/1-33/4/b.jpg"]
   },
   {
     "slug": "premium-rose-collection",
@@ -62,7 +62,7 @@
     "details": "High-end arrangement for premium occasions",
     "includes": ["20 Premium Roses", "Baby's breath", "Leather wrap", "Premium vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": ["/1-33/5/a.jpg"]
   },
   {
     "slug": "tropical-exotic-flowers",
@@ -75,7 +75,7 @@
     "details": "Unique and eye-catching arrangement",
     "includes": ["Exotic flowers", "Bird of Paradise", "Tropical foliage", "Artistic vase"],
     "inStock": false,
-    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": ["/1-33/6/a.jpg"]
   },
   {
     "slug": "classic-carnation-bouquet",
@@ -88,7 +88,7 @@
     "details": "Long-lasting and affordable, perfect for everyday gifting",
     "includes": ["15 Mixed Carnations", "Greenery", "Ribbon wrap", "Care instructions"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg"]
+    "images": ["/1-33/7/a.jpg"]
   },
   {
     "slug": "deluxe-peony-arrangement",
@@ -101,7 +101,7 @@
     "details": "Premium seasonal flowers, available spring through summer",
     "includes": ["10 Pink Peonies", "Ranunculus", "Seasonal foliage", "Crystal vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": ["/1-33/8/a.jpg"]
   },
   {
     "slug": "garden-fresh-wildflowers",
@@ -114,7 +114,7 @@
     "details": "Rustic and natural, perfect for casual settings",
     "includes": ["Mixed wildflowers", "Lavender", "Natural grasses", "Mason jar"],
     "inStock": true,
-    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": ["/1-33/9/a.jpg"]
   },
   {
     "slug": "elegant-calla-lilies",
@@ -127,7 +127,7 @@
     "details": "Architectural and sophisticated design",
     "includes": ["8 White Calla Lilies", "Monstera leaves", "Contemporary wrap", "Square vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-5.jpg"]
+    "images": ["/1-33/10/a.jpg"]
   },
   {
     "slug": "cheerful-gerbera-daisies",
@@ -140,7 +140,7 @@
     "details": "Vibrant and long-lasting, great for birthdays",
     "includes": ["12 Gerbera Daisies", "Bear grass", "Cellophane wrap", "Round vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-6.jpg"]
+    "images": ["/1-33/11/a.jpg"]
   },
   {
     "slug": "romantic-hydrangea-bouquet",
@@ -153,7 +153,7 @@
     "details": "Lush and full, perfect for anniversaries",
     "includes": ["3 Large Hydrangeas", "Spray roses", "Eucalyptus", "Ceramic pitcher"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
+    "images": ["/1-33/12/a.jpg"]
   },
   {
     "slug": "vibrant-protea-collection",
@@ -166,7 +166,7 @@
     "details": "Rare and exotic, perfect for making a statement",
     "includes": ["5 King Proteas", "Leucadendron", "Safari sunset", "Designer vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": ["/1-33/13/a.jpg", "/1-33/13/b.jpg"]
   },
   {
     "slug": "sweet-freesia-mix",
@@ -179,7 +179,7 @@
     "details": "Fragrant and delicate, perfect for small spaces",
     "includes": ["20 Mixed Freesias", "Limonium", "Tissue wrap", "Small vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg", "/beautiful-bloom-1.jpg"]
+    "images": ["/1-33/14/a.jpg"]
   },
   {
     "slug": "majestic-iris-arrangement",
@@ -192,7 +192,7 @@
     "details": "Unique and elegant, perfect for sophisticated tastes",
     "includes": ["10 Purple Iris", "Pittosporum", "Satin ribbon", "Tall vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg"]
+    "images": ["/1-33/15/a.jpg"]
   },
   {
     "slug": "dazzling-dahlia-display",
@@ -205,7 +205,7 @@
     "details": "Seasonal beauty, available late summer through fall",
     "includes": ["8 Dinner Plate Dahlias", "Hypericum berries", "Fall foliage", "Rustic container"],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": ["/1-33/16/a.jpg"]
   },
   {
     "slug": "serene-white-arrangement",
@@ -218,7 +218,7 @@
     "details": "Pure and peaceful, versatile for many occasions",
     "includes": ["White roses", "White lilies", "White stock", "Silver vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg"]
+    "images": ["/1-33/17/a.jpg"]
   },
   {
     "slug": "colorful-ranunculus-bunch",
@@ -231,7 +231,7 @@
     "details": "Delicate and colorful, great for spring celebrations",
     "includes": ["15 Mixed Ranunculus", "Italian ruscus", "Kraft paper wrap", "Glass vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": ["/1-33/18/a.jpg"]
   },
   {
     "slug": "exotic-anthurium-display",
@@ -244,7 +244,7 @@
     "details": "Long-lasting and exotic, modern appeal",
     "includes": ["6 Red Anthuriums", "Ti leaves", "Bamboo", "Cube vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": ["/1-33/19/a.jpg", "/1-33/19/b.jpg"]
   },
   {
     "slug": "charming-anemone-collection",
@@ -257,7 +257,7 @@
     "details": "Whimsical and charming, perfect for spring",
     "includes": ["12 Mixed Anemones", "Dusty miller", "Twine wrap", "Vintage jar"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-3.jpg"]
+    "images": ["/1-33/20/a.jpg"]
   },
   {
     "slug": "luxury-garden-rose-box",
@@ -270,7 +270,7 @@
     "details": "Ultimate luxury arrangement for special occasions",
     "includes": ["15 Garden Roses", "Premium greenery", "Luxury gift box", "Satin ribbon"],
     "inStock": true,
-    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": ["/1-33/21/a.jpg", "/1-33/21/b.jpg"]
   },
   {
     "slug": "rustic-dried-flower-bundle",
@@ -283,7 +283,7 @@
     "details": "Long-lasting dried arrangement, no maintenance needed",
     "includes": ["Dried pampas grass", "Dried lavender", "Wheat stalks", "Jute wrap"],
     "inStock": true,
-    "images": ["/beautiful-bloom-7.jpg", "/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg"]
+    "images": ["/1-33/22/a.jpg", "/1-33/22/b.jpg"]
   },
   {
     "slug": "spring-crocus-collection",
@@ -296,7 +296,7 @@
     "details": "First signs of spring, perfect for early season",
     "includes": ["25 Mixed Crocuses", "Moss", "Terracotta pot", "Spring ribbon"],
     "inStock": false,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg"]
+    "images": ["/1-33/23/a.jpg"]
   },
   {
     "slug": "magnificent-magnolia-branches",
@@ -309,7 +309,7 @@
     "details": "Dramatic and elegant, perfect for large spaces",
     "includes": ["3 Magnolia branches", "Pussy willow", "Decorative rocks", "Large cylinder vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": ["/1-33/24/a.jpg"]
   },
   {
     "slug": "petite-spray-rose-bunch",
@@ -322,7 +322,7 @@
     "details": "Delicate and sweet, perfect for intimate settings",
     "includes": ["20 Spray Roses", "Waxflower", "Organza wrap", "Petite vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg"]
+    "images": ["/1-33/25/a.jpg", "/1-33/25/b.jpg", "/1-33/25/c.jpg"]
   },
   {
     "slug": "bold-bird-paradise-arrangement",
@@ -335,6 +335,435 @@
     "details": "Exotic and bold, perfect for tropical themes",
     "includes": ["4 Birds of Paradise", "Ginger leaves", "Heliconia", "Modern ceramic vase"],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": ["/1-33/26/a.jpg", "/1-33/26/b.jpg"]
+  },
+  {
+    "slug": "summer-garden-bouquet",
+    "name": "Summer Garden Bouquet",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Summer Garden Bouquet arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/1-33/27/a.jpg", "/1-33/27/b.jpg", "/1-33/27/c.jpg", "/1-33/27/d.jpg"]
+  },
+  {
+    "slug": "lavender-bliss",
+    "name": "Lavender Bliss",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Lavender Bliss arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/1-33/28/a.jpg"]
+  },
+  {
+    "slug": "pink-peony-dream",
+    "name": "Pink Peony Dream",
+    "category": "Luxury",
+    "description": "A beautiful Luxury arrangement.",
+    "fullDescription": "A stunning Pink Peony Dream arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/1-33/29/a.jpg"]
+  },
+  {
+    "slug": "white-rose-elegance",
+    "name": "White Rose Elegance",
+    "category": "Roses",
+    "description": "A beautiful Roses arrangement.",
+    "fullDescription": "A stunning White Rose Elegance arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/1-33/30/a.jpg", "/1-33/30/b.jpg"]
+  },
+  {
+    "slug": "sunburst-arrangement",
+    "name": "Sunburst Arrangement",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Sunburst Arrangement arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/1-33/31/a.jpg", "/1-33/31/b.jpg"]
+  },
+  {
+    "slug": "tropical-paradise",
+    "name": "Tropical Paradise",
+    "category": "Tropical",
+    "description": "A beautiful Tropical arrangement.",
+    "fullDescription": "A stunning Tropical Paradise arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/1-33/32/a.jpg", "/1-33/32/b.jpg"]
+  },
+  {
+    "slug": "crimson-romance",
+    "name": "Crimson Romance",
+    "category": "Roses",
+    "description": "A beautiful Roses arrangement.",
+    "fullDescription": "A stunning Crimson Romance arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/34/a.jpg"]
+  },
+  {
+    "slug": "morning-dew",
+    "name": "Morning Dew",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Morning Dew arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/35/a.jpg"]
+  },
+  {
+    "slug": "garden-symphony",
+    "name": "Garden Symphony",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Garden Symphony arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/36/a.jpg", "/34-71/36/b.jpg", "/34-71/36/c.jpg", "/34-71/36/d.jpg"]
+  },
+  {
+    "slug": "purple-majesty",
+    "name": "Purple Majesty",
+    "category": "Orchids",
+    "description": "A beautiful Orchids arrangement.",
+    "fullDescription": "A stunning Purple Majesty arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/37/a.jpg"]
+  },
+  {
+    "slug": "gentle-whisper",
+    "name": "Gentle Whisper",
+    "category": "Lilies",
+    "description": "A beautiful Lilies arrangement.",
+    "fullDescription": "A stunning Gentle Whisper arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/38/a.jpg"]
+  },
+  {
+    "slug": "golden-hour",
+    "name": "Golden Hour",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Golden Hour arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/39/a.jpg"]
+  },
+  {
+    "slug": "blushing-beauty",
+    "name": "Blushing Beauty",
+    "category": "Roses",
+    "description": "A beautiful Roses arrangement.",
+    "fullDescription": "A stunning Blushing Beauty arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/40/a.jpg"]
+  },
+  {
+    "slug": "forest-charm",
+    "name": "Forest Charm",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Forest Charm arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/41/a.jpg"]
+  },
+  {
+    "slug": "ivory-dream",
+    "name": "Ivory Dream",
+    "category": "Roses",
+    "description": "A beautiful Roses arrangement.",
+    "fullDescription": "A stunning Ivory Dream arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/42/a.jpg"]
+  },
+  {
+    "slug": "coral-delight",
+    "name": "Coral Delight",
+    "category": "Tropical",
+    "description": "A beautiful Tropical arrangement.",
+    "fullDescription": "A stunning Coral Delight arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/43/a.jpg"]
+  },
+  {
+    "slug": "lavender-fields",
+    "name": "Lavender Fields",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Lavender Fields arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/44/a.jpg"]
+  },
+  {
+    "slug": "rose-garden",
+    "name": "Rose Garden",
+    "category": "Roses",
+    "description": "A beautiful Roses arrangement.",
+    "fullDescription": "A stunning Rose Garden arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/45/a.jpg", "/34-71/45/b.jpg", "/34-71/45/c.jpg"]
+  },
+  {
+    "slug": "silk-orchid",
+    "name": "Silk Orchid",
+    "category": "Orchids",
+    "description": "A beautiful Orchids arrangement.",
+    "fullDescription": "A stunning Silk Orchid arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/46/a.jpg"]
+  },
+  {
+    "slug": "spring-melody",
+    "name": "Spring Melody",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Spring Melody arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/47/a.jpg"]
+  },
+  {
+    "slug": "midnight-blue",
+    "name": "Midnight Blue",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Midnight Blue arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/48/a.jpg"]
+  },
+  {
+    "slug": "peach-blossom",
+    "name": "Peach Blossom",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Peach Blossom arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/49/a.jpg"]
+  },
+  {
+    "slug": "emerald-grace",
+    "name": "Emerald Grace",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Emerald Grace arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/50/a.jpg"]
+  },
+  {
+    "slug": "wild-berry",
+    "name": "Wild Berry",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Wild Berry arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/51/a.jpg"]
+  },
+  {
+    "slug": "lemon-zest",
+    "name": "Lemon Zest",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Lemon Zest arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/52/a.jpg"]
+  },
+  {
+    "slug": "dusty-rose",
+    "name": "Dusty Rose",
+    "category": "Roses",
+    "description": "A beautiful Roses arrangement.",
+    "fullDescription": "A stunning Dusty Rose arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/53/a.jpg"]
+  },
+  {
+    "slug": "tropical-sunset",
+    "name": "Tropical Sunset",
+    "category": "Tropical",
+    "description": "A beautiful Tropical arrangement.",
+    "fullDescription": "A stunning Tropical Sunset arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/54/a.jpg", "/34-71/54/b.jpg"]
+  },
+  {
+    "slug": "velvet-touch",
+    "name": "Velvet Touch",
+    "category": "Luxury",
+    "description": "A beautiful Luxury arrangement.",
+    "fullDescription": "A stunning Velvet Touch arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/55/a.jpg"]
+  },
+  {
+    "slug": "snow-white",
+    "name": "Snow White",
+    "category": "Lilies",
+    "description": "A beautiful Lilies arrangement.",
+    "fullDescription": "A stunning Snow White arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/56/a.jpg"]
+  },
+  {
+    "slug": "autumn-harvest",
+    "name": "Autumn Harvest",
+    "category": "Seasonal",
+    "description": "A beautiful Seasonal arrangement.",
+    "fullDescription": "A stunning Autumn Harvest arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/57/a.jpg"]
+  },
+  {
+    "slug": "berry-bliss",
+    "name": "Berry Bliss",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Berry Bliss arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/58/a.jpg"]
+  },
+  {
+    "slug": "pastel-garden",
+    "name": "Pastel Garden",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Pastel Garden arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/59/a.jpg"]
+  },
+  {
+    "slug": "soft-lilac",
+    "name": "Soft Lilac",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Soft Lilac arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/60/a.jpg"]
+  },
+  {
+    "slug": "golden-rose",
+    "name": "Golden Rose",
+    "category": "Roses",
+    "description": "A beautiful Roses arrangement.",
+    "fullDescription": "A stunning Golden Rose arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/61/a.jpg"]
+  },
+  {
+    "slug": "rainbow-garden",
+    "name": "Rainbow Garden",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Rainbow Garden arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/62/a.jpg", "/34-71/62/b.jpg", "/34-71/62/c.jpg"]
+  },
+  {
+    "slug": "orchid-paradise",
+    "name": "Orchid Paradise",
+    "category": "Orchids",
+    "description": "A beautiful Orchids arrangement.",
+    "fullDescription": "A stunning Orchid Paradise arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/63/a.jpg", "/34-71/63/b.jpg"]
+  },
+  {
+    "slug": "lily-of-the-valley",
+    "name": "Lily of the Valley",
+    "category": "Lilies",
+    "description": "A beautiful Lilies arrangement.",
+    "fullDescription": "A stunning Lily of the Valley arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/64/a.jpg", "/34-71/64/b.jpg"]
+  },
+  {
+    "slug": "sunset-glow",
+    "name": "Sunset Glow",
+    "category": "Tropical",
+    "description": "A beautiful Tropical arrangement.",
+    "fullDescription": "A stunning Sunset Glow arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/65/a.jpg"]
+  },
+  {
+    "slug": "meadow-fresh",
+    "name": "Meadow Fresh",
+    "category": "Mixed Bouquets",
+    "description": "A beautiful Mixed Bouquets arrangement.",
+    "fullDescription": "A stunning Meadow Fresh arrangement crafted with care by our expert florists.",
+    "details": "Freshly arranged and ready for any occasion",
+    "includes": ["Fresh flowers", "Foliage", "Vase"],
+    "inStock": true,
+    "images": ["/34-71/67/a.jpg"]
   }
 ]

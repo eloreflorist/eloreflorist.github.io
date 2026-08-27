@@ -14,7 +14,7 @@ export default function WhatsAppButton({ productName }: WhatsAppButtonProps) {
   }, []);
 
   const message = `Hi! I'm interested in this product: ${productName}\n${currentUrl}`;
-  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/6285885606353?text=${encodeURIComponent(message)}`;
 
   return (
     <a

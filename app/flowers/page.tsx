@@ -123,7 +123,7 @@ export default function Flowers() {
                   <div 
                     className="flex items-center justify-center bg-gradient-to-br from-pink-100 to-purple-100"
                     style={{
-                      aspectRatio: '1 / 1',
+                      aspectRatio: '4 / 5',
                       width: '100%'
                     }}
                   >
