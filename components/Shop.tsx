@@ -2,22 +2,26 @@
 
 import { useScrollRef } from '@/context/ScrollContext';
 import { colors } from '@/app/theme';
+import Link from 'next/link';
 
 const items = [
   {
     title: "Flowers",
     image: "/flower.jpg",
     text: "Fresh local flowers available for pick up.",
+    href: "/flowers",
   },
   {
     title: "Gifts",
     image: "/flower.jpg",
     text: "Floral bundles paired with curated goods.",
+    href: "/gifts",
   },
   {
     title: "Weddings & Events",
     image: "/flower.jpg",
     text: "Bespoke floral designs for special moments.",
+    href: "/weddings",
   },
 ];
 
@@ -37,12 +41,12 @@ export default function Shop() {
             />
             <h4 className="mb-2 text-lg" style={{ color: colors.primary }}>{item.title}</h4>
             <p className="mb-4 text-sm" style={{ color: colors.primary }}>{item.text}</p>
-            <button 
-              className="px-4 py-2 text-sm font-semibold transition-colors"
+            <Link href={item.href}
+              className="inline-block px-4 py-2 text-sm font-semibold transition-all duration-200 hover:outline hover:outline-1 hover:outline-current hover:scale-105"
               style={{ backgroundColor: colors.accent, color: colors.primary }}
             >
               SHOP NOW
-            </button>
+            </Link>
           </div>
         ))}
       </div>
