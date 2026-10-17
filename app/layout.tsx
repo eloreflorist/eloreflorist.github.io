@@ -14,6 +14,12 @@ export const metadata: Metadata = {
     locale: "en_ID",
     type: "website",
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Èlore Florist – Fresh Flower Arrangements in Surabaya',
+    description: 'Hand-crafted bouquets and floral arrangements for weddings, gifts, and special occasions.',
+    images: ['https://eloreflorist.github.io/elore_logo.png'],
+  },
 };
 
 const schemaData = {
@@ -30,17 +36,36 @@ const schemaData = {
     "streetAddress": "Jl. Siwalankerto Timur I No. 1B",
     "addressLocality": "Wonocolo",
     "addressRegion": "Surabaya",
+    "postalCode": "60236",
     "addressCountry": "ID"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "addressCountry": "ID"
+    "latitude": -7.3274,
+    "longitude": 112.7376
   },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-  },
-  "hasMap": "https://maps.google.com/?q=Jl.+Siwalankerto+Timur+I+No.+1B,+Wonocolo,+Surabaya"
+  "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday"],
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/eloreflorist",
+    "https://www.tiktok.com/@eloreflorist",
+    "https://www.threads.com/@eloreflorist"
+  ],
+  "hasMap": "https://maps.google.com/?q=Jl.+Siwalankerto+Timur+I+No.+1B,+Wonocolo,+Surabaya",
+ 
+
 };
 
 export default function RootLayout({

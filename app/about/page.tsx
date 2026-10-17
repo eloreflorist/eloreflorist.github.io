@@ -1,5 +1,11 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Èlore Florist – Surabaya\'s Floral Studio',
+  description: 'Meet the team behind Èlore Florist. Crafting bespoke floral arrangements in Surabaya. Hand-arranged bouquets for weddings, gifts, and special occasions.',
+};
 
 export default function About() {
   return (
