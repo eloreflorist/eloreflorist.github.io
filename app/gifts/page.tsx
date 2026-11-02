@@ -19,8 +19,8 @@ export const metadata: Metadata = {
 export default function Gifts() {
   return (
     <>
-      <Header />
-      <main className="pt-40 pb-20">
+      <Header current="/gifts" />
+      <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
           <h1 className="mb-8 text-4xl font-semibold text-center">Flower Gifts in Surabaya</h1>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">

@@ -19,12 +19,12 @@ export const metadata: Metadata = {
 export default function Flowers() {
   return (
     <>
-      <Header />
-      <main className="pt-40 pb-20">
+      <Header current="/flowers" />
+      <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
           <h1 className="mb-8 text-4xl font-semibold text-center">Fresh Flowers in Surabaya</h1>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Discover our collection of fresh, hand-picked flower arrangements from Èlore Florist in Wonocolo, Surabaya. Each bouquet is crafted for weddings, gifts, and everyday occasions.
+            Discover our collection of fresh, hand-picked flower arrangements from Èlore Florist in Surabaya. Each bouquet is crafted for weddings, gifts, and everyday occasions.
           </p>
 
           <ProductCatalog

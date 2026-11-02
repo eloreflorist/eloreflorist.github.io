@@ -4,8 +4,8 @@ import Footer from "@/components/Footer";
 export default function Contact() {
   return (
     <>
-      <Header />
-      <main className='pt-40 pb-20'>
+      <Header current="/contact" />
+      <main className='pt-20 pb-20 md:pt-40'>
         <div className='mx-auto max-w-7xl px-4'>
           <h1 className='mb-8 text-4xl font-semibold text-center'>
             Contact Us

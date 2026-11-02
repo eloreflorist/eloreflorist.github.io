@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <Header />
-      <main className="pt-40 pb-20">
+      <Header current="/about" />
+      <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
           <h1 className="mb-8 text-4xl font-semibold text-center">About Èlore Florist</h1>
           

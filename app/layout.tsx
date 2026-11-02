@@ -25,6 +25,7 @@ export const metadata: Metadata = {
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Florist",
+  "@id": "https://eloreflorist.github.io/#florist",
   "name": "Èlore Florist",
   "url": "https://eloreflorist.github.io",
   "telephone": "+6285885606353",

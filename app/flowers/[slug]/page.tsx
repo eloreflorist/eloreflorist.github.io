@@ -26,8 +26,8 @@ export default function FlowerDetail({ params }: { readonly params: { readonly s
   if (!product) {
     return (
       <>
-        <Header />
-        <main className="pt-40 pb-20 text-center">
+        <Header current="/flowers" />
+        <main className="pt-20 pb-20 md:pt-40 text-center">
           <h1 className="text-2xl font-semibold">Product not found</h1>
           <Link href="/flowers" className="text-primary hover:underline mt-4 inline-block">
             Back to Flowers
@@ -41,8 +41,8 @@ export default function FlowerDetail({ params }: { readonly params: { readonly s
   return (
     <>
       <ProductJsonLd product={product} section="flowers" />
-      <Header />
-      <main className="pt-40 pb-20">
+      <Header current="/flowers" />
+      <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
           <Link href="/flowers" className="text-primary hover:underline mb-8 inline-block">
             ← Back to Flowers

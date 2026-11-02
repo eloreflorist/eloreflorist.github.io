@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <Header />
-      <main className="pt-36 pb-20 md:pt-40">
+      <Header current="/" />
+      <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
           <FeaturedProducts />
         </div>

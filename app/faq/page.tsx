@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Florist FAQ in Surabaya – Delivery, Orders & Care | Èlore Florist",
   description:
-    "Common questions about ordering flowers, Surabaya delivery, same-day bouquets, wedding florals, and flower care from Èlore Florist in Wonocolo.",
+    "Common questions about ordering flowers, Surabaya delivery, same-day bouquets, wedding florals, and flower care from Èlore Florist in Surabaya.",
   openGraph: {
     title: "Florist FAQ in Surabaya – Delivery, Orders & Care | Èlore Florist",
     description:
@@ -24,8 +24,8 @@ export default function FaqPage() {
   return (
     <>
       <FaqJsonLd />
-      <Header />
-      <main className="pt-40 pb-20">
+      <Header current="/faq" />
+      <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-3xl px-4">
           <nav className="mb-8 text-sm text-gray-500" aria-label="Breadcrumb">
             <ol className="flex gap-2">

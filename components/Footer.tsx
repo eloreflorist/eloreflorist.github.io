@@ -18,6 +18,7 @@ export default function Footer() {
             <li><Link href="/flowers" className="hover:underline" style={{ color: colors.primary }}>Flowers</Link></li>
             <li><Link href="/weddings" className="hover:underline" style={{ color: colors.primary }}>Weddings</Link></li>
             <li><Link href="/gifts" className="hover:underline" style={{ color: colors.primary }}>Gifts</Link></li>
+            <li><Link href="/blog" className="hover:underline" style={{ color: colors.primary }}>Blog</Link></li>
             <li><Link href="/faq" className="hover:underline" style={{ color: colors.primary }}>FAQ</Link></li>
             <li><Link href="/contact" className="hover:underline" style={{ color: colors.primary }}>Contact</Link></li>
           </ul>

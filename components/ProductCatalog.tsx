@@ -69,44 +69,42 @@ export default function ProductCatalog({
 
   return (
     <>
-      <div className="mb-8 flex flex-col md:flex-row justify-between items-center gap-4 bg-gray-50 p-4 rounded-lg">
-        <div className="flex flex-col sm:flex-row items-center gap-4">
-          {enableCategoryFilter && (
-            <div className="flex items-center gap-4">
-              <label htmlFor="category-filter" className="text-sm font-medium text-gray-700">Category:</label>
-              <select
-                id="category-filter"
-                value={categoryFilter}
-                onChange={(e) => {
-                  setCategoryFilter(e.target.value);
-                  setCurrentPage(1);
-                }}
-                className={`px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 ${accentClass}`}
-              >
-                {categories.map((category) => (
-                  <option key={category} value={category}>{category}</option>
-                ))}
-              </select>
-            </div>
-          )}
-          <div className="flex items-center gap-4">
-            <label htmlFor="sort-by" className="text-sm font-medium text-gray-700">Sort by:</label>
+      <div className="mb-8 flex items-end gap-2 rounded-lg bg-gray-50 p-3 md:items-center md:justify-between md:gap-4 md:p-4">
+        {enableCategoryFilter && (
+          <div className="flex min-w-0 flex-1 flex-col gap-1 md:flex-none md:flex-row md:items-center md:gap-4">
+            <label htmlFor="category-filter" className="text-[11px] font-medium leading-tight text-gray-700 md:text-sm md:whitespace-nowrap">Category:</label>
             <select
-              id="sort-by"
-              value={sortBy}
+              id="category-filter"
+              value={categoryFilter}
               onChange={(e) => {
-                setSortBy(e.target.value as "name-asc" | "name-desc");
+                setCategoryFilter(e.target.value);
                 setCurrentPage(1);
               }}
-              className={`px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 ${accentClass}`}
+              className={`w-full min-w-0 px-1.5 py-1.5 text-xs border border-gray-300 rounded-md focus:outline-none focus:ring-2 md:w-auto md:px-4 md:py-2 md:text-sm ${accentClass}`}
             >
-              <option value="name-asc">Name (A-Z)</option>
-              <option value="name-desc">Name (Z-A)</option>
+              {categories.map((category) => (
+                <option key={category} value={category}>{category}</option>
+              ))}
             </select>
           </div>
+        )}
+        <div className="flex min-w-0 flex-1 flex-col gap-1 md:flex-none md:flex-row md:items-center md:gap-4">
+          <label htmlFor="sort-by" className="text-[11px] font-medium leading-tight text-gray-700 md:text-sm md:whitespace-nowrap">Sort by:</label>
+          <select
+            id="sort-by"
+            value={sortBy}
+            onChange={(e) => {
+              setSortBy(e.target.value as "name-asc" | "name-desc");
+              setCurrentPage(1);
+            }}
+            className={`w-full min-w-0 px-1.5 py-1.5 text-xs border border-gray-300 rounded-md focus:outline-none focus:ring-2 md:w-auto md:px-4 md:py-2 md:text-sm ${accentClass}`}
+          >
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+          </select>
         </div>
-        <div className="flex items-center gap-4">
-          <label htmlFor="items-per-page" className="text-sm font-medium text-gray-700">Items per page:</label>
+        <div className="flex min-w-0 flex-1 flex-col gap-1 md:flex-none md:flex-row md:items-center md:gap-4">
+          <label htmlFor="items-per-page" className="text-[11px] font-medium leading-tight text-gray-700 md:text-sm md:whitespace-nowrap">Items per page:</label>
           <select
             id="items-per-page"
             value={itemsPerPage}
@@ -114,7 +112,7 @@ export default function ProductCatalog({
               setItemsPerPage(Number(e.target.value));
               setCurrentPage(1);
             }}
-            className={`px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 ${accentClass}`}
+            className={`w-full min-w-0 px-1.5 py-1.5 text-xs border border-gray-300 rounded-md focus:outline-none focus:ring-2 md:w-auto md:px-4 md:py-2 md:text-sm ${accentClass}`}
           >
             <option value={10}>10</option>
             <option value={20}>20</option>

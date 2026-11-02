@@ -13,6 +13,12 @@ body {
   background: rgb(var(--background-rgb));
 }
 
+@media (max-width: 767px) {
+  body:has(#nav-toggle:checked) {
+    overflow: hidden;
+  }
+}
+
 .faq-summary {
   list-style: none;
 }

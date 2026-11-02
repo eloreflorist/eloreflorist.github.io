@@ -7,7 +7,7 @@ export const faqs: FaqItem[] = [
   {
     question: "How do I order flowers from Èlore Florist in Surabaya?",
     answer:
-      "Message Èlore Florist on WhatsApp at +62 858-8560-6353. Choose a bouquet from our flowers, gifts, or wedding pages, or describe the occasion, colors, and budget. We confirm stem availability, send a quote (prices change with season), and arrange pickup in Wonocolo or delivery in Surabaya.",
+      "Message Èlore Florist on WhatsApp at +62 858-8560-6353. Choose a bouquet from our flowers, gifts, or wedding pages, or describe the occasion, colors, and budget. We confirm stem availability, send a quote (prices change with season), and arrange pickup in Surabaya or delivery in Surabaya.",
   },
   {
     question: "Do you deliver flowers in Surabaya?",
