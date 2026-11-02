@@ -1,22 +1,17 @@
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Shop from "@/components/Shop";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import Footer from "@/components/Footer";
-import { ScrollProvider } from "@/context/ScrollContext";
 
 export default function Home() {
   return (
-    <ScrollProvider>
-      <>
-        <Header />
-        <main>
-          <Hero />
-          <About />
-          <Shop />
-        </main>
-        <Footer />
-      </>
-    </ScrollProvider>
+    <>
+      <Header />
+      <main className="pt-36 pb-20 md:pt-40">
+        <div className="mx-auto max-w-7xl px-4">
+          <FeaturedProducts />
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 }

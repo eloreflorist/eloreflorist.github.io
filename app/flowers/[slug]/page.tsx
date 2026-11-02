@@ -3,12 +3,20 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import ProductCarousel from "@/components/ProductCarousel";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import ProductJsonLd from "@/components/ProductJsonLd";
 import flowerProducts from "@/data/flowers.json";
+import { getProductMetadata } from "@/lib/productSeo";
+import type { Metadata } from "next";
 
 export function generateStaticParams() {
   return flowerProducts.map((product) => ({
     slug: product.slug,
   }));
+}
+
+export function generateMetadata({ params }: { readonly params: { readonly slug: string } }): Metadata {
+  const product = flowerProducts.find((p) => p.slug === params.slug);
+  return getProductMetadata(product, "flowers");
 }
 
 export default function FlowerDetail({ params }: { readonly params: { readonly slug: string } }) {
@@ -32,6 +40,7 @@ export default function FlowerDetail({ params }: { readonly params: { readonly s
 
   return (
     <>
+      <ProductJsonLd product={product} section="flowers" />
       <Header />
       <main className="pt-40 pb-20">
         <div className="mx-auto max-w-7xl px-4">
@@ -42,7 +51,7 @@ export default function FlowerDetail({ params }: { readonly params: { readonly s
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
             {/* Product Carousel */}
             <div className="h-full">
-              <ProductCarousel productName={product.name} images={product.images} />
+              <ProductCarousel productName={product.name} images={product.images} slug={product.slug} />
             </div>
 
             {/* Product Details */}

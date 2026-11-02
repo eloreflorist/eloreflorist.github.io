@@ -7,6 +7,7 @@ const navLinks = [
   { href: '/gifts', label: 'Gifts' },
   { href: '/weddings', label: 'Weddings' },
   { href: '/about', label: 'About' },
+  { href: '/faq', label: 'FAQ' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -19,7 +20,7 @@ export default function Header() {
             Èlore Florist
           </span>
         </Link>
-        <ul className="flex gap-20 text-sm" role="list">
+        <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm md:gap-x-8 lg:gap-x-12" role="list">
           {navLinks.map(({ href, label }) => (
             <li key={href}>
               <Link

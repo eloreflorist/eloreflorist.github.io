@@ -2,13 +2,15 @@
 
 import { useState } from 'react';
 import { colors } from '@/app/theme';
+import NewBadge from '@/components/NewBadge';
 
 interface ProductCarouselProps {
   readonly productName: string;
   readonly images: readonly string[];
+  readonly slug?: string;
 }
 
-export default function ProductCarousel({ productName, images }: ProductCarouselProps) {
+export default function ProductCarousel({ productName, images, slug }: ProductCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrevious = () => {
@@ -38,6 +40,7 @@ export default function ProductCarousel({ productName, images }: ProductCarousel
           alt={`${productName} view ${currentIndex + 1}`}
           className="w-full"
         />
+        {slug ? <NewBadge slug={slug} productName={productName} /> : null}
       </div>
 
       {/* Controls */}
