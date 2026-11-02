@@ -24,7 +24,7 @@ export default function FeaturedProducts() {
         Fresh Flower Arrangements in Surabaya
       </h1>
       <p className="mx-auto mb-10 max-w-2xl text-center text-sm text-gray-600 md:text-base">
-        Hand-crafted bouquets from Èlore Florist in Wonocolo, Surabaya. Browse roses, wedding flowers, and gift arrangements — tap a bouquet to order on WhatsApp.
+        Hand-crafted bouquets from Èlore Florist Surabaya. Browse roses, wedding flowers, and gift arrangements — tap a bouquet to order on WhatsApp.
       </p>
 
       <div className="flex gap-8 lg:gap-10">

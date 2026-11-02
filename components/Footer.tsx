@@ -7,7 +7,7 @@ export default function Footer() {
       <div className='mx-auto max-w-6xl grid gap-8 md:grid-cols-2'>
         <div>
           <p className='font-semibold' style={{ color: colors.primary }}>FIND US</p>
-          <p style={{ color: colors.primary }}>Jl. Siwalankerto Timur I No. 2, Wonocolo, Surabaya</p>
+          <p style={{ color: colors.primary }}>Jl. Siwalankerto Timur I No. 1B, Wonocolo, Surabaya</p>
           <p style={{ color: colors.primary }}>Monday - Friday 09:00 AM - 05:00 PM</p>
           <p style={{ color: colors.primary }}>Saturday 09:00 AM - 04:00 PM</p>
           <p style={{ color: colors.primary }}>SUNDAY CLOSED</p>

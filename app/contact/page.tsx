@@ -21,7 +21,7 @@ export default function Contact() {
                 <div>
                   <p className='font-medium mb-1'>Address</p>
                   <p className='text-gray-600'>
-                    Jl. Siwalankerto Timur I No.2, Siwalankerto, Kec. Wonocolo,
+                    Jl. Siwalankerto Timur I No.1B, Siwalankerto, Kec. Wonocolo,
                     Surabaya, Jawa Timur, 60236
                   </p>
                 </div>

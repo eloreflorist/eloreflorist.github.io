@@ -43,7 +43,7 @@ export default function FaqPage() {
             Florist FAQ in Surabaya
           </h1>
           <p className="mx-auto mb-12 max-w-2xl text-center text-gray-600">
-            Quick answers from Èlore Florist in Wonocolo, Surabaya — how to order on WhatsApp, delivery areas, same-day bouquets, wedding flowers, and care.
+            Quick answers from Èlore Florist in Surabaya — how to order on WhatsApp, delivery areas, same-day bouquets, wedding flowers, and care.
           </p>
 
           <div className="divide-y divide-gray-200 border-y border-gray-200">

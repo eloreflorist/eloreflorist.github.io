@@ -19,7 +19,7 @@ export default function FaqJsonLd() {
       name: "Èlore Florist",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Jl. Siwalankerto Timur I No. 2",
+        streetAddress: "Jl. Siwalankerto Timur I No. 1B",
         addressLocality: "Wonocolo",
         addressRegion: "Surabaya",
         postalCode: "60236",
