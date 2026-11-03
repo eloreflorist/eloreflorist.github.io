@@ -1,5 +1,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
+import ShopMap from "@/components/contact/ShopMap";
+import CopyEmail from "@/components/contact/CopyEmail";
 
 export default function Contact() {
   return (
@@ -7,6 +10,7 @@ export default function Contact() {
       <Header current="/contact" />
       <main className='pt-20 pb-20 md:pt-40'>
         <div className='mx-auto max-w-7xl px-4'>
+          <Breadcrumbs items={sectionCrumbs("Contact", "/contact")} />
           <h1 className='mb-8 text-4xl font-semibold text-center'>
             Contact Us
           </h1>
@@ -16,7 +20,7 @@ export default function Contact() {
           </p>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto'>
-            <div>
+            <div className="min-w-0">
               <div className='space-y-4'>
                 <div>
                   <p className='font-medium mb-1'>Address</p>
@@ -27,11 +31,16 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className='font-medium mb-1'>Phone</p>
-                  <p className='text-gray-600'>0858-8560-6353</p>
+                  <a
+                    href="https://wa.me/6285885606353"
+                    className="text-primary underline hover:opacity-70"
+                  >
+                    0858-8560-6353
+                  </a>
                 </div>
                 <div>
                   <p className='font-medium mb-1'>Email</p>
-                  <p className='text-gray-600'>eloreflorist@gmail.com</p>
+                  <CopyEmail email="eloreflorist@gmail.com" />
                 </div>
                 <div>
                   <p className='font-medium mb-1'>Hours</p>
@@ -46,13 +55,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div>
-              <img 
-                src='/flower.jpg' 
-                alt='Èlore Florist Store' 
-                className='w-full h-full object-cover rounded-lg shadow-lg'
-              />
-            </div>
+            <ShopMap />
           </div>
         </div>
       </main>

@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 import ProductCatalog from "@/components/ProductCatalog";
 import flowerProducts from "@/data/flowers.json";
@@ -22,6 +23,7 @@ export default function Flowers() {
       <Header current="/flowers" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
+          <Breadcrumbs items={sectionCrumbs("Flowers", "/flowers")} />
           <h1 className="mb-8 text-4xl font-semibold text-center">Fresh Flowers in Surabaya</h1>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Discover our collection of fresh, hand-picked flower arrangements from Èlore Florist in Surabaya. Each bouquet is crafted for weddings, gifts, and everyday occasions.

@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 import ProductCatalog from "@/components/ProductCatalog";
 import giftProducts from "@/data/gifts.json";
@@ -22,6 +23,7 @@ export default function Gifts() {
       <Header current="/gifts" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
+          <Breadcrumbs items={sectionCrumbs("Gifts", "/gifts")} />
           <h1 className="mb-8 text-4xl font-semibold text-center">Flower Gifts in Surabaya</h1>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Browse floral gifts for birthdays, anniversaries, and special moments, hand-arranged by Èlore Florist in Surabaya.

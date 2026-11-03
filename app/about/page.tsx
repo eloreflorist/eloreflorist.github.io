@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -13,6 +14,7 @@ export default function About() {
       <Header current="/about" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
+          <Breadcrumbs items={sectionCrumbs("About", "/about")} />
           <h1 className="mb-8 text-4xl font-semibold text-center">About Èlore Florist</h1>
           
           <div className="max-w-3xl mx-auto">

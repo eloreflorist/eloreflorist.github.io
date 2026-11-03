@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import {
   blogId,
   blogUrl,
@@ -73,14 +74,6 @@ export default function GuideFrame({
       url: blogUrl,
       publisher: { "@id": floristId },
     },
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
-        { "@type": "ListItem", position: 2, name: "Blog", item: blogUrl },
-        { "@type": "ListItem", position: 3, name: guide.title, item: url },
-      ],
-    },
   ];
 
   if (faqs.length > 0) {
@@ -117,7 +110,14 @@ export default function GuideFrame({
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <Header current="/blog" />
-      <main className="pt-20 pb-20 md:pt-40">{children}</main>
+      <main className="pt-20 pb-20 md:pt-40">
+        <div className="mx-auto max-w-3xl px-4">
+          <Breadcrumbs
+            items={sectionCrumbs("Blog", "/blog", { name: guide.title, href: `/blog/${guide.slug}` })}
+          />
+        </div>
+        {children}
+      </main>
       <Footer />
     </>
   );

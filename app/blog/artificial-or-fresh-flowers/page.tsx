@@ -1,5 +1,4 @@
 import GuideFrame from "@/components/blog/GuideFrame";
-import Breadcrumb from "@/components/blog/Breadcrumb";
 import Byline from "@/components/blog/Byline";
 import Answer from "@/components/blog/Answer";
 import Section from "@/components/blog/Section";
@@ -98,7 +97,6 @@ export default function ArtificialOrFreshPage() {
       speakable
     >
       <article className="mx-auto max-w-3xl px-4">
-        <Breadcrumb current={artificialOrFresh.title} />
         <h1 className="text-4xl font-semibold text-primary">{artificialOrFresh.title}</h1>
         <Byline published={artificialOrFresh.published} />
 

@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 import ProductCatalog from "@/components/ProductCatalog";
 import weddingProducts from "@/data/weddings.json";
@@ -22,6 +23,7 @@ export default function WeddingsPage() {
       <Header current="/weddings" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
+          <Breadcrumbs items={sectionCrumbs("Weddings", "/weddings")} />
           <h1 className="mb-8 text-4xl font-semibold text-center">Wedding Flowers in Surabaya</h1>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Make your wedding unforgettable with bridal bouquets and ceremony flowers from Èlore Florist in Surabaya.

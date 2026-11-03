@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Breadcrumb from "@/components/blog/Breadcrumb";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Byline from "@/components/blog/Byline";
 import { blogId, blogUrl, floristId, guides, guideUrl, siteUrl } from "@/lib/guides";
 import Link from "next/link";
@@ -55,13 +55,6 @@ const schema = {
       name: "Èlore Florist",
       url: siteUrl,
     },
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
-        { "@type": "ListItem", position: 2, name: "Blog", item: blogUrl },
-      ],
-    },
   ],
 };
 
@@ -72,7 +65,7 @@ export default function BlogIndexPage() {
       <Header current="/blog" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-3xl px-4">
-          <Breadcrumb />
+          <Breadcrumbs items={sectionCrumbs("Blog", "/blog")} />
           <h1 className="text-4xl font-semibold text-primary">Flower guides from Èlore Florist</h1>
           <p className="mt-4 leading-relaxed text-gray-700">
             Practical notes from our shop in Surabaya. Each guide explains a real choice we help customers make — the room, the weather, and the occasion — so you can order with a clearer brief.

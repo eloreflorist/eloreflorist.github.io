@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FaqJsonLd from "@/components/FaqJsonLd";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import { faqs, faqPageUrl } from "@/lib/faq";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -27,17 +28,7 @@ export default function FaqPage() {
       <Header current="/faq" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-3xl px-4">
-          <nav className="mb-8 text-sm text-gray-500" aria-label="Breadcrumb">
-            <ol className="flex gap-2">
-              <li>
-                <Link href="/" className="hover:underline">Home</Link>
-              </li>
-              <li aria-hidden="true">/</li>
-              <li>
-                <span aria-current="page">FAQ</span>
-              </li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={sectionCrumbs("FAQ", "/faq")} />
 
           <h1 className="mb-4 text-center text-4xl font-semibold">
             Florist FAQ in Surabaya

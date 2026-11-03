@@ -1,7 +1,17 @@
 // app/location/page.tsx
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
+
 const Location = () => {
     return (
-      <div className="py-16">
+      <>
+      <Header current="/location" />
+      <main className="pt-20 pb-20 md:pt-40">
+      <div className="mx-auto max-w-7xl px-4">
+        <Breadcrumbs items={sectionCrumbs("Location", "/location")} />
+      </div>
+      <div>
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold text-primary text-center mb-4">Our Location</h1>
           
@@ -99,6 +109,9 @@ const Location = () => {
           </div>
         </div>
       </div>
+      </main>
+      <Footer />
+      </>
     );
   };
   

@@ -1,7 +1,14 @@
-// app/test/page.tsx - Create this file to test
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
+
 export default function TestPage() {
     return (
-      <div className="p-8">
+      <>
+      <Header current="/test" />
+      <main className="pt-20 pb-20 md:pt-40">
+      <div className="mx-auto max-w-7xl px-4">
+        <Breadcrumbs items={sectionCrumbs("Test", "/test")} />
         <h1 className="text-4xl font-bold text-primary mb-4">CSS Test Page</h1>
         
         <div className="space-y-4">
@@ -38,5 +45,8 @@ export default function TestPage() {
           </div>
         </div>
       </div>
+      </main>
+      <Footer />
+      </>
     );
   }

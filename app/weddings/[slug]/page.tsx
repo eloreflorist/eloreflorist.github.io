@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 import ProductCarousel from "@/components/ProductCarousel";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -27,11 +28,14 @@ export default function WeddingDetail({ params }: { readonly params: { readonly 
     return (
       <>
         <Header current="/weddings" />
-        <main className="pt-20 pb-20 md:pt-40 text-center">
+        <main className="pt-20 pb-20 md:pt-40">
+          <div className="mx-auto max-w-7xl px-4 text-center">
+          <Breadcrumbs items={sectionCrumbs("Weddings", "/weddings", { name: "Product not found", href: `/weddings/${slug}` })} />
           <h1 className="text-2xl font-semibold">Product not found</h1>
           <Link href="/weddings" className="text-primary hover:underline mt-4 inline-block">
             Back to Weddings
           </Link>
+          </div>
         </main>
         <Footer />
       </>
@@ -44,9 +48,12 @@ export default function WeddingDetail({ params }: { readonly params: { readonly 
       <Header current="/weddings" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
-          <Link href="/weddings" className="text-primary hover:underline mb-8 inline-block">
-            ← Back to Weddings
-          </Link>
+          <Breadcrumbs
+            items={sectionCrumbs("Weddings", "/weddings", {
+              name: product.name,
+              href: `/weddings/${product.slug}`,
+            })}
+          />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
             {/* Product Carousel */}
