@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 import ProductCatalog from "@/components/ProductCatalog";
+import TagFilter from "@/components/TagFilter";
 import flowerProducts from "@/data/flowers.json";
 import { productCrawlLabel } from "@/lib/newArrivals";
 import type { Metadata } from "next";
@@ -29,6 +30,7 @@ export default function Flowers() {
             Discover our collection of fresh, hand-picked flower arrangements from Èlore Florist in Surabaya. Each bouquet is crafted for weddings, gifts, and everyday occasions.
           </p>
 
+          <TagFilter section="flowers" products={flowerProducts} />
           <ProductCatalog
             products={flowerProducts}
             basePath="/flowers"
@@ -44,7 +46,7 @@ export default function Flowers() {
             <ul>
               {flowerProducts.map((product) => (
                 <li key={product.slug}>
-                  <Link href={`/flowers/${product.slug}`}>{productCrawlLabel(product.name, product.description, product.slug)}</Link>
+                  <Link href={`/flowers/${product.slug}`}>{productCrawlLabel(product.name, product.description, product.slug, product.price)}</Link>
                 </li>
               ))}
             </ul>

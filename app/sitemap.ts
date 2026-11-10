@@ -3,6 +3,7 @@ import flowerProducts from '@/data/flowers.json';
 import weddingProducts from '@/data/weddings.json';
 import giftProducts from '@/data/gifts.json';
 import { blogUrl, guides, guideUrl } from '@/lib/guides';
+import { tagsInUse } from '@/lib/tags';
 
 const BASE_URL = 'https://eloreflorist.github.io';
 
@@ -39,6 +40,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const tagPages: MetadataRoute.Sitemap = [
+    ...tagsInUse(flowerProducts, 'flowers').map((tag) => `${BASE_URL}/flowers/tag/${tag.slug}`),
+    ...tagsInUse(giftProducts, 'gifts').map((tag) => `${BASE_URL}/gifts/tag/${tag.slug}`),
+    ...tagsInUse(weddingProducts, 'weddings').map((tag) => `${BASE_URL}/weddings/tag/${tag.slug}`),
+  ].map((url) => ({
+    url,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
   const guidePages: MetadataRoute.Sitemap = guides.map((guide) => ({
     url: guideUrl(guide.slug),
     lastModified: new Date(`${guide.updated}T00:00:00`),
@@ -46,5 +58,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...guidePages, ...flowerPages, ...weddingPages, ...giftPages];
+  return [...staticPages, ...guidePages, ...tagPages, ...flowerPages, ...weddingPages, ...giftPages];
 }

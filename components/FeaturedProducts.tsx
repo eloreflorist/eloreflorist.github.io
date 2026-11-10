@@ -1,6 +1,8 @@
 import Link from "next/link";
 import flowerProducts from "@/data/flowers.json";
 import NewBadge from "@/components/NewBadge";
+import StartingPrice from "@/components/StartingPrice";
+import HomeSocialFeeds from "@/components/social/HomeSocialFeeds";
 
 const featuredProducts = flowerProducts.filter((product) => product.inStock).slice(0, 12);
 
@@ -61,6 +63,7 @@ export default function FeaturedProducts() {
                   </div>
                   <div className="p-3 md:p-4">
                     <h2 className="mb-1 text-sm font-semibold md:text-base">{product.name}</h2>
+                    <StartingPrice price={product.price} compact />
                     <p className="mb-1 text-xs font-medium text-pink-600">{product.category}</p>
                     <p className="hidden text-sm text-gray-600 line-clamp-2 md:block">{product.description}</p>
                   </div>
@@ -78,6 +81,7 @@ export default function FeaturedProducts() {
               See all flowers
             </Link>
           </div>
+          <HomeSocialFeeds />
         </div>
       </div>
     </section>

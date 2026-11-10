@@ -5,6 +5,8 @@ import Link from "next/link";
 import ProductCarousel from "@/components/ProductCarousel";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ProductJsonLd from "@/components/ProductJsonLd";
+import ProductTags from "@/components/ProductTags";
+import StartingPrice from "@/components/StartingPrice";
 import weddingProducts from "@/data/weddings.json";
 import { getProductMetadata } from "@/lib/productSeo";
 import type { Metadata } from "next";
@@ -64,6 +66,8 @@ export default function WeddingDetail({ params }: { readonly params: { readonly 
             {/* Product Details */}
             <div>
               <h1 className="text-4xl font-semibold mb-4">{product.name}</h1>
+              <ProductTags product={product} section="weddings" />
+              <StartingPrice price={product.price} />
 
               <p className="text-gray-700 mb-6 leading-relaxed">
                 {product.fullDescription}

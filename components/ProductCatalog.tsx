@@ -3,13 +3,13 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import NewBadge from "@/components/NewBadge";
+import StartingPrice from "@/components/StartingPrice";
+import { productTags, type Taggable } from "@/lib/tags";
 
-export type CatalogProduct = {
-  slug: string;
-  name: string;
+export type CatalogProduct = Taggable & {
   description: string;
-  category?: string;
   images?: string[];
+  price?: number;
 };
 
 type ProductCatalogProps = {
@@ -122,7 +122,12 @@ export default function ProductCatalog({
       </div>
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-6 lg:grid-cols-4">
-        {currentProducts.map((product) => (
+        {currentProducts.map((product) => {
+          const section = basePath === "/flowers" || basePath === "/gifts" || basePath === "/weddings"
+            ? basePath.slice(1) as "flowers" | "gifts" | "weddings"
+            : undefined;
+          const labels = productTags(product, section).map((tag) => tag.label).join(" · ");
+          return (
           <Link key={product.slug} href={`${basePath}/${product.slug}`}>
             <article className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
               <div className={`relative flex items-center justify-center overflow-hidden ${imageClass}`} style={{ aspectRatio: "4 / 5", width: "100%" }}>
@@ -135,14 +140,19 @@ export default function ProductCatalog({
               </div>
               <div className="p-3 md:p-4">
                 <h2 className="font-semibold mb-1 text-sm md:text-base">{product.name}</h2>
+                <StartingPrice price={product.price} compact />
                 {showCategory && product.category && (
                   <p className="text-xs text-pink-600 font-medium mb-2">{product.category}</p>
                 )}
                 <p className="hidden text-sm text-gray-600 line-clamp-2 md:block">{product.description}</p>
+                {labels ? (
+                  <p className="mt-2 line-clamp-2 text-[11px] text-gray-500">{labels}</p>
+                ) : null}
               </div>
             </article>
           </Link>
-        ))}
+          );
+        })}
       </div>
 
       <div className="mt-12 flex justify-center items-center gap-2">

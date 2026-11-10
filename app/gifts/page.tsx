@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 import ProductCatalog from "@/components/ProductCatalog";
+import TagFilter from "@/components/TagFilter";
 import giftProducts from "@/data/gifts.json";
 import { productCrawlLabel } from "@/lib/newArrivals";
 import type { Metadata } from "next";
@@ -29,6 +30,7 @@ export default function Gifts() {
             Browse floral gifts for birthdays, anniversaries, and special moments, hand-arranged by Èlore Florist in Surabaya.
           </p>
 
+          <TagFilter section="gifts" products={giftProducts} />
           <ProductCatalog
             products={giftProducts}
             basePath="/gifts"
@@ -42,7 +44,7 @@ export default function Gifts() {
             <ul>
               {giftProducts.map((product) => (
                 <li key={product.slug}>
-                  <Link href={`/gifts/${product.slug}`}>{productCrawlLabel(product.name, product.description, product.slug)}</Link>
+                  <Link href={`/gifts/${product.slug}`}>{productCrawlLabel(product.name, product.description, product.slug, product.price)}</Link>
                 </li>
               ))}
             </ul>

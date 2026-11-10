@@ -14,11 +14,6 @@ export default function Contact() {
           <h1 className='mb-8 text-4xl font-semibold text-center'>
             Contact Us
           </h1>
-          <p className='text-center text-gray-600 mb-12 max-w-2xl mx-auto'>
-            Get in touch with us for custom orders, inquiries, or to schedule a
-            consultation.
-          </p>
-
           <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto'>
             <div className="min-w-0">
               <div className='space-y-4'>

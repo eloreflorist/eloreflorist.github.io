@@ -1,3 +1,5 @@
+import { startingPriceText } from "@/lib/price";
+
 /**
  * Mark products as NEW by slug. The ribbon hides after expiresOn (YYYY-MM-DD, inclusive, Surabaya / UTC+7).
  * Edit or remove a line here — no JSON changes needed.
@@ -27,7 +29,8 @@ export function isNewArrival(slug: string, now = new Date()): boolean {
   return Boolean(until && isNewUntil(until, now));
 }
 
-export function productCrawlLabel(name: string, description: string, slug: string): string {
+export function productCrawlLabel(name: string, description: string, slug: string, price?: number): string {
   const suffix = isNewArrival(slug) ? " New at Èlore Florist in Surabaya." : "";
-  return `${name} – ${description}${suffix}`;
+  const from = typeof price === "number" ? ` ${startingPriceText(price)}.` : "";
+  return `${name} – ${description}${suffix}${from}`;
 }

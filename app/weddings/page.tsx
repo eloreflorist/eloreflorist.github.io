@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 import ProductCatalog from "@/components/ProductCatalog";
+import TagFilter from "@/components/TagFilter";
 import weddingProducts from "@/data/weddings.json";
 import { productCrawlLabel } from "@/lib/newArrivals";
 import type { Metadata } from "next";
@@ -29,6 +30,7 @@ export default function WeddingsPage() {
             Make your wedding unforgettable with bridal bouquets and ceremony flowers from Èlore Florist in Surabaya.
           </p>
 
+          <TagFilter section="weddings" products={weddingProducts} />
           <ProductCatalog
             products={weddingProducts}
             basePath="/weddings"
@@ -42,7 +44,7 @@ export default function WeddingsPage() {
             <ul>
               {weddingProducts.map((product) => (
                 <li key={product.slug}>
-                  <Link href={`/weddings/${product.slug}`}>{productCrawlLabel(product.name, product.description, product.slug)}</Link>
+                  <Link href={`/weddings/${product.slug}`}>{productCrawlLabel(product.name, product.description, product.slug, product.price)}</Link>
                 </li>
               ))}
             </ul>
