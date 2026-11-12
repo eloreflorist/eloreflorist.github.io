@@ -19,7 +19,7 @@ export default function HomeSocialFeeds() {
       <SocialFeed
         id="instagram-posts"
         title="INSTAGRAM FEED"
-        intro="Èlore Florist in Surabaya posts new bouquets on Instagram. These arrangements can be ordered from the studio in Wonocolo."
+        intro="Èlore Florist in Surabaya posts new bouquets on Instagram. These arrangements can be ordered from the studio in Surabaya."
         profileUrl={instagramProfile}
         profileName="@eloreflorist on Instagram"
         items={instagramPosts}
@@ -27,7 +27,7 @@ export default function HomeSocialFeeds() {
       <SocialFeed
         id="threads-posts"
         title="THREADS"
-        intro="Recent Threads posts from Èlore Florist, the flower studio in Wonocolo, Surabaya."
+        intro="Recent Threads posts from Èlore Florist, the flower studio in Surabaya."
         profileUrl={threadsProfile}
         profileName="@eloreflorist on Threads"
         items={threadsFeed}

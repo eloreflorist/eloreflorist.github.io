@@ -6,7 +6,7 @@ export const aboutAnswer =
   "Èlore Florist is a flower studio in Surabaya. The shop has arranged flowers for more than 2 years and has made about 1,000 bouquets, with quality in every arrangement.";
 
 export const aboutParagraphs = [
-  "The studio is at Jl. Siwalankerto Timur I No.1B, Siwalankerto, Wonocolo, Surabaya 60236. From this shop, Èlore Florist makes hand-arranged bouquets for gifts, birthdays, graduations, anniversaries, and weddings in Surabaya.",
+  "The studio is at Jl. Siwalankerto Timur I No.1B, Siwalankerto, Surabaya 60236. From this shop, Èlore Florist makes hand-arranged bouquets for gifts, birthdays, graduations, anniversaries, and weddings in Surabaya.",
   "More than two years of daily arranging is behind the work. In that time the studio has made about 1,000 bouquets and flower products, from a single wrapped bunch to bridal flowers for a ceremony.",
   "Quality is the rule on every order. Stems are chosen for freshness, the shape is built to match the occasion, and the finished bouquet is meant to look the way it was promised. A quote is confirmed on WhatsApp because flower prices change with the season.",
   "You can pick the bouquet up at the studio or ask for delivery in Surabaya. Same-day delivery is often possible on Monday to Saturday when you message before midday. The shop is closed on Sunday.",

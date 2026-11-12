@@ -6,9 +6,9 @@ import { aboutAnswer, aboutFacts, aboutParagraphs, aboutSchema, aboutUrl } from 
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const title = "About Èlore Florist in Surabaya | Flower Studio in Wonocolo";
+const title = "About Èlore Florist in Surabaya | Flower Studio in Surabaya";
 const description =
-  "Èlore Florist in Wonocolo, Surabaya has arranged flowers for more than 2 years and made about 1,000 bouquets. Fresh flowers, chosen for quality.";
+  "Èlore Florist in Surabaya, Surabaya has arranged flowers for more than 2 years and made about 1,000 bouquets. Fresh flowers, chosen for quality.";
 
 export const metadata: Metadata = {
   title,
@@ -31,7 +31,7 @@ export default function About() {
           </p>
           <img
             src="/shop/storefront.jpg"
-            alt="Storefront of Èlore Florist on Jl. Siwalankerto Timur I, Wonocolo, Surabaya"
+            alt="Storefront of Èlore Florist on Jl. Siwalankerto Timur I, Surabaya"
             className="aspect-[16/10] w-full rounded-lg object-cover object-top"
           />
           <AboutFacts facts={aboutFacts} />

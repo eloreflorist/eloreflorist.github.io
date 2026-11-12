@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Fresh Flowers in Surabaya – Èlore Florist",
-  description: "Browse hand-crafted flower arrangements in Surabaya. Roses, orchids, lilies, tropical and luxury bouquets from Èlore Florist in Wonocolo.",
+  description: "Browse hand-crafted flower arrangements in Surabaya. Roses, orchids, lilies, tropical and luxury bouquets from Èlore Florist in Surabaya.",
   openGraph: {
     title: "Fresh Flowers in Surabaya – Èlore Florist",
     description: "Browse hand-crafted flower arrangements in Surabaya from Èlore Florist.",

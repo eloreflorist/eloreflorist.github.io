@@ -12,7 +12,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Do you deliver flowers in Surabaya?",
     answer:
-      "Yes. Èlore Florist delivers across Surabaya from our shop at Jl. Siwalankerto Timur I No. 1B, Siwalankerto, Wonocolo, Surabaya 60236. Share the recipient address and preferred time on WhatsApp when you order. You can also pick up during shop hours.",
+      "Yes. Èlore Florist delivers across Surabaya from our shop at Jl. Siwalankerto Timur I No. 1B, Siwalankerto, Surabaya 60236. Share the recipient address and preferred time on WhatsApp when you order. You can also pick up during shop hours.",
   },
   {
     question: "Can I get same-day flower delivery in Surabaya?",

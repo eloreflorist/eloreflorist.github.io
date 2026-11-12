@@ -172,7 +172,7 @@ export default function ArtificialOrFreshPage() {
             {" "}and{" "}
             <Link href="/gifts" className="text-primary underline hover:opacity-70">gifts</Link>. If you are still unsure, WhatsApp Èlore Florist at{" "}
             <a href="https://wa.me/6285885606353" className="text-primary underline hover:opacity-70">+62 858-8560-6353</a>
-            {" "}and describe the room. The shop is at Jl. Siwalankerto Timur I No. 1B, Wonocolo, Surabaya. We are open Monday to Friday, 09:00 to 17:00, and Saturday 09:00 to 16:00. Sunday we are closed. You can also{" "}
+            {" "}and describe the room. The shop is at Jl. Siwalankerto Timur I No. 1B, Surabaya. We are open Monday to Friday, 09:00 to 17:00, and Saturday 09:00 to 16:00. Sunday we are closed. You can also{" "}
             <Link href="/contact" className="text-primary underline hover:opacity-70">visit the contact page</Link>.
           </Prose>
         </Section>

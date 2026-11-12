@@ -45,7 +45,7 @@ export function tagMetadata(section: Section, tagSlug: string, products: readonl
   if (!tag || matches.length === 0) return { title: "Not found – Èlore Florist" };
   const kind = tag.group === "flower" ? `${tag.label} flower arrangements` : `${tag.label} flowers`;
   const title = `${kind} in Surabaya | Èlore Florist`;
-  const description = `${kind} from Èlore Florist in Surabaya. ${matches.length} arrangements you can order for delivery or pickup in Wonocolo.`;
+  const description = `${kind} from Èlore Florist in Surabaya. ${matches.length} arrangements you can order for delivery or pickup in Surabaya.`;
   const url = `${BASE_URL}/${section}/tag/${tag.slug}`;
   return {
     title,
