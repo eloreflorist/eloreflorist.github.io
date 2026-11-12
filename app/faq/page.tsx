@@ -3,18 +3,22 @@ import Footer from "@/components/Footer";
 import FaqJsonLd from "@/components/FaqJsonLd";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import { faqs, faqPageUrl } from "@/lib/faq";
+import { shareImage } from "@/lib/site";
 import Link from "next/link";
 import type { Metadata } from "next";
 
+const title = "Flower Delivery FAQ in Surabaya | Èlore Florist";
+const description =
+  "How to order flowers in Surabaya, same-day delivery before 12:00, wedding bouquets, and how long a bouquet lasts. Answers from Èlore Florist.";
+
 export const metadata: Metadata = {
-  title: "Florist FAQ in Surabaya – Delivery, Orders & Care | Èlore Florist",
-  description:
-    "Common questions about ordering flowers, Surabaya delivery, same-day bouquets, wedding florals, and flower care from Èlore Florist in Surabaya.",
+  title,
+  description,
   openGraph: {
-    title: "Florist FAQ in Surabaya – Delivery, Orders & Care | Èlore Florist",
-    description:
-      "Answers about flower delivery, same-day orders, wedding bouquets, and care from Èlore Florist in Surabaya.",
+    title,
+    description,
     url: faqPageUrl,
+    images: [{ url: shareImage, alt: "Bouquet arranged at Èlore Florist in Surabaya" }],
   },
   alternates: {
     canonical: faqPageUrl,

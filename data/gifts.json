@@ -8,9 +8,18 @@
     "description": "A round bouquet of red roses in a white wrap, with a pearl strand and a red ribbon.",
     "fullDescription": "A round bouquet of red roses in a white wrap, with a pearl strand and a red ribbon. A gift bouquet from Èlore Florist in Surabaya.",
     "details": "White wrap and red ribbon, from Èlore Florist in Surabaya",
-    "includes": ["Red roses", "Pearl strand", "White wrap", "Red ribbon"],
+    "includes": [
+      "Red roses",
+      "Pearl strand",
+      "White wrap",
+      "Red ribbon"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
+    "images": [
+      "/beautiful-bloom-1.jpg",
+      "/beautiful-bloom-2.jpg",
+      "/beautiful-bloom-3.jpg"
+    ]
   },
   {
     "slug": "luxury-flowers-candle-relaxation",
@@ -21,9 +30,17 @@
     "description": "Red roses in a white wrap, with butterfly picks and a pearl strand.",
     "fullDescription": "Red roses in a white wrap, with butterfly picks and a pearl strand. A gift bouquet from Èlore Florist in Surabaya.",
     "details": "White wrap, from Èlore Florist in Surabaya",
-    "includes": ["Red roses", "Butterfly picks", "Pearl strand", "White wrap"],
+    "includes": [
+      "Red roses",
+      "Butterfly picks",
+      "Pearl strand",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": [
+      "/beautiful-bloom-5.jpg",
+      "/beautiful-bloom-6.jpg"
+    ]
   },
   {
     "slug": "premium-flowers-wine-gourmet",
@@ -34,9 +51,18 @@
     "description": "Red roses packed in a white ruffled wrap, with a pearl strand across the blooms.",
     "fullDescription": "Red roses packed in a white ruffled wrap, with a pearl strand across the blooms. A gift bouquet from Èlore Florist in Surabaya.",
     "details": "White ruffled wrap, from Èlore Florist in Surabaya",
-    "includes": ["Red roses", "Pearl strand", "White ruffled wrap"],
+    "includes": [
+      "Red roses",
+      "Pearl strand",
+      "White ruffled wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": [
+      "/beautiful-bloom-2.jpg",
+      "/beautiful-bloom-3.jpg",
+      "/beautiful-bloom-4.jpg",
+      "/beautiful-bloom-5.jpg"
+    ]
   },
   {
     "slug": "birthday-flowers-balloons-celebration",
@@ -47,9 +73,18 @@
     "description": "Red roses in a white wrap, with butterfly picks, a pearl strand, and a red ribbon.",
     "fullDescription": "Red roses in a white wrap, with butterfly picks, a pearl strand, and a red ribbon. A gift bouquet from Èlore Florist in Surabaya.",
     "details": "White wrap and red ribbon, from Èlore Florist in Surabaya",
-    "includes": ["Red roses", "Butterfly picks", "Pearl strand", "Red ribbon", "White wrap"],
+    "includes": [
+      "Red roses",
+      "Butterfly picks",
+      "Pearl strand",
+      "Red ribbon",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": [
+      "/beautiful-bloom-6.jpg",
+      "/beautiful-bloom-7.jpg"
+    ]
   },
   {
     "slug": "congratulations-success-flowers",
@@ -60,9 +95,17 @@
     "description": "A tight round bouquet of red roses, with a pearl strand and a white ruffled edge.",
     "fullDescription": "A tight round bouquet of red roses, with a pearl strand and a white ruffled edge. A gift bouquet from Èlore Florist in Surabaya.",
     "details": "White ruffled edge, from Èlore Florist in Surabaya",
-    "includes": ["Red roses", "Pearl strand", "White ruffled wrap"],
+    "includes": [
+      "Red roses",
+      "Pearl strand",
+      "White ruffled wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": [
+      "/beautiful-bloom-3.jpg",
+      "/beautiful-bloom-4.jpg",
+      "/beautiful-bloom-5.jpg"
+    ]
   },
   {
     "slug": "get-well-healing-flowers",
@@ -73,268 +116,397 @@
     "description": "Red roses in a white wrap, finished with a red ribbon and a pearl strand.",
     "fullDescription": "Red roses in a white wrap, finished with a red ribbon and a pearl strand. A gift bouquet from Èlore Florist in Surabaya.",
     "details": "White wrap and red ribbon, from Èlore Florist in Surabaya",
-    "includes": ["Red roses", "Red ribbon", "Pearl strand", "White wrap"],
+    "includes": [
+      "Red roses",
+      "Red ribbon",
+      "Pearl strand",
+      "White wrap"
+    ],
     "inStock": false,
-    "images": ["/beautiful-bloom-1.jpg"]
+    "images": [
+      "/beautiful-bloom-1.jpg"
+    ]
   },
   {
     "slug": "mothers-day-special-gift",
-    "name": "Mother's Day Special",
+    "name": "Red roses for Mother's Day Special",
     "category": "gifts",
     "price": 68000,
-    "image": "Gift Set 7",
-    "description": "Beautiful Mother's Day gift with flowers and spa items.",
-    "fullDescription": "Show mom how much she means to you with this thoughtful gift set. Beautiful flowers paired with spa essentials for her to relax and unwind.",
-    "details": "Perfect for honoring amazing mothers",
-    "includes": ["Pink flowers", "Spa products", "Mom card", "Gift basket"],
+    "image": "Red roses for Mother's Day Special",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Mother's Day Special.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Mother's Day Special. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
+    "images": [
+      "/beautiful-bloom-2.jpg",
+      "/beautiful-bloom-3.jpg"
+    ]
   },
   {
     "slug": "thank-you-appreciation-bouquet",
-    "name": "Thank You Appreciation",
+    "name": "Red roses for Thank You Appreciation",
     "category": "gifts",
     "price": 58000,
-    "image": "Gift Set 8",
-    "description": "Express gratitude with this appreciation gift set.",
-    "fullDescription": "Say thank you in the most beautiful way. This thoughtful gift combines fresh flowers with a heartfelt message of appreciation.",
-    "details": "Express gratitude and appreciation",
-    "includes": ["Mixed flowers", "Thank you card", "Ribbon", "Gift box"],
+    "image": "Red roses for Thank You Appreciation",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Thank You Appreciation.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Thank You Appreciation. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": [
+      "/beautiful-bloom-4.jpg",
+      "/beautiful-bloom-5.jpg"
+    ]
   },
   {
     "slug": "baby-shower-celebration-flowers",
-    "name": "Baby Shower Celebration",
+    "name": "Red roses for Baby Shower Celebration",
     "category": "gifts",
     "price": 72000,
-    "image": "Gift Set 9",
-    "description": "Adorable baby shower gift with pastel flowers.",
-    "fullDescription": "Celebrate the upcoming arrival with this adorable baby shower gift. Soft pastel flowers and baby-themed decorations create the perfect welcome.",
-    "details": "Perfect for baby showers and new arrivals",
-    "includes": ["Pastel flowers", "Baby decorations", "Greeting card", "Cute packaging"],
+    "image": "Red roses for Baby Shower Celebration",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Baby Shower Celebration.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Baby Shower Celebration. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": [
+      "/beautiful-bloom-6.jpg",
+      "/beautiful-bloom-7.jpg"
+    ]
   },
   {
     "slug": "sympathy-condolence-flowers-gift",
-    "name": "Sympathy & Condolence",
+    "name": "Red roses for Sympathy & Condolence",
     "category": "gifts",
     "price": 90000,
-    "image": "Gift Set 10",
-    "description": "Elegant sympathy arrangement for times of loss.",
-    "fullDescription": "Express your condolences with this elegant and respectful arrangement. White and soft-colored flowers bring peace and comfort during difficult times.",
-    "details": "Respectful and comforting for times of loss",
-    "includes": ["White flowers", "Sympathy card", "Elegant vase", "Peaceful arrangement"],
+    "image": "Red roses for Sympathy & Condolence",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Sympathy & Condolence.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Sympathy & Condolence. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg"]
+    "images": [
+      "/beautiful-bloom-1.jpg",
+      "/beautiful-bloom-2.jpg"
+    ]
   },
   {
     "slug": "graduation-success-celebration",
-    "name": "Graduation Success",
+    "name": "Red roses for Graduation Success",
     "category": "gifts",
     "price": 64000,
-    "image": "Gift Set 11",
-    "description": "Celebrate graduation with flowers and success treats.",
-    "fullDescription": "Honor this major achievement with our graduation gift set. Bright flowers and celebratory treats mark this important milestone.",
-    "details": "Honor educational achievements",
-    "includes": ["Bright flowers", "Graduation bear", "Congratulations card", "Gift wrap"],
+    "image": "Red roses for Graduation Success",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Graduation Success.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Graduation Success. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg"]
+    "images": [
+      "/beautiful-bloom-3.jpg",
+      "/beautiful-bloom-4.jpg"
+    ]
   },
   {
     "slug": "valentines-day-romance-deluxe",
-    "name": "Valentine's Day Deluxe",
+    "name": "Red roses for Valentine's Day Deluxe",
     "category": "gifts",
     "price": 95000,
-    "image": "Gift Set 12",
-    "description": "Ultimate Valentine's Day romantic gift package.",
-    "fullDescription": "Make this Valentine's Day unforgettable. This deluxe package includes roses, chocolates, champagne, and romantic touches for the perfect celebration.",
-    "details": "Ultimate romantic Valentine's gift",
-    "includes": ["Red roses", "Luxury chocolates", "Champagne", "Love letter"],
+    "image": "Red roses for Valentine's Day Deluxe",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Valentine's Day Deluxe.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Valentine's Day Deluxe. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": [
+      "/beautiful-bloom-5.jpg",
+      "/beautiful-bloom-6.jpg",
+      "/beautiful-bloom-7.jpg"
+    ]
   },
   {
     "slug": "retirement-celebration-gift",
-    "name": "Retirement Celebration",
+    "name": "Red roses for Retirement Celebration",
     "category": "gifts",
     "price": 78000,
-    "image": "Gift Set 13",
-    "description": "Celebrate retirement with flowers and relaxation gifts.",
-    "fullDescription": "Honor years of hard work and dedication. This retirement gift celebrates their achievements and wishes them well in their next chapter.",
-    "details": "Honor career achievements",
-    "includes": ["Elegant flowers", "Retirement card", "Keepsake", "Gift presentation"],
+    "image": "Red roses for Retirement Celebration",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Retirement Celebration.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Retirement Celebration. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg"]
+    "images": [
+      "/beautiful-bloom-1.jpg",
+      "/beautiful-bloom-2.jpg"
+    ]
   },
   {
     "slug": "housewarming-welcome-home-gift",
-    "name": "Housewarming Welcome",
+    "name": "Red roses for Housewarming Welcome",
     "category": "gifts",
     "price": 82000,
-    "image": "Gift Set 14",
-    "description": "Welcome them home with flowers and home accessories.",
-    "fullDescription": "Help them settle into their new home. This housewarming gift includes beautiful flowers and practical home items.",
-    "details": "Perfect for new homeowners",
-    "includes": ["Home flowers", "Scented candles", "Welcome sign", "Gift basket"],
+    "image": "Red roses for Housewarming Welcome",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Housewarming Welcome.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Housewarming Welcome. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg"]
+    "images": [
+      "/beautiful-bloom-3.jpg",
+      "/beautiful-bloom-4.jpg"
+    ]
   },
   {
     "slug": "just-because-surprise-gift",
-    "name": "Just Because Surprise",
+    "name": "Red roses for Just Because Surprise",
     "category": "gifts",
     "price": 52000,
-    "image": "Gift Set 15",
-    "description": "Surprise someone special for no reason at all.",
-    "fullDescription": "Sometimes the best gifts are unexpected. This 'just because' gift brings joy and shows you're thinking of them.",
-    "details": "Spontaneous gift to brighten someone's day",
-    "includes": ["Surprise flowers", "Sweet treats", "Thinking of you card", "Gift wrap"],
+    "image": "Red roses for Just Because Surprise",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Just Because Surprise.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Just Because Surprise. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": [
+      "/beautiful-bloom-5.jpg",
+      "/beautiful-bloom-6.jpg"
+    ]
   },
   {
     "slug": "get-well-tea-comfort-basket",
-    "name": "Get Well Tea Comfort",
+    "name": "Red roses for Get Well Tea Comfort",
     "category": "gifts",
     "price": 76000,
-    "image": "Gift Set 16",
-    "description": "Comforting tea and flowers for someone recovering.",
-    "fullDescription": "Bring comfort with this soothing gift. Premium teas and healing flowers help them feel better inside and out.",
-    "details": "Soothing and comforting care package",
-    "includes": ["Healing flowers", "Premium teas", "Honey", "Cozy blanket"],
+    "image": "Red roses for Get Well Tea Comfort",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Get Well Tea Comfort.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Get Well Tea Comfort. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-7.jpg", "/beautiful-bloom-1.jpg"]
+    "images": [
+      "/beautiful-bloom-7.jpg",
+      "/beautiful-bloom-1.jpg"
+    ]
   },
   {
     "slug": "teacher-appreciation-gift",
-    "name": "Teacher Appreciation",
+    "name": "Red roses for Teacher Appreciation",
     "category": "gifts",
     "price": 62000,
-    "image": "Gift Set 17",
-    "description": "Thank a teacher with flowers and school supplies.",
-    "fullDescription": "Show appreciation for their dedication. This teacher gift includes flowers and thoughtful items they'll actually use.",
-    "details": "Perfect for thanking educators",
-    "includes": ["Bright flowers", "Teacher card", "Gift certificate", "Apple decoration"],
+    "image": "Red roses for Teacher Appreciation",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Teacher Appreciation.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Teacher Appreciation. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
+    "images": [
+      "/beautiful-bloom-2.jpg",
+      "/beautiful-bloom-3.jpg"
+    ]
   },
   {
     "slug": "anniversary-milestone-celebration",
-    "name": "Anniversary Milestone",
+    "name": "Red roses for Anniversary Milestone",
     "category": "gifts",
     "price": 88000,
-    "image": "Gift Set 18",
-    "description": "Celebrate years of love with flowers and keepsakes.",
-    "fullDescription": "Mark this special milestone. This anniversary gift celebrates your journey together with beautiful flowers and romantic touches.",
-    "details": "Celebrate years of love together",
-    "includes": ["Romance flowers", "Anniversary wine", "Photo frame", "Love notes"],
+    "image": "Red roses for Anniversary Milestone",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Anniversary Milestone.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Anniversary Milestone. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg"]
+    "images": [
+      "/beautiful-bloom-4.jpg",
+      "/beautiful-bloom-5.jpg"
+    ]
   },
   {
     "slug": "friendship-day-bestie-gift",
-    "name": "Friendship Day Bestie",
+    "name": "Red roses for Friendship Day Bestie",
     "category": "gifts",
     "price": 56000,
-    "image": "Gift Set 19",
-    "description": "Celebrate friendship with flowers and fun treats.",
-    "fullDescription": "Best friends deserve special gifts too! This fun friendship gift shows how much you value their presence in your life.",
-    "details": "Perfect for your best friend",
-    "includes": ["Fun flowers", "Friendship bracelet", "Treats", "BFF card"],
+    "image": "Red roses for Friendship Day Bestie",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Friendship Day Bestie.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Friendship Day Bestie. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-6.jpg", "/beautiful-bloom-7.jpg"]
+    "images": [
+      "/beautiful-bloom-6.jpg",
+      "/beautiful-bloom-7.jpg"
+    ]
   },
   {
     "slug": "new-job-congratulations-gift",
-    "name": "New Job Congratulations",
+    "name": "Red roses for New Job Congratulations",
     "category": "gifts",
     "price": 69000,
-    "image": "Gift Set 20",
-    "description": "Celebrate a new career opportunity with flowers.",
-    "fullDescription": "Wish them success in their new role. This congratulations gift is perfect for celebrating career moves and new beginnings.",
-    "details": "Perfect for career milestones",
-    "includes": ["Professional flowers", "Success card", "Coffee mug", "Gift box"],
+    "image": "Red roses for New Job Congratulations",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for New Job Congratulations.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for New Job Congratulations. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-1.jpg", "/beautiful-bloom-2.jpg"]
+    "images": [
+      "/beautiful-bloom-1.jpg",
+      "/beautiful-bloom-2.jpg"
+    ]
   },
   {
     "slug": "apology-forgiveness-flowers-gift",
-    "name": "Apology & Forgiveness",
+    "name": "Red roses for Apology & Forgiveness",
     "category": "gifts",
     "price": 74000,
-    "image": "Gift Set 21",
-    "description": "Say sorry with sincere flowers and chocolates.",
-    "fullDescription": "Sometimes we need to make amends. This thoughtful apology gift helps express your sincere regret and desire to make things right.",
-    "details": "Express sincere apologies",
-    "includes": ["Sincere flowers", "Sorry card", "Premium chocolates", "Heartfelt note"],
+    "image": "Red roses for Apology & Forgiveness",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Apology & Forgiveness.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Apology & Forgiveness. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-3.jpg", "/beautiful-bloom-4.jpg"]
+    "images": [
+      "/beautiful-bloom-3.jpg",
+      "/beautiful-bloom-4.jpg"
+    ]
   },
   {
     "slug": "thinking-of-you-care-package",
-    "name": "Thinking of You Care",
+    "name": "Red roses for Thinking of You Care",
     "category": "gifts",
     "price": 66000,
-    "image": "Gift Set 22",
-    "description": "Let them know you're thinking of them.",
-    "fullDescription": "Show you care from afar. This thoughtful care package includes flowers and comforting items to let them know they're on your mind.",
-    "details": "Show you care and are thinking of them",
-    "includes": ["Thoughtful flowers", "Comfort items", "Personal note", "Care package box"],
+    "image": "Red roses for Thinking of You Care",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Thinking of You Care.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Thinking of You Care. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": [
+      "/beautiful-bloom-5.jpg",
+      "/beautiful-bloom-6.jpg"
+    ]
   },
   {
     "slug": "good-luck-encouragement-gift",
-    "name": "Good Luck & Encouragement",
+    "name": "Red roses for Good Luck & Encouragement",
     "category": "gifts",
     "price": 60000,
-    "image": "Gift Set 23",
-    "description": "Encourage them with flowers and good luck charms.",
-    "fullDescription": "Boost their confidence for upcoming challenges. This encouraging gift includes uplifting flowers and good luck symbols.",
-    "details": "Encourage and inspire success",
-    "includes": ["Uplifting flowers", "Good luck charm", "Encouragement card", "Motivational quote"],
+    "image": "Red roses for Good Luck & Encouragement",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Good Luck & Encouragement.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Good Luck & Encouragement. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-7.jpg", "/beautiful-bloom-1.jpg"]
+    "images": [
+      "/beautiful-bloom-7.jpg",
+      "/beautiful-bloom-1.jpg"
+    ]
   },
   {
     "slug": "hostess-thank-you-gift",
-    "name": "Hostess Thank You",
+    "name": "Red roses for Hostess Thank You",
     "category": "gifts",
     "price": 71000,
-    "image": "Gift Set 24",
-    "description": "Thank your hostess with elegant flowers and treats.",
-    "fullDescription": "Show appreciation for their hospitality. This elegant hostess gift is perfect for dinner parties and special gatherings.",
-    "details": "Perfect thank you for hostesses",
-    "includes": ["Elegant flowers", "Gourmet treats", "Thank you note", "Elegant packaging"],
+    "image": "Red roses for Hostess Thank You",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Hostess Thank You.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Hostess Thank You. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-2.jpg", "/beautiful-bloom-3.jpg"]
+    "images": [
+      "/beautiful-bloom-2.jpg",
+      "/beautiful-bloom-3.jpg"
+    ]
   },
   {
     "slug": "self-care-treat-yourself-gift",
-    "name": "Self-Care Treat Yourself",
+    "name": "Red roses for Self-Care Treat Yourself",
     "category": "gifts",
     "price": 84000,
-    "image": "Gift Set 25",
-    "description": "Treat yourself to flowers and self-care items.",
-    "fullDescription": "You deserve it! This self-care gift includes beautiful flowers and pampering products for your own relaxation and enjoyment.",
-    "details": "Perfect for self-care and me-time",
-    "includes": ["Beautiful flowers", "Bath products", "Face mask", "Relaxation items"],
+    "image": "Red roses for Self-Care Treat Yourself",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Self-Care Treat Yourself.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Self-Care Treat Yourself. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-4.jpg", "/beautiful-bloom-5.jpg", "/beautiful-bloom-6.jpg"]
+    "images": [
+      "/beautiful-bloom-4.jpg",
+      "/beautiful-bloom-5.jpg",
+      "/beautiful-bloom-6.jpg"
+    ]
   },
   {
     "slug": "engagement-celebration-gift",
-    "name": "Engagement Celebration",
+    "name": "Red roses for Engagement Celebration",
     "category": "gifts",
     "price": 92000,
-    "image": "Gift Set 26",
-    "description": "Celebrate their engagement with romantic flowers.",
-    "fullDescription": "Congratulate the happy couple! This engagement gift celebrates their love and upcoming journey together with beautiful flowers and champagne.",
-    "details": "Celebrate love and commitment",
-    "includes": ["Romantic flowers", "Champagne", "Engagement card", "Love celebration"],
+    "image": "Red roses for Engagement Celebration",
+    "description": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Engagement Celebration.",
+    "fullDescription": "Red roses in a white wrap, arranged at Èlore Florist in Surabaya for Engagement Celebration. The photo shows red roses in a white wrap. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "details": "Red roses in a white wrap, from Èlore Florist in Surabaya.",
+    "includes": [
+      "Red roses",
+      "White wrap"
+    ],
     "inStock": true,
-    "images": ["/beautiful-bloom-7.jpg", "/beautiful-bloom-1.jpg"]
+    "images": [
+      "/beautiful-bloom-7.jpg",
+      "/beautiful-bloom-1.jpg"
+    ]
   }
 ]

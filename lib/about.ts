@@ -1,6 +1,7 @@
 import { floristId, siteUrl } from "@/lib/guides";
 
 export const aboutUrl = `${siteUrl}/about`;
+export const storefrontImage = `${siteUrl}/shop/storefront.jpg`;
 
 export const aboutAnswer =
   "Èlore Florist is a flower studio in Surabaya. The shop has arranged flowers for more than 2 years and has made about 1,000 bouquets, with quality in every arrangement.";
@@ -30,6 +31,7 @@ export function aboutSchema() {
       "@type": "SpeakableSpecification",
       cssSelector: ["#about-answer"],
     },
+    image: storefrontImage,
     about: { "@id": floristId },
     mainEntity: {
       "@type": "Florist",

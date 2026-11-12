@@ -6,6 +6,7 @@ import TagFilter from "@/components/TagFilter";
 import Link from "next/link";
 import { productCrawlLabel } from "@/lib/newArrivals";
 import { productTags, productsWithTag, tagBySlug, tagsInUse, type Tag, type Taggable } from "@/lib/tags";
+import { shareImage } from "@/lib/site";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -51,14 +52,21 @@ export function tagMetadata(section: Section, tagSlug: string, products: readonl
   const matches = tag ? productsWithTag(products, tag.slug, section) : [];
   if (!tag || matches.length === 0) return { title: "Not found – Èlore Florist" };
   const kind = tagPhrase(section, tag);
-  const title = `${kind} in Surabaya | Èlore Florist`;
-  const description = `${kind} from Èlore Florist in Surabaya. ${matches.length} arrangements you can order for delivery or pickup in Surabaya.`;
+  const title = `${kind} in Surabaya | Èlore Florist`.length <= 60
+    ? `${kind} in Surabaya | Èlore Florist`
+    : `${kind} | Èlore Florist`;
+  const description = `Order ${kind.toLowerCase()} from Èlore Florist in Siwalankerto, Surabaya. ${matches.length} arrangements for pickup at the shop or delivery across Surabaya. WhatsApp +62 858-8560-6353.`.slice(0, 160);
   const url = `${BASE_URL}/${section}/tag/${tag.slug}`;
   return {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url },
+    openGraph: {
+      title,
+      description,
+      url,
+      images: [{ url: shareImage, alt: `${kind} from Èlore Florist in Surabaya` }],
+    },
   };
 }
 

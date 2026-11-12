@@ -6,22 +6,40 @@ import ProductCatalog from "@/components/ProductCatalog";
 import TagFilter from "@/components/TagFilter";
 import giftProducts from "@/data/gifts.json";
 import { productCrawlLabel } from "@/lib/newArrivals";
+import { collectionSchema, shareImage, siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
+const title = "Flower Gifts to Order in Surabaya | Èlore Florist";
+const description =
+  "Gift bouquets for birthdays, anniversaries, and thank-yous in Surabaya. Order from Èlore Florist in Siwalankerto. WhatsApp +62 858-8560-6353.";
+const pageUrl = `${siteUrl}/gifts`;
+
 export const metadata: Metadata = {
-  title: "Flower Gifts in Surabaya – Èlore Florist",
-  description: "Floral gift sets for birthdays, anniversaries, and special occasions in Surabaya. Order gift bouquets from Èlore Florist.",
-  alternates: { canonical: "https://eloreflorist.github.io/gifts" },
+  title,
+  description,
+  alternates: { canonical: pageUrl },
   openGraph: {
-    title: "Flower Gifts in Surabaya – Èlore Florist",
-    description: "Floral gift sets for birthdays, anniversaries, and special occasions in Surabaya.",
-    url: "https://eloreflorist.github.io/gifts",
+    title,
+    description,
+    url: pageUrl,
+    images: [{ url: shareImage, alt: "Gift bouquet from Èlore Florist in Surabaya" }],
   },
 };
 
 export default function Gifts() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(collectionSchema(
+            title,
+            pageUrl,
+            description,
+            giftProducts.map((product) => ({ name: product.name, url: `${pageUrl}/${product.slug}` })),
+          )),
+        }}
+      />
       <Header current="/gifts" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">

@@ -32,7 +32,7 @@ export function guideUrl(slug: string) {
 
 export function guideMetadata(guide: Guide): Metadata {
   const url = guideUrl(guide.slug);
-  const image = `${siteUrl}/elore_logo.png`;
+  const image = `${siteUrl}/pic/1/a.jpg`;
 
   return {
     title: guide.metaTitle,

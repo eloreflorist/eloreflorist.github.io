@@ -2,19 +2,24 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import AboutFacts from "@/components/about/AboutFacts";
-import { aboutAnswer, aboutFacts, aboutParagraphs, aboutSchema, aboutUrl } from "@/lib/about";
+import { aboutAnswer, aboutFacts, aboutParagraphs, aboutSchema, aboutUrl, storefrontImage } from "@/lib/about";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const title = "About Èlore Florist in Surabaya | Flower Studio in Surabaya";
+const title = "About Èlore Florist in Siwalankerto | Èlore Florist";
 const description =
-  "Èlore Florist in Surabaya, Surabaya has arranged flowers for more than 2 years and made about 1,000 bouquets. Fresh flowers, chosen for quality.";
+  "Èlore Florist in Siwalankerto, Surabaya has arranged flowers for more than 2 years and made about 1,000 bouquets. WhatsApp +62 858-8560-6353.";
 
 export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: aboutUrl },
-  openGraph: { title, description, url: aboutUrl },
+  openGraph: {
+    title,
+    description,
+    url: aboutUrl,
+    images: [{ url: storefrontImage, alt: "Èlore Florist shop front in Siwalankerto, Surabaya" }],
+  },
 };
 
 export default function About() {
@@ -31,14 +36,24 @@ export default function About() {
           </p>
           <img
             src="/shop/storefront.jpg"
-            alt="Storefront of Èlore Florist on Jl. Siwalankerto Timur I, Surabaya"
-            className="aspect-[16/10] w-full rounded-lg object-cover object-top"
+            alt="Èlore Florist shop front in Siwalankerto, Surabaya, with the shop banner and glass door"
+            className="w-full rounded-lg"
           />
           <AboutFacts facts={aboutFacts} />
-          <div className="mt-10 space-y-4 leading-relaxed text-gray-700">
-            {aboutParagraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
+          <div className="mt-10 space-y-8 leading-relaxed text-gray-700">
+            <section>
+              <h2 className="mb-3 text-2xl font-semibold text-gray-900">Where the studio is</h2>
+              <p>{aboutParagraphs[0]}</p>
+            </section>
+            <section>
+              <h2 className="mb-3 text-2xl font-semibold text-gray-900">How long the shop has arranged flowers</h2>
+              <p>{aboutParagraphs[1]}</p>
+            </section>
+            <section>
+              <h2 className="mb-3 text-2xl font-semibold text-gray-900">How an order is made</h2>
+              <p>{aboutParagraphs[2]}</p>
+              <p className="mt-4">{aboutParagraphs[3]}</p>
+            </section>
           </div>
           <p className="mt-10 text-gray-700">
             Browse{" "}

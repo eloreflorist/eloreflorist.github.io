@@ -6,22 +6,40 @@ import ProductCatalog from "@/components/ProductCatalog";
 import TagFilter from "@/components/TagFilter";
 import weddingProducts from "@/data/weddings.json";
 import { productCrawlLabel } from "@/lib/newArrivals";
+import { collectionSchema, shareImage, siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
+const title = "Wedding Flower Bouquets in Surabaya | Èlore Florist";
+const description =
+  "Bridal bouquets for weddings in Surabaya. Book earlier than a same-day order. Èlore Florist, Siwalankerto. WhatsApp +62 858-8560-6353.";
+const pageUrl = `${siteUrl}/weddings`;
+
 export const metadata: Metadata = {
-  title: "Wedding Flowers in Surabaya – Èlore Florist",
-  description: "Bridal bouquets and wedding flower arrangements in Surabaya. Custom wedding florals from Èlore Florist in Surabaya.",
-  alternates: { canonical: "https://eloreflorist.github.io/weddings" },
+  title,
+  description,
+  alternates: { canonical: pageUrl },
   openGraph: {
-    title: "Wedding Flowers in Surabaya – Èlore Florist",
-    description: "Bridal bouquets and wedding flower arrangements in Surabaya from Èlore Florist.",
-    url: "https://eloreflorist.github.io/weddings",
+    title,
+    description,
+    url: pageUrl,
+    images: [{ url: shareImage, alt: "Bridal bouquet from Èlore Florist in Surabaya" }],
   },
 };
 
 export default function WeddingsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(collectionSchema(
+            title,
+            pageUrl,
+            description,
+            weddingProducts.map((product) => ({ name: product.name, url: `${pageUrl}/${product.slug}` })),
+          )),
+        }}
+      />
       <Header current="/weddings" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">

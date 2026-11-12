@@ -157,6 +157,45 @@ export default function ArtificialOrFreshPage() {
           <Steps items={steps} />
         </Section>
 
+        <Section id="compare" title="Fresh and artificial compared">
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-left text-sm">
+              <caption className="mb-3 text-left text-gray-700">
+                How Èlore Florist in Surabaya chooses between fresh flowers and artificial flowers.
+              </caption>
+              <thead>
+                <tr className="border-b border-gray-300">
+                  <th className="py-2 pr-4 font-semibold">Question</th>
+                  <th className="py-2 pr-4 font-semibold">Fresh flowers</th>
+                  <th className="py-2 font-semibold">Artificial flowers</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200">
+                  <th className="py-2 pr-4 font-medium">Best job</th>
+                  <td className="py-2 pr-4">A gift or a one-day event</td>
+                  <td className="py-2">A display that stays for weeks</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <th className="py-2 pr-4 font-medium">Scent</th>
+                  <td className="py-2 pr-4">Yes</td>
+                  <td className="py-2">No</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <th className="py-2 pr-4 font-medium">Water</th>
+                  <td className="py-2 pr-4">Needs a vase and daily water</td>
+                  <td className="py-2">No vase</td>
+                </tr>
+                <tr>
+                  <th className="py-2 pr-4 font-medium">Surabaya heat</th>
+                  <td className="py-2 pr-4">Shorter life outdoors at midday</td>
+                  <td className="py-2">Holds its shape in heat and air-conditioning</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </Section>
+
         <Section id="occasions" title="Occasions we arrange in Surabaya">
           <Pairs items={occasions} />
         </Section>

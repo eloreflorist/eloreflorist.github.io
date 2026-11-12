@@ -3,10 +3,11 @@ import Footer from "@/components/Footer";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import Byline from "@/components/blog/Byline";
 import { blogId, blogUrl, floristId, guides, guideUrl, siteUrl } from "@/lib/guides";
+import { shareImage } from "@/lib/site";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const title = "Flower Guides | Èlore Florist Surabaya";
+const title = "Flower Guides for Orders in Surabaya | Èlore Florist";
 const description =
   "Flower guides from Èlore Florist in Surabaya: fresh or artificial flowers, same-day delivery, bouquet care, and how to order on WhatsApp.";
 
@@ -21,13 +22,13 @@ export const metadata: Metadata = {
     siteName: "Èlore Florist",
     locale: "en_ID",
     type: "website",
-    images: [{ url: `${siteUrl}/elore_logo.png`, alt: "Èlore Florist" }],
+    images: [{ url: shareImage, alt: "Bouquet arranged at Èlore Florist in Surabaya" }],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: [`${siteUrl}/elore_logo.png`],
+    images: [shareImage],
   },
 };
 

@@ -1,5 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { priceRange, shareImage } from "@/lib/site";
+import { googleMapsUrl, testimonials } from "@/lib/testimonials";
 
 export const metadata: Metadata = {
   title: "Èlore Florist – Fresh Flower Arrangements in Surabaya",
@@ -11,7 +13,7 @@ export const metadata: Metadata = {
     description: "Hand-crafted bouquets and floral arrangements for weddings, gifts, and special occasions.",
     url: "https://eloreflorist.github.io",
     siteName: "Èlore Florist",
-    images: [{ url: "https://eloreflorist.github.io/elore_logo.png" }],
+    images: [{ url: shareImage, alt: "Bouquet arranged at Èlore Florist in Surabaya" }],
     locale: "en_ID",
     type: "website",
   },
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Èlore Florist – Fresh Flower Arrangements in Surabaya',
     description: 'Hand-crafted bouquets and floral arrangements for weddings, gifts, and special occasions.',
-    images: ['https://eloreflorist.github.io/elore_logo.png'],
+    images: [shareImage],
   },
 };
 
@@ -30,14 +32,14 @@ const schemaData = {
   "name": "Èlore Florist",
   "url": "https://eloreflorist.github.io",
   "telephone": "+6285885606353",
-  "image": "https://eloreflorist.github.io/elore_logo.png",
+  "image": shareImage,
   "description": "Hand-crafted bouquets and floral arrangements for weddings, gifts, and special occasions in Surabaya.",
-  "priceRange": "$$",
+  "priceRange": priceRange,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Jl. Siwalankerto Timur I No. 1B",
+    "streetAddress": "Jl. Siwalankerto Timur I No. 1B, Siwalankerto",
     "addressLocality": "Surabaya",
-    "addressRegion": "Surabaya",
+    "addressRegion": "East Java",
     "postalCode": "60236",
     "addressCountry": "ID"
   },
@@ -65,9 +67,25 @@ const schemaData = {
     "https://www.tiktok.com/@eloreflorist",
     "https://www.threads.com/@eloreflorist"
   ],
-  "hasMap": "https://maps.google.com/?q=Jl.+Siwalankerto+Timur+I+No.+1B,+Wonocolo,+Surabaya",
- 
-
+  "hasMap": googleMapsUrl,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "reviewCount": String(testimonials.length),
+  },
+  "review": testimonials.map((item) => ({
+    "@type": "Review",
+    "author": { "@type": "Person", "name": item.name ?? "Google Maps reviewer" },
+    "datePublished": item.date,
+    "reviewBody": item.quote,
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": String(item.rating),
+      "bestRating": "5",
+    },
+    "publisher": { "@type": "Organization", "name": "Google" },
+  })),
 };
 
 export default function RootLayout({

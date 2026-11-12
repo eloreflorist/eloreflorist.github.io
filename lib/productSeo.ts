@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { getNewUntil, isNewUntil } from "@/lib/newArrivals";
 import { PRICE_CURRENCY, startingPriceText } from "@/lib/price";
+import { fitTitle, shareImage, siteUrl } from "@/lib/site";
 import { productTags, type Taggable } from "@/lib/tags";
 
-const BASE_URL = "https://eloreflorist.github.io";
+const BASE_URL = siteUrl;
 
 export type ProductSection = "flowers" | "weddings" | "gifts";
 
@@ -16,12 +17,6 @@ export type ProductSeoInput = {
   inStock?: boolean;
   category?: string;
   price?: number;
-};
-
-const sectionLabel: Record<ProductSection, string> = {
-  flowers: "Flower Arrangement",
-  weddings: "Wedding Flowers",
-  gifts: "Flower Gift",
 };
 
 function absoluteImage(path: string) {
@@ -38,16 +33,26 @@ export function getProductMetadata(
 
   const newUntil = getNewUntil(product.slug);
   const isNew = Boolean(newUntil && isNewUntil(newUntil));
-  const title = isNew
-    ? `New ${product.name} – ${sectionLabel[section]} in Surabaya | Èlore Florist`
-    : `${product.name} – ${sectionLabel[section]} in Surabaya | Èlore Florist`;
-  const description = `${isNew ? `New at Èlore Florist in Surabaya. ${product.description}` : product.description}${
-    typeof product.price === "number" ? ` ${startingPriceText(product.price)}.` : ""
-  }`;
+  const title = fitTitle(isNew ? `New ${product.name}` : product.name);
+  const price = typeof product.price === "number" ? ` ${startingPriceText(product.price)}.` : "";
+  const lead = product.description.trim().replace(/[.]+$/, "");
+  const tails = [
+    ` Same-day delivery in Surabaya is often possible before 12:00, Monday to Saturday.${price}`,
+    ` Order from Èlore Florist in Siwalankerto, Surabaya.${price}`,
+    ` From Èlore Florist in Surabaya.${price}`,
+  ];
+  const candidates = tails
+    .map((tail) => `${lead}.${tail}`)
+    .filter((text) => text.length <= 160 && text.length >= 140)
+    .sort((a, b) => b.length - a.length);
+  const fallbackTail = tails[2];
+  const room = 159 - fallbackTail.length;
+  const clipped = lead.length <= room ? lead : lead.slice(0, room).replace(/\s+\S*$/, "");
+  const description = candidates[0] ?? `${clipped}.${fallbackTail}`;
   const url = `${BASE_URL}/${section}/${product.slug}`;
   const image = product.images?.[0]
     ? absoluteImage(product.images[0])
-    : `${BASE_URL}/elore_logo.png`;
+    : shareImage;
   const tags = productTags(product, section).map((tag) => tag.label);
 
   return {

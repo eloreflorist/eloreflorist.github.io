@@ -6,22 +6,40 @@ import ProductCatalog from "@/components/ProductCatalog";
 import TagFilter from "@/components/TagFilter";
 import flowerProducts from "@/data/flowers.json";
 import { productCrawlLabel } from "@/lib/newArrivals";
+import { collectionSchema, shareImage, siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
+const title = "Fresh Flower Bouquets in Surabaya | Èlore Florist";
+const description =
+  "Browse hand-arranged bouquets in Surabaya. Roses, lilies, seasonal mixes, and tropical bunches from Èlore Florist in Siwalankerto. Order on WhatsApp.";
+const pageUrl = `${siteUrl}/flowers`;
+
 export const metadata: Metadata = {
-  title: "Fresh Flowers in Surabaya – Èlore Florist",
-  description: "Browse hand-crafted flower arrangements in Surabaya. Roses, orchids, lilies, tropical and luxury bouquets from Èlore Florist in Surabaya.",
-  alternates: { canonical: "https://eloreflorist.github.io/flowers" },
+  title,
+  description,
+  alternates: { canonical: pageUrl },
   openGraph: {
-    title: "Fresh Flowers in Surabaya – Èlore Florist",
-    description: "Browse hand-crafted flower arrangements in Surabaya from Èlore Florist.",
-    url: "https://eloreflorist.github.io/flowers",
+    title,
+    description,
+    url: pageUrl,
+    images: [{ url: shareImage, alt: "Bouquet arranged at Èlore Florist in Surabaya" }],
   },
 };
 
 export default function Flowers() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(collectionSchema(
+            title,
+            pageUrl,
+            description,
+            flowerProducts.map((product) => ({ name: product.name, url: `${pageUrl}/${product.slug}` })),
+          )),
+        }}
+      />
       <Header current="/flowers" />
       <main className="pt-20 pb-20 md:pt-40">
         <div className="mx-auto max-w-7xl px-4">
