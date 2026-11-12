@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 
 const title = "Flower Guides | Èlore Florist Surabaya";
 const description =
-  "Practical flower guides from Èlore Florist in Surabaya, including when to choose artificial or fresh flowers.";
+  "Flower guides from Èlore Florist in Surabaya: fresh or artificial flowers, same-day delivery, bouquet care, and how to order on WhatsApp.";
 
 export const metadata: Metadata = {
   title,

@@ -55,7 +55,6 @@ const categoryTag: Record<string, string> = {
 
 function textOf(product: Taggable) {
   return [
-    product.slug,
     product.name,
     product.category,
     product.description,

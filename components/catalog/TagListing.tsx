@@ -5,7 +5,7 @@ import ProductCatalog from "@/components/ProductCatalog";
 import TagFilter from "@/components/TagFilter";
 import Link from "next/link";
 import { productCrawlLabel } from "@/lib/newArrivals";
-import { productTags, productsWithTag, tagBySlug, tagsInUse, type Taggable } from "@/lib/tags";
+import { productTags, productsWithTag, tagBySlug, tagsInUse, type Tag, type Taggable } from "@/lib/tags";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -39,11 +39,18 @@ export function tagStaticParams(products: readonly Taggable[], section: Section)
   return tagsInUse(products, section).map((tag) => ({ tag: tag.slug }));
 }
 
+function tagPhrase(section: Section, tag: Tag) {
+  if (section === "weddings" && tag.slug === "wedding") return "Wedding flowers";
+  if (section === "gifts") return tag.group === "flower" ? `${tag.label} gift bouquets` : `${tag.label} gift flowers`;
+  if (section === "weddings") return tag.group === "flower" ? `${tag.label} wedding flowers` : `${tag.label} wedding arrangements`;
+  return tag.group === "flower" ? `${tag.label} bouquets` : `${tag.label} flower arrangements`;
+}
+
 export function tagMetadata(section: Section, tagSlug: string, products: readonly Taggable[]): Metadata {
   const tag = tagBySlug(tagSlug);
   const matches = tag ? productsWithTag(products, tag.slug, section) : [];
   if (!tag || matches.length === 0) return { title: "Not found – Èlore Florist" };
-  const kind = tag.group === "flower" ? `${tag.label} flower arrangements` : `${tag.label} flowers`;
+  const kind = tagPhrase(section, tag);
   const title = `${kind} in Surabaya | Èlore Florist`;
   const description = `${kind} from Èlore Florist in Surabaya. ${matches.length} arrangements you can order for delivery or pickup in Surabaya.`;
   const url = `${BASE_URL}/${section}/tag/${tag.slug}`;
@@ -60,7 +67,7 @@ export default function TagListing({ section, tagSlug, products, catalog }: TagL
   const matches = tag ? productsWithTag(products, tag.slug, section) : [];
   if (!tag || matches.length === 0) notFound();
 
-  const kind = tag.group === "flower" ? `${tag.label} flower arrangements` : `${tag.label} flowers`;
+  const kind = tagPhrase(section, tag);
   const url = `${BASE_URL}/${section}/tag/${tag.slug}`;
   const schema = {
     "@context": "https://schema.org",

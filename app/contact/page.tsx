@@ -3,6 +3,22 @@ import Footer from "@/components/Footer";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import ShopMap from "@/components/contact/ShopMap";
 import CopyEmail from "@/components/contact/CopyEmail";
+import type { Metadata } from "next";
+
+const title = "Contact Èlore Florist | Flower Studio in Surabaya";
+const description =
+  "Visit Èlore Florist at Jl. Siwalankerto Timur I No. 1B, Surabaya 60236. WhatsApp 0858-8560-6353. Open Mon–Fri 09:00–17:00, Sat 09:00–16:00. Closed Sunday.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: { canonical: "https://eloreflorist.github.io/contact" },
+  openGraph: {
+    title,
+    description,
+    url: "https://eloreflorist.github.io/contact",
+  },
+};
 
 export default function Contact() {
   return (

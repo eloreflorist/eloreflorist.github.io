@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Flower Gifts in Surabaya – Èlore Florist",
   description: "Floral gift sets for birthdays, anniversaries, and special occasions in Surabaya. Order gift bouquets from Èlore Florist.",
+  alternates: { canonical: "https://eloreflorist.github.io/gifts" },
   openGraph: {
     title: "Flower Gifts in Surabaya – Èlore Florist",
     description: "Floral gift sets for birthdays, anniversaries, and special occasions in Surabaya.",

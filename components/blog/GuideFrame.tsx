@@ -34,45 +34,50 @@ export default function GuideFrame({
   const url = guideUrl(guide.slug);
   const graph: Record<string, unknown>[] = [
     {
-      "@type": "BlogPosting",
-      "@id": `${url}#article`,
+      '@type': 'BlogPosting',
+      '@id': `${url}#article`,
       headline: guide.title,
       description: guide.description,
       datePublished: guide.published,
       dateModified: guide.updated,
-      inLanguage: "en-ID",
+      inLanguage: 'en-ID',
       mainEntityOfPage: url,
       url,
       image: `${siteUrl}/elore_logo.png`,
-      author: { "@id": floristId },
-      publisher: { "@id": floristId },
-      isPartOf: { "@id": blogId },
+      author: { '@id': floristId },
+      publisher: { '@id': floristId },
+      isPartOf: { '@id': blogId },
       ...(speakable
-        ? { speakable: { "@type": "SpeakableSpecification", cssSelector: [`#${guideAnswerId}`] } }
+        ? {
+            speakable: {
+              '@type': 'SpeakableSpecification',
+              cssSelector: [`#${guideAnswerId}`],
+            },
+          }
         : {}),
     },
     {
-      "@type": "Florist",
-      "@id": floristId,
-      name: "Èlore Florist",
+      '@type': 'Florist',
+      '@id': floristId,
+      name: 'Èlore Florist',
       url: siteUrl,
-      telephone: "+6285885606353",
+      telephone: '+6285885606353',
       image: `${siteUrl}/elore_logo.png`,
       address: {
-        "@type": "PostalAddress",
-        streetAddress: "Jl. Siwalankerto Timur I No. 1B",
-        addressLocality: "Wonocolo",
-        addressRegion: "Surabaya",
-        postalCode: "60236",
-        addressCountry: "ID",
+        '@type': 'PostalAddress',
+        streetAddress: 'Jl. Siwalankerto Timur I No. 1B',
+        addressLocality: 'Surabaya',
+        addressRegion: 'Surabaya',
+        postalCode: '60236',
+        addressCountry: 'ID',
       },
     },
     {
-      "@type": "Blog",
-      "@id": blogId,
-      name: "Flower guides from Èlore Florist",
+      '@type': 'Blog',
+      '@id': blogId,
+      name: 'Flower guides from Èlore Florist',
       url: blogUrl,
-      publisher: { "@id": floristId },
+      publisher: { '@id': floristId },
     },
   ];
 

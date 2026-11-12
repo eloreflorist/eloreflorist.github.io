@@ -1,4 +1,5 @@
 import SocialFeed from "@/components/social/SocialFeed";
+import Testimonials from "@/components/social/Testimonials";
 import flowerProducts from "@/data/flowers.json";
 import { instagramPosts, instagramProfile, threadsPosts, threadsProfile, type SocialItem } from "@/lib/socialFeeds";
 
@@ -32,6 +33,7 @@ export default function HomeSocialFeeds() {
         profileName="@eloreflorist on Threads"
         items={threadsFeed}
       />
+      <Testimonials />
     </div>
   );
 }

@@ -54,6 +54,7 @@ export function getProductMetadata(
     title,
     description,
     keywords: tags,
+    alternates: { canonical: url },
     openGraph: {
       title,
       description,

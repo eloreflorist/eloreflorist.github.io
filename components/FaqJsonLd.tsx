@@ -20,7 +20,7 @@ export default function FaqJsonLd() {
       address: {
         "@type": "PostalAddress",
         streetAddress: "Jl. Siwalankerto Timur I No. 1B",
-        addressLocality: "Wonocolo",
+        addressLocality: "Surabaya",
         addressRegion: "Surabaya",
         postalCode: "60236",
         addressCountry: "ID",

@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Èlore Florist – Fresh Flower Arrangements in Surabaya",
   description: "Hand-crafted bouquets and floral arrangements for weddings, gifts, and special occasions. Order fresh flowers from Èlore Florist in Surabaya.",
   keywords: ["florist surabaya", "bunga surabaya", "wedding flowers", "flower arrangements", "bouquet surabaya", "elore florist"],
+  alternates: { canonical: "https://eloreflorist.github.io" },
   openGraph: {
     title: "Èlore Florist – Fresh Flower Arrangements in Surabaya",
     description: "Hand-crafted bouquets and floral arrangements for weddings, gifts, and special occasions.",
@@ -35,7 +36,7 @@ const schemaData = {
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Jl. Siwalankerto Timur I No. 1B",
-    "addressLocality": "Wonocolo",
+    "addressLocality": "Surabaya",
     "addressRegion": "Surabaya",
     "postalCode": "60236",
     "addressCountry": "ID"
