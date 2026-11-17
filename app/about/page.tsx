@@ -2,13 +2,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs, { sectionCrumbs } from "@/components/Breadcrumbs";
 import AboutFacts from "@/components/about/AboutFacts";
-import { aboutAnswer, aboutFacts, aboutParagraphs, aboutSchema, aboutUrl, storefrontImage } from "@/lib/about";
+import { aboutAnswer, yearsExperience, aboutFacts, aboutParagraphs, aboutSchema, aboutUrl, storefrontImage } from "@/lib/about";
 import Link from "next/link";
 import type { Metadata } from "next";
 
 const title = "About Èlore Florist in Siwalankerto | Èlore Florist";
 const description =
-  "Èlore Florist in Siwalankerto, Surabaya has arranged flowers for more than 2 years and made about 1,000 bouquets. WhatsApp +62 858-8560-6353.";
+  `Èlore Florist in Siwalankerto, Surabaya has arranged flowers for more than ${yearsExperience} years and made about 1,000 bouquets. WhatsApp +62 858-8560-6353.`;
 
 export const metadata: Metadata = {
   title,

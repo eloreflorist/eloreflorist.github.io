@@ -6,7 +6,6 @@ import ProductCarousel from "@/components/ProductCarousel";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ProductJsonLd from "@/components/ProductJsonLd";
 import ProductTags from "@/components/ProductTags";
-import ProductFacts from "@/components/product/ProductFacts";
 import StartingPrice from "@/components/StartingPrice";
 import weddingProducts from "@/data/weddings.json";
 import { getProductMetadata } from "@/lib/productSeo";
@@ -90,13 +89,6 @@ export default function WeddingDetail({ params }: { readonly params: { readonly 
                   ))}
                 </ul>
               </div>
-
-              <ProductFacts
-                name={product.name}
-                description={product.description}
-                includes={product.includes}
-                price={product.price}
-              />
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <button

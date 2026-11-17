@@ -1,19 +1,17 @@
 ﻿[
   {
-    "slug": "beautiful-bloom-roses-lilies",
-    "name": "Pink Gerberas and White Mums",
-    "category": "Mixed Bouquets",
-    "price": 45000,
-    "image": "Pink Gerberas and White Mums",
-    "description": "Pink gerberas, white and yellow chrysanthemums, and one pink rose, wrapped in pink paper.",
-    "fullDescription": "Pink gerberas, white and yellow chrysanthemums, and one pink rose, wrapped in pink paper at Èlore Florist in Surabaya. A mixed bouquet for a gift or a visit.",
-    "details": "Pink wrap, arranged at Èlore Florist in Surabaya",
+    "slug": "fresh-gerberas-roses-and-chrysanthemums",
+    "name": "Fresh Gerberas, Roses, and Chrysanthemums",
+    "category": "Fresh Flowers",
+    "price": 275000,
+    "image": "Fresh Gerberas, Roses, and Chrysanthemums",
+    "description": "Fresh gerberas, roses, chrysanthemums.",
+    "fullDescription": "Medium size fresh gerberas, roses, chrysanthemums, and aster peacock as filler wrapped in pink paper.",
     "includes": [
-      "Pink gerberas",
-      "White chrysanthemums",
-      "Yellow chrysanthemums",
-      "1 pink rose",
-      "Pink wrap"
+      "Fresh gerberas",
+      "Fresh rose",
+      "Fresh chrysanthemums",
+      "Aster peacock"
     ],
     "inStock": true,
     "images": [
@@ -21,20 +19,20 @@
     ]
   },
   {
-    "slug": "vibrant-sunflower-daisy-mix",
-    "name": "Pink Lily and Rose Mix",
-    "category": "Mixed Bouquets",
-    "price": 55000,
-    "image": "Pink Lily and Rose Mix",
-    "description": "A pastel mix with a pink-and-white lily, a pink rose, and small blue, cream, and yellow blooms in a brown wrap.",
-    "fullDescription": "A pastel mix with a pink-and-white lily, a pink rose, and small blue, cream, and yellow blooms in a brown wrap. Arranged by Èlore Florist in Surabaya.",
-    "details": "Brown wrap, arranged at Èlore Florist in Surabaya",
+    "slug": "thumbelina-wrapped-in-kraft-paper",
+    "name": "Thumbelina Wrapped in Kraft Paper",
+    "category": "Artificial Flowers",
+    "price": 145000,
+    "image": "Thumbelina Wrapped in Kraft Paper",
+    "description": "Thumbelina wrapped in kraft paper.",
+    "fullDescription": "Medium size colorful mixed artificial flowers wrapped in kraft paper",
     "includes": [
-      "1 pink-and-white lily",
-      "1 pink rose",
-      "Blue, cream, and yellow blooms",
-      "1 white daisy",
-      "Brown wrap"
+      "Lily",
+      "3 Roses",
+      "Carnation",
+      "Astromeria",
+      "Daisy",
+      "Kraft paper"
     ],
     "inStock": true,
     "images": [
@@ -42,20 +40,19 @@
     ]
   },
   {
-    "slug": "elegant-purple-orchids",
-    "name": "Pink Anthurium and Rose Bouquet",
-    "category": "Mixed Bouquets",
-    "price": 65000,
-    "image": "Pink Anthurium and Rose Bouquet",
-    "description": "Pink anthurium, pink roses, white cosmos, and daisies in a white wrap.",
-    "fullDescription": "Pink anthurium, pink roses, white cosmos, and daisies in a white wrap. Arranged by Èlore Florist in Surabaya.",
-    "details": "White wrap, arranged at Èlore Florist in Surabaya",
+    "slug": "mixed-anthurium-and-roses",
+    "name": "Mixed Anthurium and Roses",
+    "category": "Artificial Flowers",
+    "price": 265000,
+    "image": "Mixed Anthurium and Roses",
+    "description": "Mixed anthurium, pink roses in a white-themed color.",
+    "fullDescription": "Medium size mixed anthurium, roses, lily, cosmos, and carnations in a white paper",
     "includes": [
-      "Pink anthurium",
-      "Pink roses",
-      "White cosmos",
-      "Daisies",
-      "White wrap"
+      "Anthurium",
+      "4 Pink Roses",
+      "White Lily",
+      "3 Cosmos",
+      "2 Mini Carnations"
     ],
     "inStock": true,
     "images": [
@@ -63,19 +60,17 @@
     ]
   },
   {
-    "slug": "pastel-tulip-collection",
-    "name": "White and Yellow Mums",
-    "category": "Mixed Bouquets",
-    "price": 50000,
-    "image": "White and Yellow Mums",
-    "description": "White and pale yellow chrysanthemums with small daisies, wrapped in cream paper.",
-    "fullDescription": "White and pale yellow chrysanthemums with small daisies, wrapped in cream paper at Èlore Florist in Surabaya.",
-    "details": "Cream wrap, arranged at Èlore Florist in Surabaya",
+    "slug": "fresh-large-white-and-yellow-chrysanthemums",
+    "name": "Fresh Large White and Yellow Chrysanthemums",
+    "category": "Fresh Flowers",
+    "price": 225000,
+    "image": "Fresh Large White and Yellow Chrysanthemums",
+    "description": "Fresh white and pale yellow chrysanthemums.",
+    "fullDescription": "Large size fresh white and yellow chrysanthemums with aster peacock as filler, wrapped in cream paper",
     "includes": [
-      "White chrysanthemums",
-      "Yellow chrysanthemums",
-      "Small daisies",
-      "Cream wrap"
+      "White Chrysanthemums",
+      "Yellow Chrysanthemums",
+      "Aster peacock"
     ],
     "inStock": true,
     "images": [
@@ -83,18 +78,16 @@
     ]
   },
   {
-    "slug": "premium-rose-collection",
-    "name": "White Mums and Baby's Breath",
-    "category": "Mixed Bouquets",
-    "price": 75000,
-    "image": "White Mums and Baby's Breath",
-    "description": "White chrysanthemums with baby's breath in a black wrap.",
-    "fullDescription": "White chrysanthemums with baby's breath in a black wrap. Arranged by Èlore Florist in Surabaya.",
-    "details": "Black wrap, arranged at Èlore Florist in Surabaya",
+    "slug": "fresh-medium-white-chrysanthemums",
+    "name": "Fresh Medium White Chrysanthemums",
+    "category": "Fresh Flowers",
+    "price": 175000,
+    "image": "Fresh Medium White Chrysanthemums",
+    "description": "Fresh medium white chrysanthemums.",
+    "fullDescription": "Medium size fresh medium white chrysanthemums with baby's breath as filler, wrapped in black paper",
     "includes": [
-      "White chrysanthemums",
-      "Baby's breath",
-      "Black wrap"
+      "Medium White Chrysanthemums",
+      "Baby's Breath"
     ],
     "inStock": true,
     "images": [
@@ -117,30 +110,30 @@
       "1 purple carnation",
       "Pink gift box"
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
       "/pic/6/a.jpg"
     ]
   },
+  
   {
-    "slug": "classic-carnation-bouquet",
-    "name": "Classic Carnation Bouquet",
-    "category": "Mixed Bouquets",
-    "price": 35000,
-    "image": "Flower 7",
-    "description": "Timeless carnation bouquet with vibrant colors.",
-    "fullDescription": "Carnations are known for their longevity and beautiful ruffled petals. This classic bouquet features a rainbow of colors to brighten any day.",
-    "details": "Long-lasting and affordable, perfect for everyday gifting",
+    "slug": "medium-artifical-thumbelina-wrapped-in-hessian",
+    "name": "Artifical Thumbelina Wrapped in Hessian",
+    "category": "Artificial Flowers",
+    "price": 160000,
+    "image": "Artifical Thumbelina Wrapped in Hessian",
+    "description": "Medium Artifical Thumbelina Wrapped in Hessian",
+    "fullDescription": "Medium size colorful mixed artificial flowers wrapped in hessian",
     "includes": [
-      "15 Mixed Carnations",
-      "Greenery",
-      "Ribbon wrap",
-      "Care instructions"
+      "2 lilies",
+      "2 Blue Roses",
+      "2-3 Pink Roses",
+      "Sunflower",
+      "Pink Peony",
+      "Poppy"
     ],
     "inStock": true,
-    "images": [
-      "/pic/7/a.jpg"
-    ]
+    "images": ["/pic/7/a.jpg"]
   },
   {
     "slug": "deluxe-peony-arrangement",
@@ -150,7 +143,6 @@
     "image": "Flower 8",
     "description": "Luxurious peony arrangement in soft pink tones.",
     "fullDescription": "Peonies are the epitome of romance and luxury. This deluxe arrangement features full, lush blooms that make a stunning statement.",
-    "details": "Premium seasonal flowers, available spring through summer",
     "includes": [
       "10 Pink Peonies",
       "Ranunculus",
@@ -170,7 +162,6 @@
     "image": "Flower 9",
     "description": "Charming wildflower mix straight from the garden.",
     "fullDescription": "Experience the beauty of nature with this charming wildflower arrangement. Each bouquet is unique and captures the essence of a summer meadow.",
-    "details": "Rustic and natural, perfect for casual settings",
     "includes": [
       "Mixed wildflowers",
       "Lavender",
@@ -190,7 +181,6 @@
     "image": "Flower 10",
     "description": "Sophisticated white calla lilies with modern appeal.",
     "fullDescription": "Calla lilies represent elegance and beauty. Their sleek, sculptural form makes them perfect for modern and minimalist arrangements.",
-    "details": "Architectural and sophisticated design",
     "includes": [
       "8 White Calla Lilies",
       "Monstera leaves",
@@ -210,7 +200,6 @@
     "image": "Flower 11",
     "description": "Bright and bold gerbera daisies in rainbow colors.",
     "fullDescription": "These cheerful gerbera daisies are guaranteed to bring smiles. With their large, colorful blooms, they're perfect for celebrations and spreading joy.",
-    "details": "Vibrant and long-lasting, great for birthdays",
     "includes": [
       "12 Gerbera Daisies",
       "Bear grass",
@@ -230,7 +219,6 @@
     "image": "Flower 12",
     "description": "Soft hydrangea blooms in dreamy pastel shades.",
     "fullDescription": "Hydrangeas symbolize heartfelt emotions. This romantic bouquet features full, fluffy blooms in soft pastel colors.",
-    "details": "Lush and full, perfect for anniversaries",
     "includes": [
       "3 Large Hydrangeas",
       "Spray roses",
@@ -250,7 +238,6 @@
     "image": "Flower 13",
     "description": "Exotic protea flowers with striking appearance.",
     "fullDescription": "Proteas are rare and exotic, representing courage and transformation. This premium collection showcases their unique, dramatic beauty.",
-    "details": "Rare and exotic, perfect for making a statement",
     "includes": [
       "5 King Proteas",
       "Leucadendron",
@@ -270,7 +257,6 @@
     "image": "Flower 14",
     "description": "Fragrant freesia in delightful mixed colors.",
     "fullDescription": "Freesias are beloved for their sweet fragrance and delicate appearance. This colorful mix will fill any room with their beautiful scent.",
-    "details": "Fragrant and delicate, perfect for small spaces",
     "includes": [
       "20 Mixed Freesias",
       "Limonium",
@@ -290,7 +276,6 @@
     "image": "Flower 15",
     "description": "Royal purple iris with complementary greenery.",
     "fullDescription": "Iris flowers symbolize wisdom and valor. Their unique shape and royal purple color make them a sophisticated choice.",
-    "details": "Unique and elegant, perfect for sophisticated tastes",
     "includes": [
       "10 Purple Iris",
       "Pittosporum",
@@ -310,7 +295,6 @@
     "image": "Flower 16",
     "description": "Stunning dahlia arrangement in rich autumn tones.",
     "fullDescription": "Dahlias are known for their intricate petal patterns and rich colors. This autumn-inspired arrangement showcases their natural beauty.",
-    "details": "Seasonal beauty, available late summer through fall",
     "includes": [
       "8 Dinner Plate Dahlias",
       "Hypericum berries",
@@ -330,7 +314,6 @@
     "image": "Flower 17",
     "description": "Pure white flowers creating peaceful elegance.",
     "fullDescription": "This all-white arrangement brings peace and serenity to any space. Perfect for sympathy, weddings, or creating a calming atmosphere.",
-    "details": "Pure and peaceful, versatile for many occasions",
     "includes": [
       "White roses",
       "White lilies",
@@ -350,7 +333,6 @@
     "image": "Flower 18",
     "description": "Vibrant ranunculus with layered petals.",
     "fullDescription": "Ranunculus flowers feature stunning layers of delicate petals. This colorful bunch is perfect for adding a pop of color to any room.",
-    "details": "Delicate and colorful, great for spring celebrations",
     "includes": [
       "15 Mixed Ranunculus",
       "Italian ruscus",
@@ -370,7 +352,6 @@
     "image": "Flower 19",
     "description": "Bold red anthurium with glossy finish.",
     "fullDescription": "Anthuriums are exotic and long-lasting, with their distinctive heart-shaped blooms. This modern arrangement is perfect for contemporary spaces.",
-    "details": "Long-lasting and exotic, modern appeal",
     "includes": [
       "6 Red Anthuriums",
       "Ti leaves",
@@ -390,7 +371,6 @@
     "image": "Flower 20",
     "description": "Delicate anemones with dark centers.",
     "fullDescription": "Anemones are delicate yet striking with their contrasting dark centers. This charming collection captures their whimsical beauty.",
-    "details": "Whimsical and charming, perfect for spring",
     "includes": [
       "12 Mixed Anemones",
       "Dusty miller",
@@ -410,7 +390,6 @@
     "image": "Flower 21",
     "description": "Premium garden roses in an elegant box.",
     "fullDescription": "Our most luxurious offering features premium garden roses with amazing fragrance and full, romantic blooms. Presented in an elegant gift box.",
-    "details": "Ultimate luxury arrangement for special occasions",
     "includes": [
       "15 Garden Roses",
       "Premium greenery",
@@ -430,7 +409,6 @@
     "image": "Flower 22",
     "description": "Preserved dried flowers in natural tones.",
     "fullDescription": "This rustic bundle of dried flowers offers lasting beauty. Perfect for bohemian or farmhouse decor, these flowers will last for months.",
-    "details": "Long-lasting dried arrangement, no maintenance needed",
     "includes": [
       "Dried pampas grass",
       "Dried lavender",
@@ -450,7 +428,6 @@
     "image": "Flower 23",
     "description": "Early spring crocuses in cheerful colors.",
     "fullDescription": "Welcome spring with these early-blooming crocuses. Their cheerful colors are a sign that warmer days are ahead.",
-    "details": "First signs of spring, perfect for early season",
     "includes": [
       "25 Mixed Crocuses",
       "Moss",
@@ -470,7 +447,6 @@
     "image": "Flower 24",
     "description": "Elegant magnolia branches with pristine white blooms.",
     "fullDescription": "Magnolia branches bring Southern elegance to any space. Their large, fragrant blooms and architectural form make a stunning statement.",
-    "details": "Dramatic and elegant, perfect for large spaces",
     "includes": [
       "3 Magnolia branches",
       "Pussy willow",
@@ -490,7 +466,6 @@
     "image": "Flower 25",
     "description": "Delicate spray roses in soft pink shades.",
     "fullDescription": "These petite spray roses offer all the beauty of traditional roses in a more delicate form. Perfect for smaller arrangements or adding softness.",
-    "details": "Delicate and sweet, perfect for intimate settings",
     "includes": [
       "20 Spray Roses",
       "Waxflower",
@@ -510,7 +485,6 @@
     "image": "Flower 26",
     "description": "Striking bird of paradise with tropical flair.",
     "fullDescription": "The bird of paradise is one of nature's most dramatic flowers. Its unique shape and vibrant colors make it an unforgettable centerpiece.",
-    "details": "Exotic and bold, perfect for tropical themes",
     "includes": [
       "4 Birds of Paradise",
       "Ginger leaves",
@@ -529,7 +503,6 @@
     "price": 44000,
     "description": "Summer Garden Bouquet is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Summer Garden Bouquet is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -547,7 +520,6 @@
     "price": 50000,
     "description": "Lavender Bliss is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Lavender Bliss is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -565,7 +537,6 @@
     "price": 85000,
     "description": "Pink Peony Dream is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Pink Peony Dream is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -583,7 +554,6 @@
     "price": 45000,
     "description": "White Rose Elegance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "White Rose Elegance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -601,7 +571,6 @@
     "price": 50000,
     "description": "Sunburst Arrangement is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Sunburst Arrangement is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -619,7 +588,6 @@
     "price": 60000,
     "description": "Tropical Paradise is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Tropical Paradise is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -637,7 +605,6 @@
     "price": 45000,
     "description": "Crimson Romance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Crimson Romance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -655,7 +622,6 @@
     "price": 44000,
     "description": "Morning Dew is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Morning Dew is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -673,7 +639,6 @@
     "price": 44000,
     "description": "Garden Symphony is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Garden Symphony is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -691,7 +656,6 @@
     "price": 65000,
     "description": "Purple Majesty is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Purple Majesty is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -709,7 +673,6 @@
     "price": 70000,
     "description": "Gentle Whisper is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Gentle Whisper is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -727,7 +690,6 @@
     "price": 50000,
     "description": "Golden Hour is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Golden Hour is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -745,7 +707,6 @@
     "price": 45000,
     "description": "Blushing Beauty is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Blushing Beauty is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -763,7 +724,6 @@
     "price": 44000,
     "description": "Forest Charm is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Forest Charm is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -781,7 +741,6 @@
     "price": 45000,
     "description": "Ivory Dream is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Ivory Dream is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -799,7 +758,6 @@
     "price": 60000,
     "description": "Coral Delight is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Coral Delight is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -817,7 +775,6 @@
     "price": 50000,
     "description": "Lavender Fields is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Lavender Fields is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -835,7 +792,6 @@
     "price": 45000,
     "description": "Rose Garden is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Rose Garden is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -853,7 +809,6 @@
     "price": 65000,
     "description": "Silk Orchid is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Silk Orchid is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -871,7 +826,6 @@
     "price": 50000,
     "description": "Spring Melody is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Spring Melody is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -889,7 +843,6 @@
     "price": 44000,
     "description": "Midnight Blue is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Midnight Blue is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -907,7 +860,6 @@
     "price": 50000,
     "description": "Peach Blossom is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Peach Blossom is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -925,7 +877,6 @@
     "price": 44000,
     "description": "Emerald Grace is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Emerald Grace is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -943,7 +894,6 @@
     "price": 44000,
     "description": "Wild Berry is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Wild Berry is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -961,7 +911,6 @@
     "price": 50000,
     "description": "Lemon Zest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Lemon Zest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -979,7 +928,6 @@
     "price": 45000,
     "description": "Dusty Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Dusty Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -997,7 +945,6 @@
     "price": 60000,
     "description": "Tropical Sunset is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Tropical Sunset is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1016,7 +963,6 @@
     "price": 85000,
     "description": "Velvet Touch is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Velvet Touch is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1034,7 +980,6 @@
     "price": 70000,
     "description": "Snow White is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Snow White is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1052,7 +997,6 @@
     "price": 50000,
     "description": "Autumn Harvest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Autumn Harvest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1070,7 +1014,6 @@
     "price": 44000,
     "description": "Berry Bliss is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Berry Bliss is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1088,7 +1031,6 @@
     "price": 44000,
     "description": "Pastel Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Pastel Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1106,7 +1048,6 @@
     "price": 44000,
     "description": "Soft Lilac is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Soft Lilac is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1124,7 +1065,6 @@
     "price": 45000,
     "description": "Golden Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Golden Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1142,7 +1082,6 @@
     "price": 44000,
     "description": "Rainbow Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Rainbow Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1162,7 +1101,6 @@
     "price": 65000,
     "description": "Orchid Paradise is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Orchid Paradise is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1181,7 +1119,6 @@
     "price": 70000,
     "description": "Lily of the Valley is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Lily of the Valley is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1200,7 +1137,6 @@
     "price": 60000,
     "description": "Sunset Glow is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Sunset Glow is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
@@ -1218,7 +1154,6 @@
     "price": 44000,
     "description": "Meadow Fresh is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
     "fullDescription": "Meadow Fresh is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
-    "details": "Hand-arranged at Èlore Florist in Surabaya. A quote is confirmed on WhatsApp because prices change with the season.",
     "includes": [
       "Seasonal fresh flowers",
       "Hand-arranged bouquet"
