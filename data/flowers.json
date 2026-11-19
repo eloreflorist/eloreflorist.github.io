@@ -95,27 +95,26 @@
     ]
   },
   {
-    "slug": "tropical-exotic-flowers",
-    "name": "Pink Lily Gift Box",
-    "category": "Mixed Bouquets",
-    "price": 60000,
-    "image": "Pink Lily Gift Box",
-    "description": "A pink gift box with a pink lily, white cosmos, daisies, and a purple carnation.",
-    "fullDescription": "A pink gift box with a pink lily, white cosmos, daisies, and a purple carnation. Arranged by Èlore Florist in Surabaya.",
-    "details": "Pink gift box, arranged at Èlore Florist in Surabaya",
+    "slug": "pink-flower-box",
+    "name": "Pink Flower Box",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Pink Flower Box",
+    "description": "Colorful box of mixed artificial flowers",
+    "fullDescription": "Colorful box of mixed artificial flowers",
     "includes": [
-      "1 pink lily",
-      "White cosmos",
-      "Daisies",
-      "1 purple carnation",
-      "Pink gift box"
+      "2 Lilies",
+      "2 Pink Peonies",
+      "Mauve Rose",
+      "Chrysanthemums",
+      "2-3 Cosmos",
+      "1-2 Snapdragons"
     ],
     "inStock": true,
     "images": [
       "/pic/6/a.jpg"
     ]
   },
-  
   {
     "slug": "medium-artifical-thumbelina-wrapped-in-hessian",
     "name": "Artifical Thumbelina Wrapped in Hessian",
@@ -133,21 +132,22 @@
       "Poppy"
     ],
     "inStock": true,
-    "images": ["/pic/7/a.jpg"]
+    "images": [
+      "/pic/7/a.jpg"
+    ]
   },
   {
-    "slug": "deluxe-peony-arrangement",
-    "name": "Deluxe Peony Arrangement",
-    "category": "Luxury",
-    "price": 85000,
-    "image": "Flower 8",
+    "slug": "custom-korean-style-bouquet",
+    "name": "Custom Korean Style Bouquet",
+    "category": "Mixed Bouquets",
+    "price": 165000,
+    "image": "Custom Korean Style Bouquet",
     "description": "Luxurious peony arrangement in soft pink tones.",
     "fullDescription": "Peonies are the epitome of romance and luxury. This deluxe arrangement features full, lush blooms that make a stunning statement.",
     "includes": [
-      "10 Pink Peonies",
-      "Ranunculus",
-      "Seasonal foliage",
-      "Crystal vase"
+      "Chocolates",
+      "3-4 Custom White Chrysanthemums",
+      "Dried Lagurus"
     ],
     "inStock": true,
     "images": [
@@ -155,18 +155,18 @@
     ]
   },
   {
-    "slug": "garden-fresh-wildflowers",
-    "name": "Garden Fresh Wildflowers",
-    "category": "Mixed Bouquets",
-    "price": 40000,
-    "image": "Flower 9",
-    "description": "Charming wildflower mix straight from the garden.",
-    "fullDescription": "Experience the beauty of nature with this charming wildflower arrangement. Each bouquet is unique and captures the essence of a summer meadow.",
+    "slug": "artificial-blue-roses-and-daisies-in-white-paper",
+      "name": "Artificial Blue Roses and Daisies in White Paper",
+    "category": "Artificial Flowers",
+    "price": 165000,
+    "image": "Artificial Blue Roses and Daisies in White Paper",
+    "description": "Blue roses, white daisies, and carnations.",
+    "fullDescription": "Medium size artificial bouquet of blue roses, blue peonies, white daisies, and white chrysanthemums, wrapped in white paper with a blue organza ribbon. Good for birthdays, anniversaries, and graduation gifts.",
     "includes": [
-      "Mixed wildflowers",
-      "Lavender",
-      "Natural grasses",
-      "Mason jar"
+      "3 Blue Roses",
+      "2-3 Blue Peonies",
+      "3 White Daisies",
+      "White Gerbera"
     ],
     "inStock": true,
     "images": [
@@ -174,18 +174,20 @@
     ]
   },
   {
-    "slug": "elegant-calla-lilies",
-    "name": "Elegant Calla Lilies",
-    "category": "Lilies",
-    "price": 70000,
-    "image": "Flower 10",
-    "description": "Sophisticated white calla lilies with modern appeal.",
-    "fullDescription": "Calla lilies represent elegance and beauty. Their sleek, sculptural form makes them perfect for modern and minimalist arrangements.",
+    "slug": "artificial-blue-and-white-flower-stand",
+    "name": "Artificial Blue and White Flower Stand",
+    "category": "Artificial Flowers",
+    "price": 800000,
+    "image": "Artificial Blue and White Flower Stand",
+    "description": "Standing flower with blue roses, lilies, and hydrangea.",
+    "fullDescription": "Large artificial standing flower in blue and white with roses, hydrangeas, lilies, daisies, and eucalyptus leaves, draped with white tulle and a message card. Good for birthdays, grand openings, and congratulations.",
     "includes": [
-      "8 White Calla Lilies",
-      "Monstera leaves",
-      "Contemporary wrap",
-      "Square vase"
+      "7-8 white lilies",
+      "6-7 blue roses",
+      "2-3 hydrangeas",
+      "3-4 carnation",
+      "2 Daisies",
+      "Standing Frame"
     ],
     "inStock": true,
     "images": [
@@ -193,18 +195,21 @@
     ]
   },
   {
-    "slug": "cheerful-gerbera-daisies",
-    "name": "Cheerful Gerbera Daisies",
-    "category": "Mixed Bouquets",
-    "price": 42000,
-    "image": "Flower 11",
-    "description": "Bright and bold gerbera daisies in rainbow colors.",
-    "fullDescription": "These cheerful gerbera daisies are guaranteed to bring smiles. With their large, colorful blooms, they're perfect for celebrations and spreading joy.",
+    "slug": "artificial-pink-lily-gift-bag",
+    "name": "Artificial Pink Lily Gift Bag",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Pink Lily Gift Bag",
+    "description": "Pink lilies, peonies, and cosmos in an arch gift bag.",
+    "fullDescription": "Small artificial flower arrangement in a peach arch bag printed \"Just For You\", with pink lilies, peonies, carnations, and a white ribbon. Good for birthdays, Mother's Day, and thank-you gifts.",
     "includes": [
-      "12 Gerbera Daisies",
-      "Bear grass",
-      "Cellophane wrap",
-      "Round vase"
+      "2 Pink Lilies",
+      "3 Pink Peonies",
+      "Chrysanthemums",
+      "White Dahlia",
+      "3 Red Cosmos",
+      "1-2 snapdragon",
+      "Gift Bag"
     ],
     "inStock": true,
     "images": [
@@ -212,18 +217,17 @@
     ]
   },
   {
-    "slug": "romantic-hydrangea-bouquet",
-    "name": "Romantic Hydrangea Bouquet",
-    "category": "Mixed Bouquets",
-    "price": 68000,
-    "image": "Flower 12",
-    "description": "Soft hydrangea blooms in dreamy pastel shades.",
-    "fullDescription": "Hydrangeas symbolize heartfelt emotions. This romantic bouquet features full, fluffy blooms in soft pastel colors.",
+    "slug": "artificial-roses-and-tulips",
+    "name": "Artificial Roses and Tulips",
+    "category": "Artificial Flowers",
+    "price": 180000,
+    "image": "Artificial Roses and Tulips",
+    "description": "Pink and white roses with pink tulips.",
+    "fullDescription": "Medium size artificial bouquet of pink and white roses and pink tulips, wrapped in soft pink paper with a pink ribbon. Good for Valentine's Day, anniversaries, and birthdays.",
     "includes": [
-      "3 Large Hydrangeas",
-      "Spray roses",
-      "Eucalyptus",
-      "Ceramic pitcher"
+      "6 Pink Roses",
+      "5 White Roses",
+      "5 Pink Tulips"
     ],
     "inStock": true,
     "images": [
@@ -231,18 +235,16 @@
     ]
   },
   {
-    "slug": "vibrant-protea-collection",
-    "name": "Vibrant Protea Collection",
-    "category": "Tropical",
-    "price": 95000,
-    "image": "Flower 13",
-    "description": "Exotic protea flowers with striking appearance.",
-    "fullDescription": "Proteas are rare and exotic, representing courage and transformation. This premium collection showcases their unique, dramatic beauty.",
+    "slug": "artificial-red-rose-in-box",
+    "name": "Artificial Red Rose in Box",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Red Rose in Box",
+    "description": "Red roses in a heart shape inside a clear box.",
+    "fullDescription": "Medium size square gift box with 13 red artificial roses arranged in a heart, with a clear lid and black ribbon handles. Good for Valentine's Day, anniversaries, and proposals.",
     "includes": [
-      "5 King Proteas",
-      "Leucadendron",
-      "Safari sunset",
-      "Designer vase"
+      "13 Red Roses",
+      "Clear Gift Box"
     ],
     "inStock": true,
     "images": [
@@ -250,18 +252,17 @@
     ]
   },
   {
-    "slug": "sweet-freesia-mix",
-    "name": "Sweet Freesia Mix",
-    "category": "Mixed Bouquets",
-    "price": 38000,
-    "image": "Flower 14",
-    "description": "Fragrant freesia in delightful mixed colors.",
-    "fullDescription": "Freesias are beloved for their sweet fragrance and delicate appearance. This colorful mix will fill any room with their beautiful scent.",
+    "slug": "fresh-chamomile-daisies-in-kraft-paper",
+    "name": "Fresh Chamomile Daisies in Kraft Paper",
+    "category": "Fresh Flowers",
+    "price": 165000,
+    "image": "Fresh Chamomile Daisies in Kraft Paper",
+    "description": "Fresh white chamomile daisies in kraft paper.",
+    "fullDescription": "Medium size fresh chamomile daisies with ruscus leaves, wrapped in kraft paper and tied with twine. Light and simple, good for birthdays, thank-you gifts, and get-well wishes.",
     "includes": [
-      "20 Mixed Freesias",
-      "Limonium",
-      "Tissue wrap",
-      "Small vase"
+      "Chamomile Daisies",
+      "Ruscus Leaves",
+      "Kraft Paper"
     ],
     "inStock": true,
     "images": [
@@ -269,18 +270,21 @@
     ]
   },
   {
-    "slug": "majestic-iris-arrangement",
-    "name": "Majestic Iris Arrangement",
-    "category": "Mixed Bouquets",
-    "price": 52000,
-    "image": "Flower 15",
-    "description": "Royal purple iris with complementary greenery.",
-    "fullDescription": "Iris flowers symbolize wisdom and valor. Their unique shape and royal purple color make them a sophisticated choice.",
+    "slug": "custom-pink-bouquet-with-gerberas",
+    "name": "Custom Pink Bouquet with Gerberas",
+    "category": "Custom Bouquets",
+    "price": 250000,
+    "image": "Custom Pink Bouquet with Gerberas",
+    "description": "Peach gerberas, tulips, and carnations in pink paper.",
+    "fullDescription": "Medium size pastel bouquet of peach gerberas, pink carnations, roses, and cosmos in pink paper with a Care Bears card. Good for birthdays and gifts for friends.",
     "includes": [
-      "10 Purple Iris",
-      "Pittosporum",
-      "Satin ribbon",
-      "Tall vase"
+      "4 Peach Gerberas",
+      "3 Pink Carnations",
+      "Pink Rose",
+      "Tulips",
+      "White Cosmos",
+      "Aster Peacock",
+      "Solidago / Goldenrod"
     ],
     "inStock": true,
     "images": [
@@ -288,18 +292,17 @@
     ]
   },
   {
-    "slug": "dazzling-dahlia-display",
-    "name": "Dazzling Dahlia Display",
-    "category": "Seasonal",
-    "price": 78000,
-    "image": "Flower 16",
-    "description": "Stunning dahlia arrangement in rich autumn tones.",
-    "fullDescription": "Dahlias are known for their intricate petal patterns and rich colors. This autumn-inspired arrangement showcases their natural beauty.",
+    "slug": "red-themed-money-bouquet",
+    "name": "Red-themed Money Bouquet",
+    "category": "Money Bouquets",
+    "price": 800000,
+    "image": "Red-themed Money Bouquet",
+    "description": "Rp100,000 notes with red baby's breath and LED lights.",
+    "fullDescription": "Large money bouquet with Rp100,000 notes folded into a flower pattern, red baby's breath, LED fairy lights, and burgundy paper. Good for graduations, weddings, and birthdays.",
     "includes": [
-      "8 Dinner Plate Dahlias",
-      "Hypericum berries",
-      "Fall foliage",
-      "Rustic container"
+      "Folded Banknotes",
+      "Red Baby's Breath",
+      "LED Lights"
     ],
     "inStock": true,
     "images": [
@@ -307,18 +310,20 @@
     ]
   },
   {
-    "slug": "serene-white-arrangement",
-    "name": "Serene White Arrangement",
-    "category": "Roses",
-    "price": 72000,
-    "image": "Flower 17",
-    "description": "Pure white flowers creating peaceful elegance.",
-    "fullDescription": "This all-white arrangement brings peace and serenity to any space. Perfect for sympathy, weddings, or creating a calming atmosphere.",
+    "slug": "artificial-mixed-flowers-in-sky-blue-paper",
+    "name": "Artificial Mixed Flowers in Sky Blue Paper",
+    "category": "Artificial Flowers",
+    "price": 275000,
+    "image": "Artificial Mixed Flowers in Sky Blue Paper",
+    "description": "Pink lilies, daisies, and cosmos in sky blue paper.",
+    "fullDescription": "Large wrap with a compact artificial bouquet of pink lilies, red cosmos, yellow and pink daisies, and blue delphinium in layered sky blue paper. Good for birthdays and graduations.",
     "includes": [
-      "White roses",
-      "White lilies",
-      "White stock",
-      "Silver vase"
+      "2 Pink Lilies",
+      "Red Cosmos",
+      "Yellow Daisies",
+      "Pink Daisies",
+      "Blue Delphinium",
+      "Burgundy Carnation"
     ],
     "inStock": true,
     "images": [
@@ -326,18 +331,17 @@
     ]
   },
   {
-    "slug": "colorful-ranunculus-bunch",
-    "name": "Colorful Ranunculus Bunch",
-    "category": "Mixed Bouquets",
-    "price": 48000,
-    "image": "Flower 18",
-    "description": "Vibrant ranunculus with layered petals.",
-    "fullDescription": "Ranunculus flowers feature stunning layers of delicate petals. This colorful bunch is perfect for adding a pop of color to any room.",
+    "slug": "fresh-pink-roses-and-chrysanthemums-with-graduation-doll",
+    "name": "Fresh Pink Roses and Chrysanthemums with Graduation Doll",
+    "category": "Fresh Flowers",
+    "price": 300000,
+    "image": "Fresh Pink Roses and Chrysanthemums with Graduation Doll",
+    "description": "Pink roses, lilac chrysanthemums, and a mini graduation doll.",
+    "fullDescription": "Medium size fresh bouquet of pink roses and lilac chrysanthemums with a mini graduation bear, wrapped in peach and white paper with a pink ribbon. Good for graduation gifts.",
     "includes": [
-      "15 Mixed Ranunculus",
-      "Italian ruscus",
-      "Kraft paper wrap",
-      "Glass vase"
+      "Pink Roses",
+      "Lilac Chrysanthemums",
+      "Mini Graduation Bear"
     ],
     "inStock": true,
     "images": [
@@ -345,18 +349,20 @@
     ]
   },
   {
-    "slug": "exotic-anthurium-display",
-    "name": "Exotic Anthurium Display",
-    "category": "Tropical",
-    "price": 58000,
-    "image": "Flower 19",
-    "description": "Bold red anthurium with glossy finish.",
-    "fullDescription": "Anthuriums are exotic and long-lasting, with their distinctive heart-shaped blooms. This modern arrangement is perfect for contemporary spaces.",
+    "slug": "artificial-sunflower-and-lily-bouquet-in-hessian",
+    "name": "Artificial Sunflower and Lily Bouquet in Hessian",
+    "category": "Artificial Flowers",
+    "price": 225000,
+    "image": "Artificial Sunflower and Lily Bouquet in Hessian",
+    "description": "Sunflower, pink lilies, and gerbera in hessian.",
+    "fullDescription": "Large size colorful artificial bouquet of sunflower, pink lilies, white gerbera, burgundy rose, and daisies, wrapped in hessian with a white ribbon. Good for birthdays and cheerful gifts.",
     "includes": [
-      "6 Red Anthuriums",
-      "Ti leaves",
-      "Bamboo",
-      "Cube vase"
+      "Sunflower",
+      "2 Pink Lilies",
+      "White Gerbera",
+      "Burgundy Rose",
+      "Peach Peony",
+      "Daisies"
     ],
     "inStock": true,
     "images": [
@@ -364,18 +370,19 @@
     ]
   },
   {
-    "slug": "charming-anemone-collection",
-    "name": "Charming Anemone Collection",
-    "category": "Mixed Bouquets",
-    "price": 54000,
-    "image": "Flower 20",
-    "description": "Delicate anemones with dark centers.",
-    "fullDescription": "Anemones are delicate yet striking with their contrasting dark centers. This charming collection captures their whimsical beauty.",
+    "slug": "artificial-pink-anthurium-and-rose-bouquet",
+    "name": "Artificial Pink Anthurium and Rose Bouquet",
+    "category": "Artificial Flowers",
+    "price": 170000,
+    "image": "Artificial Pink Anthurium and Rose Bouquet",
+    "description": "Pink anthurium, roses, and white pompoms.",
+    "fullDescription": "Medium size artificial bouquet of pink anthurium, roses, carnation, and white pompom chrysanthemums, wrapped in pink paper with white tulle and ribbon. Good for birthdays, anniversaries, and Mother's Day.",
     "includes": [
-      "12 Mixed Anemones",
-      "Dusty miller",
-      "Twine wrap",
-      "Vintage jar"
+      "Pink Anthurium",
+      "4 Pink Roses",
+      "Pink Carnation",
+      "2 White Pompom Chrysanthemums",
+      "Fern"
     ],
     "inStock": true,
     "images": [
@@ -383,18 +390,20 @@
     ]
   },
   {
-    "slug": "luxury-garden-rose-box",
-    "name": "Luxury Garden Rose Box",
-    "category": "Luxury",
-    "price": 120000,
-    "image": "Flower 21",
-    "description": "Premium garden roses in an elegant box.",
-    "fullDescription": "Our most luxurious offering features premium garden roses with amazing fragrance and full, romantic blooms. Presented in an elegant gift box.",
+    "slug": "artificial-orange-and-white-anthurium-bouquet",
+    "name": "Artificial Orange and White Anthurium Bouquet",
+    "category": "Artificial Flowers",
+    "price": 175000,
+    "image": "Artificial Orange and White Anthurium Bouquet",
+    "description": "White anthurium with orange ranunculus and cosmos.",
+    "fullDescription": "Medium size artificial bouquet of white anthurium, orange ranunculus, peach roses, white cosmos, and daisies, wrapped in cream paper and white mesh. Good for congratulations and birthdays.",
     "includes": [
-      "15 Garden Roses",
-      "Premium greenery",
-      "Luxury gift box",
-      "Satin ribbon"
+      "White Anthurium",
+      "3 Orange Ranunculus",
+      "2 Peach Roses",
+      "White Cosmos",
+      "Gerbera",
+      "Daisies"
     ],
     "inStock": true,
     "images": [
@@ -402,18 +411,20 @@
     ]
   },
   {
-    "slug": "rustic-dried-flower-bundle",
-    "name": "Rustic Dried Flower Bundle",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "image": "Flower 22",
-    "description": "Preserved dried flowers in natural tones.",
-    "fullDescription": "This rustic bundle of dried flowers offers lasting beauty. Perfect for bohemian or farmhouse decor, these flowers will last for months.",
+    "slug": "artificial-pastel-gerbera-and-rose-bouquet",
+    "name": "Artificial Pastel Gerbera and Rose Bouquet",
+    "category": "Artificial Flowers",
+    "price": 250000,
+    "image": "Artificial Pastel Gerbera and Rose Bouquet",
+    "description": "Pink gerbera with peach and white roses.",
+    "fullDescription": "Large size artificial bouquet of pink gerbera, peach and white roses, lisianthus, and daisies with eucalyptus, wrapped in white paper with a pink ribbon. Good for birthdays and thank-you gifts.",
     "includes": [
-      "Dried pampas grass",
-      "Dried lavender",
-      "Wheat stalks",
-      "Jute wrap"
+      "Pink Gerbera",
+      "3 Peach Roses",
+      "4 White Roses",
+      "Lilac Daisy",
+      "Peach Peony",
+      "Eucalyptus"
     ],
     "inStock": true,
     "images": [
@@ -421,37 +432,43 @@
     ]
   },
   {
-    "slug": "spring-crocus-collection",
-    "name": "Spring Crocus Collection",
-    "category": "Seasonal",
-    "price": 32000,
-    "image": "Flower 23",
-    "description": "Early spring crocuses in cheerful colors.",
-    "fullDescription": "Welcome spring with these early-blooming crocuses. Their cheerful colors are a sign that warmer days are ahead.",
+    "slug": "artificial-orange-gerbera-basket",
+    "name": "Artificial Orange Gerbera Basket",
+    "category": "Artificial Flowers",
+    "price": 200000,
+    "image": "Artificial Orange Gerbera Basket",
+    "description": "Orange gerberas, peach lily, and daisies in a rattan basket.",
+    "fullDescription": "Medium size artificial arrangement in a rattan basket with orange gerberas, peach lily, white daisies, and dahlias, topped with gold ginkgo leaves and a peach blossom branch. Good for home decor and house gifts.",
     "includes": [
-      "25 Mixed Crocuses",
-      "Moss",
-      "Terracotta pot",
-      "Spring ribbon"
+      "3 Orange Gerberas",
+      "Peach Lily",
+      "White Gerberas",
+      "Peach Poppies",
+      "White Dahlias",
+      "Daisies",
+      "Gold Ginkgo Leaves",
+      "Rattan Basket"
     ],
-    "inStock": false,
+    "inStock": true,
     "images": [
-      "/pic/23/a.jpg"
+      "/pic/23/a.jpg",
+      "/pic/23/b.jpg"
     ]
   },
   {
-    "slug": "magnificent-magnolia-branches",
-    "name": "Magnificent Magnolia Branches",
-    "category": "Lilies",
-    "price": 88000,
-    "image": "Flower 24",
-    "description": "Elegant magnolia branches with pristine white blooms.",
-    "fullDescription": "Magnolia branches bring Southern elegance to any space. Their large, fragrant blooms and architectural form make a stunning statement.",
+    "slug": "fresh-pink-roses-and-lily-round-box",
+    "name": "Fresh Pink Roses and Lily Round Box",
+    "category": "Fresh Flowers",
+    "price": 325000,
+    "image": "Fresh Pink Roses and Lily Round Box",
+    "description": "Pink roses and white lily in a round box.",
+    "fullDescription": "Medium fresh flower box with pink roses, a pink-white lily, daisies, and chrysanthemums with eucalyptus, in a gray round box with a white ribbon. Good for birthdays and Mother's Day.",
     "includes": [
-      "3 Magnolia branches",
-      "Pussy willow",
-      "Decorative rocks",
-      "Large cylinder vase"
+      "6 Pink Roses",
+      "Pink Lily",
+      "2 Yellow Chrysanthemums",
+      "4 Pink Chrysanthemums",
+      "Round Gift Box"
     ],
     "inStock": true,
     "images": [
@@ -459,18 +476,19 @@
     ]
   },
   {
-    "slug": "petite-spray-rose-bunch",
-    "name": "Petite Spray Rose Bunch",
-    "category": "Roses",
-    "price": 36000,
-    "image": "Flower 25",
-    "description": "Delicate spray roses in soft pink shades.",
-    "fullDescription": "These petite spray roses offer all the beauty of traditional roses in a more delicate form. Perfect for smaller arrangements or adding softness.",
+    "slug": "fresh-red-gerberas-and-roses-in-kraft-paper",
+    "name": "Fresh Red Gerberas and Roses in Kraft Paper",
+    "category": "Fresh Flowers",
+    "price": 180000,
+    "image": "Fresh Red Gerberas and Roses in Kraft Paper",
+    "description": "Red and white gerberas with red roses.",
+    "fullDescription": "Medium size fresh bouquet of red and white gerberas, red roses, and baby's breath with ruscus, wrapped in kraft paper and hessian with a red ribbon. Good for Valentine's Day, anniversaries, and birthdays.",
     "includes": [
-      "20 Spray Roses",
-      "Waxflower",
-      "Organza wrap",
-      "Petite vase"
+      "3 Red Gerberas",
+      "2 White Gerberas",
+      "4 Red Roses",
+      "Baby's Breath",
+      "Ruscus Leaves"
     ],
     "inStock": true,
     "images": [
@@ -478,690 +496,861 @@
     ]
   },
   {
-    "slug": "bold-bird-paradise-arrangement",
-    "name": "Bold Bird of Paradise",
-    "category": "Tropical",
-    "price": 82000,
-    "image": "Flower 26",
-    "description": "Striking bird of paradise with tropical flair.",
-    "fullDescription": "The bird of paradise is one of nature's most dramatic flowers. Its unique shape and vibrant colors make it an unforgettable centerpiece.",
+    "slug": "fresh-pink-gerberas-and-white-lilies",
+    "name": "Fresh Pink Gerberas and White Lilies",
+    "category": "Fresh Flowers",
+    "price": 300000,
+    "image": "Fresh Pink Gerberas and White Lilies",
+    "description": "Pink gerberas and white lilies in burgundy paper.",
+    "fullDescription": "Medium size fresh bouquet of pink gerberas, white lilies, and pink chrysanthemums with baby's breath and ruscus, wrapped in burgundy paper. Good for birthdays, anniversaries, and graduations.",
     "includes": [
-      "4 Birds of Paradise",
-      "Ginger leaves",
-      "Heliconia",
-      "Modern ceramic vase"
+      "4 Pink Gerberas",
+      "5 Pink Lilies",
+      "Pink Chrysanthemums",
+      "Baby's Breath",
+      "Ruscus Leaves"
     ],
     "inStock": true,
     "images": [
-      "/pic/26/a.jpg"
+      "/pic/26/a.jpg",
+      "/pic/26/b.jpg"
     ]
   },
   {
-    "slug": "summer-garden-bouquet",
-    "name": "Summer Garden Bouquet",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Summer Garden Bouquet is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Summer Garden Bouquet is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "fresh-white-roses-lily-and-gerberas",
+    "name": "Fresh White Roses, Lily, and Gerberas",
+    "category": "Fresh Flowers",
+    "price": 270000,
+    "image": "Fresh White Roses, Lily, and Gerberas",
+    "description": "White roses, lily, and gerberas in nude paper.",
+    "fullDescription": "Medium size fresh white bouquet of roses, lilies, and gerberas with baby's breath and eucalyptus, wrapped in nude paper with a cream ribbon. Good for weddings, sympathy, and anniversaries.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "5 White Roses",
+      "2 Lilies",
+      "2 White Gerberas",
+      "Baby's Breath",
+      "Eucalyptus"
     ],
     "inStock": true,
     "images": [
       "/pic/27/a.jpg"
-    ],
-    "image": "Summer Garden Bouquet"
+    ]
   },
   {
-    "slug": "lavender-bliss",
-    "name": "Lavender Bliss",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Lavender Bliss is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Lavender Bliss is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-black-and-blue-rose-bouquet",
+    "name": "Artificial Black and Blue Rose Bouquet",
+    "category": "Artificial Flowers",
+    "price": 165000,
+    "image": "Artificial Black and Blue Rose Bouquet",
+    "description": "Black and blue roses in black paper.",
+    "fullDescription": "Medium to large artificial bouquet of black and blue roses, cream dahlias, and gray chrysanthemums with gold limonium, wrapped in black paper with a navy ribbon. Good for graduations, birthdays, and gifts for men.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Black Roses",
+      "3 Blue Roses",
+      "2 Cream Dahlias",
+      "2 Gray Chrysanthemums",
+      "Gold Limonium"
     ],
     "inStock": true,
     "images": [
       "/pic/28/a.jpg"
-    ],
-    "image": "Lavender Bliss"
+    ]
   },
   {
-    "slug": "pink-peony-dream",
-    "name": "Pink Peony Dream",
-    "category": "Luxury",
-    "price": 85000,
-    "description": "Pink Peony Dream is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Pink Peony Dream is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "10-fresh-pink-roses",
+    "name": "10 Fresh Pink Roses",
+    "category": "Fresh Flowers",
+    "price": 250000,
+    "image": "10 Fresh Pink Roses",
+    "description": "Fresh pink roses with baby's breath in white paper.",
+    "fullDescription": "Medium fresh bouquet of ten pink roses with baby's breath, wrapped in white paper and tulle with a pink satin ribbon. Good for birthdays, anniversaries, and Mother's Day.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "10 Pink Roses",
+      "Baby's Breath"
     ],
     "inStock": true,
     "images": [
       "/pic/29/a.jpg"
-    ],
-    "image": "Pink Peony Dream"
+    ]
   },
   {
-    "slug": "white-rose-elegance",
-    "name": "White Rose Elegance",
-    "category": "Roses",
-    "price": 45000,
-    "description": "White Rose Elegance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "White Rose Elegance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-pink-flower-bag",
+    "name": "Artificial Pink Flower Bag",
+    "category": "Artificial Flowers",
+    "price": 145000,
+    "image": "Artificial Pink Flower Bag",
+    "description": "Pink gerbera, peony, and cosmos in a gift bag.",
+    "fullDescription": "Small artificial flower arrangement in a pink \"Best Wishes\" arch bag with butterfly detail and white ribbon. Good for birthdays, get-well wishes, and thank-you gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Pink Gerbera",
+      "Pink Peony",
+      "Pink Peony",
+      "2 Pink Carnations",
+      "White Camellias",
+      "Daisies",
+      "Cosmos",
+      "Arch Gift Bag"
     ],
     "inStock": true,
     "images": [
       "/pic/30/a.jpg"
-    ],
-    "image": "White Rose Elegance"
+    ]
   },
   {
-    "slug": "sunburst-arrangement",
-    "name": "Sunburst Arrangement",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Sunburst Arrangement is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Sunburst Arrangement is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-cream-flower-bag",
+    "name": "Artificial Cream Flower Bag",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Cream Flower Bag",
+    "description": "White gerbera, yellow daisy, and peach rose in a gift bag.",
+    "fullDescription": "Small artificial flower arrangement in a cream \"Best Wishes\" arch bag with white and yellow flowers and a white ribbon. Good for birthdays, congratulations, and thank-you gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "White Gerbera",
+      "Yellow Daisy",
+      "Peach Rose",
+      "White Cosmos",
+      "Peach Pompom",
+      "Cream Peony",
+      "Hydrangea",
+      "Arch Gift Bag"
     ],
     "inStock": true,
     "images": [
       "/pic/31/a.jpg"
-    ],
-    "image": "Sunburst Arrangement"
+    ]
   },
   {
-    "slug": "tropical-paradise",
-    "name": "Tropical Paradise",
-    "category": "Tropical",
-    "price": 60000,
-    "description": "Tropical Paradise is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Tropical Paradise is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-blue-and-peach-rose-bouquet-in-gray-paper",
+    "name": "Artificial Blue and Peach Rose Bouquet in Gray Paper",
+    "category": "Artificial Flowers",
+    "price": 140000,
+    "image": "Artificial Blue and Peach Rose Bouquet in Gray Paper",
+    "description": "Blue roses and peach pompoms in gray paper.",
+    "fullDescription": "Medium size artificial bouquet of blue roses, blue scabiosa, peach ranunculus, and peach pompoms with gold limonium, wrapped in gray and black paper with a cream ribbon. Good for birthdays, anniversaries, and graduations.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "2 Blue Roses",
+      "3 Blue Scabiosa",
+      "2 Peach Ranunculus",
+      "4 Peach Pompoms",
+      "White Lisianthus",
+      "Preserve Flower"
     ],
     "inStock": true,
     "images": [
       "/pic/32/a.jpg"
-    ],
-    "image": "Tropical Paradise"
+    ]
   },
   {
-    "slug": "crimson-romance",
-    "name": "Crimson Romance",
-    "category": "Roses",
-    "price": 45000,
-    "description": "Crimson Romance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Crimson Romance is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-white-anthurium-and-lily-bouquet",
+    "name": "Artificial White Anthurium and Lily Bouquet",
+    "category": "Artificial Flowers",
+    "price": 200000,
+    "image": "Artificial White Anthurium and Lily Bouquet",
+    "description": "White anthurium, lily, and roses in nude paper.",
+    "fullDescription": "Medium size all-white artificial bouquet of anthurium, lily, roses, cosmos, carnation, and daisies, wrapped in nude paper with white tulle and ribbon. Good for weddings, anniversaries, and graduations.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "White Anthurium",
+      "White Lily",
+      "3 White Roses",
+      "White Cosmos",
+      "White Carnation",
+      "2 Daisies",
+      "Filler Flowers and Grass"
+    ],
+    "inStock": true,
+    "images": [
+      "/pic/33/a.jpg"
+    ]
+  },
+  {
+    "slug": "artificial-lilac-flower-bag",
+    "name": "Artificial Lilac Flower Bag",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Lilac Flower Bag",
+    "description": "Lilac gerbera, peach carnations, and cosmos in a gift bag.",
+    "fullDescription": "Small artificial flower arrangement in a pink and lilac \"Best Wishes\" arch bag with white camellias, carnations, and cosmos. Good for birthdays, Mother's Day, and thank-you gifts.",
+    "includes": [
+      "Lilac Gerbera",
+      "2 Peach Carnations",
+      "3 White Camellias",
+      "Magenta Cosmos",
+      "Lilac Peony",
+      "Pink Hydrangea",
+      "Arch Gift Bag"
     ],
     "inStock": true,
     "images": [
       "/pic/34/a.jpg"
-    ],
-    "image": "Crimson Romance"
+    ]
   },
   {
-    "slug": "morning-dew",
-    "name": "Morning Dew",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Morning Dew is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Morning Dew is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-white-rose-and-peach-dahlia-vase",
+    "name": "Artificial White Rose and Peach Dahlia Vase",
+    "category": "Artificial Flowers",
+    "price": 160000,
+    "image": "Artificial White Rose and Peach Dahlia Vase",
+    "description": "White roses, peach dahlias, and lily in a ceramic vase.",
+    "fullDescription": "Small artificial arrangement in a white ceramic vase with white roses, peach dahlias, a white lily, and baby's breath. Good for desk and table decor, housewarming, and get-well gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "2 White Roses",
+      "3 Peach Dahlias",
+      "White Lily",
+      "Peach Ranunculus",
+      "Baby's Breath",
+      "Ceramic Vase"
     ],
     "inStock": true,
     "images": [
       "/pic/35/a.jpg"
-    ],
-    "image": "Morning Dew"
+    ]
   },
   {
-    "slug": "garden-symphony",
-    "name": "Garden Symphony",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Garden Symphony is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Garden Symphony is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-blue-congratulations-flower-box",
+    "name": "Artificial Blue Congratulations Flower Box",
+    "category": "Artificial Flowers",
+    "price": 200000,
+    "image": "Artificial Blue Congratulations Flower Box",
+    "description": "Blue roses and daisies in a black box with a card.",
+    "fullDescription": "Small artificial flower box in a black round box with blue roses, blue scabiosa, white and blue daisies, and eucalyptus, with a \"Congratulations\" card. Good for grand openings and promotions.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "2 Blue Roses",
+      "3 Blue Scabiosa",
+      "White Daisy",
+      "White Cosmos",
+      "White Pompom",
+      "3 Light Blue Daisies",
+      "Eucalyptus",
+      "Round Gift Box"
     ],
     "inStock": true,
     "images": [
       "/pic/36/a.jpg"
-    ],
-    "image": "Garden Symphony"
+    ]
   },
   {
-    "slug": "purple-majesty",
-    "name": "Purple Majesty",
-    "category": "Orchids",
-    "price": 65000,
-    "description": "Purple Majesty is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Purple Majesty is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-pink-rose-and-white-lily-bouquet",
+    "name": "Artificial Pink Rose and White Lily Bouquet",
+    "category": "Artificial Flowers",
+    "price": 165000,
+    "image": "Artificial Pink Rose and White Lily Bouquet",
+    "description": "Pink roses and white lily in gold-edged paper.",
+    "fullDescription": "Medium size artificial bouquet of pink roses, peonies, a white lily, white pompoms, and pink gerbera with eucalyptus, wrapped in white paper with gold edges and a pink ribbon. Good for birthdays and anniversaries.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Pink Roses",
+      "White Lily",
+      "2 Pink Peonies",
+      "2 White Pompoms",
+      "Pink Gerbera",
+      "Pink Cosmos",
+      "Eucalyptus"
     ],
     "inStock": true,
     "images": [
       "/pic/37/a.jpg"
-    ],
-    "image": "Purple Majesty"
+    ]
   },
   {
-    "slug": "gentle-whisper",
-    "name": "Gentle Whisper",
-    "category": "Lilies",
-    "price": 70000,
-    "description": "Gentle Whisper is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Gentle Whisper is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-pink-anthurium-bouquet-with-white-pompoms",
+    "name": "Artificial Pink Anthurium Bouquet with White Pompoms",
+    "category": "Artificial Flowers",
+    "price": 225000,
+    "image": "Artificial Pink Anthurium Bouquet with White Pompoms",
+    "description": "Pink anthurium, roses, and white pompoms in pink paper.",
+    "fullDescription": "Medium size artificial bouquet of pink anthurium, pink roses, carnation, and two white pompoms with fern, wrapped in pink paper with white tulle and ribbon. Good for birthdays and Mother's Day.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Pink Anthurium",
+      "4 Pink Roses",
+      "Pink Carnation",
+      "2 White Pompoms",
+      "Fern"
     ],
     "inStock": true,
     "images": [
-      "/pic/38/a.jpg"
-    ],
-    "image": "Gentle Whisper"
+      "/pic/38/a.jpg",
+      "/pic/38/b.jpg"
+    ]
   },
   {
-    "slug": "golden-hour",
-    "name": "Golden Hour",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Golden Hour is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Golden Hour is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "grand-opening-acrylic-flower-stand-with-lucky-cat",
+    "name": "Grand Opening Acrylic Flower Stand with Lucky Cat",
+    "category": "Custom Bouquets",
+    "price": 350000,
+    "image": "Grand Opening Acrylic Flower Stand with Lucky Cat",
+    "description": "Custom acrylic congratulations plaque with pink flowers and a lucky cat.",
+    "fullDescription": "Custom round acrylic plaque printed with your congratulations message and logo, decorated with pink butterflies and set on a wooden log base with artificial pink roses, a cream peony, pink cosmos, red baby's breath, and a maneki-neko lucky cat. Good for grand openings, new businesses, and shop launches.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Custom Printed Acrylic Plaque",
+      "Maneki-neko Lucky Cat",
+      "Pink Roses",
+      "Cream Peony",
+      "Pink Cosmos",
+      "Butterfly Decorations",
+      "Wooden Log Base"
     ],
     "inStock": true,
     "images": [
       "/pic/39/a.jpg"
-    ],
-    "image": "Golden Hour"
+    ]
   },
   {
-    "slug": "blushing-beauty",
-    "name": "Blushing Beauty",
-    "category": "Roses",
-    "price": 45000,
-    "description": "Blushing Beauty is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Blushing Beauty is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "30-fresh-round-gerbera",
+    "name": "30 Fresh Round Gerbera",
+    "category": "Fresh Flowers",
+    "price": 500000,
+    "image": "30 Fresh Round Gerbera",
+    "description": "30 fresh round gerberas in pink, white, and coral in pink paper.",
+    "fullDescription": "Large fresh round bouquet of 30 round gerberas in soft pink, white, and coral with baby's breath, wrapped in pink paper with white tissue and an èlore ribbon. Good for graduations, birthdays, anniversaries, and big celebrations.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "30 Fresh Round Gerberas",
+      "Baby's Breath"
     ],
     "inStock": true,
     "images": [
-      "/pic/40/a.jpg"
-    ],
-    "image": "Blushing Beauty"
+      "/pic/40/a.jpg",
+      "/pic/40/b.jpg"
+    ]
   },
   {
-    "slug": "forest-charm",
-    "name": "Forest Charm",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Forest Charm is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Forest Charm is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-red-roses-with-graduation-bear",
+    "name": "Artificial Red Roses with Graduation Bear",
+    "category": "Artificial Flowers",
+    "price": 325000,
+    "image": "Artificial Red Roses with Graduation Bear",
+    "description": "Red roses with a graduation bear in hessian.",
+    "fullDescription": "Large artificial bouquet of red roses with eucalyptus and a graduation bear, wrapped in hessian, kraft paper, and white mesh. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Red Roses",
+      "Eucalyptus",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/41/a.jpg"
-    ],
-    "image": "Forest Charm"
+    ]
   },
   {
-    "slug": "ivory-dream",
-    "name": "Ivory Dream",
-    "category": "Roses",
-    "price": 45000,
-    "description": "Ivory Dream is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Ivory Dream is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-sunflower-and-white-rose-bouquet",
+    "name": "Artificial Sunflower and White Rose Bouquet",
+    "category": "Artificial Flowers",
+    "price": 245000,
+    "image": "Artificial Sunflower and White Rose Bouquet",
+    "description": "Sunflowers and white roses in hessian and mesh.",
+    "fullDescription": "Medium size artificial bouquet of sunflowers, white roses, and daisies with eucalyptus, wrapped in hessian, kraft paper, and white mesh with a cream ribbon. Good for birthdays, graduations, and get-well gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Sunflowers",
+      "5 White Roses",
+      "Daisies",
+      "Eucalyptus"
     ],
     "inStock": true,
     "images": [
       "/pic/42/a.jpg"
-    ],
-    "image": "Ivory Dream"
+    ]
   },
   {
-    "slug": "coral-delight",
-    "name": "Coral Delight",
-    "category": "Tropical",
-    "price": 60000,
-    "description": "Coral Delight is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Coral Delight is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "large-fresh-red-roses-with-baby-s-breath",
+    "name": "Large Fresh Red Roses with Baby's Breath",
+    "category": "Fresh Flowers",
+    "price": 450000,
+    "image": "Large Fresh Red Roses with Baby's Breath",
+    "description": "Large bouquet of fresh red roses.",
+    "fullDescription": "Large fresh bouquet of red roses with baby's breath and eucalyptus, wrapped in white paper with a white ribbon. Good for Valentine's Day, anniversaries, and proposals.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "30 Red Roses",
+      "Baby's Breath",
+      "Eucalyptus"
     ],
     "inStock": true,
     "images": [
       "/pic/43/a.jpg"
-    ],
-    "image": "Coral Delight"
+    ]
   },
   {
-    "slug": "lavender-fields",
-    "name": "Lavender Fields",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Lavender Fields is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Lavender Fields is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-blue-and-peach-rose-bouquet-in-navy-paper",
+    "name": "Artificial Blue and Peach Rose Bouquet in Navy Paper",
+    "category": "Artificial Flowers",
+    "price": 275000,
+    "image": "Artificial Blue and Peach Rose Bouquet in Navy Paper",
+    "description": "Blue roses, carnations, and peach pompoms in navy paper.",
+    "fullDescription": "Large artificial bouquet of blue roses, blue carnations, peach roses, and peach pompoms with gold limonium, wrapped in navy paper and black mesh with a navy ribbon. Good for graduations, anniversaries, and gifts for men.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "4 Blue Roses",
+      "5 Blue Carnations",
+      "4 Peach Roses",
+      "4 Peach Pompoms",
+      "Baby's Breath",
+      "Gold Limonium"
     ],
     "inStock": true,
     "images": [
       "/pic/44/a.jpg"
-    ],
-    "image": "Lavender Fields"
+    ]
   },
   {
-    "slug": "rose-garden",
-    "name": "Rose Garden",
-    "category": "Roses",
+    "slug": "artificial-white-and-yellow-rose-graduation-bear-bouquet",
+    "name": "Artificial White and Yellow Rose Graduation Bear Bouquet",
+    "category": "Artificial Flowers",
     "price": 45000,
-    "description": "Rose Garden is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Rose Garden is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "image": "Artificial White and Yellow Rose Graduation Bear Bouquet",
+    "description": "White and yellow roses with a graduation bear and lights.",
+    "fullDescription": "Medium size artificial bouquet of white and yellow roses with baby's breath, eucalyptus, fairy lights, and a graduation bear, wrapped in teal and gray paper. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "8 White Roses",
+      "4 Yellow Roses",
+      "Baby's Breath",
+      "Eucalyptus",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/45/a.jpg"
-    ],
-    "image": "Rose Garden"
+    ]
   },
   {
-    "slug": "silk-orchid",
-    "name": "Silk Orchid",
-    "category": "Orchids",
-    "price": 65000,
-    "description": "Silk Orchid is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Silk Orchid is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "fresh-red-roses-with-graduation-bear",
+    "name": "Fresh Red Roses with Graduation Bear",
+    "category": "Fresh Flowers",
+    "price": 265000,
+    "image": "Fresh Red Roses with Graduation Bear",
+    "description": "Red roses and baby's breath with a graduation bear.",
+    "fullDescription": "Medium size fresh bouquet of red roses and baby's breath with a graduation bear, wrapped in white paper with a red ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "12 Red Roses",
+      "Baby's Breath",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/46/a.jpg"
-    ],
-    "image": "Silk Orchid"
+    ]
   },
   {
-    "slug": "spring-melody",
-    "name": "Spring Melody",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Spring Melody is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Spring Melody is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-sunflower-graduation-bear-bouquet-in-cream-paper",
+    "name": "Artificial Sunflower Graduation Bear Bouquet in Cream Paper",
+    "category": "Artificial Flowers",
+    "price": 115000,
+    "image": "Artificial Sunflower Graduation Bear Bouquet in Cream Paper",
+    "description": "Sunflowers and white chrysanthemums with a graduation bear.",
+    "fullDescription": "Medium size artificial bouquet of large and mini sunflowers and white chrysanthemums with a graduation bear, wrapped in cream paper with a white ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "2 Large Sunflowers",
+      "5 Mini Sunflowers",
+      "White Chrysanthemums",
+      "Green Leaves",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/47/a.jpg"
-    ],
-    "image": "Spring Melody"
+    ]
   },
   {
-    "slug": "midnight-blue",
-    "name": "Midnight Blue",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Midnight Blue is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Midnight Blue is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-blue-graduation-bear-bouquet",
+    "name": "Artificial Blue Graduation Bear Bouquet",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Blue Graduation Bear Bouquet",
+    "description": "Light blue peonies and white lily with a graduation bear.",
+    "fullDescription": "Medium size artificial bouquet of light blue peonies, poppies, and pompom with a white lily and rose, plus a graduation bear, wrapped in navy paper with a 2026 graduation tag. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Light Blue Peonies",
+      "2 Light Blue Poppies",
+      "Blue Pompom",
+      "White Lily",
+      "White Rose",
+      "2 White Pompoms",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/48/a.jpg"
-    ],
-    "image": "Midnight Blue"
+    ]
   },
   {
-    "slug": "peach-blossom",
-    "name": "Peach Blossom",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Peach Blossom is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Peach Blossom is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-white-graduation-bear-bouquet-with-pink-lily",
+    "name": "Artificial White Graduation Bear Bouquet with Pink Lily",
+    "category": "Artificial Flowers",
+    "price": 115000,
+    "image": "Artificial White Graduation Bear Bouquet with Pink Lily",
+    "description": "Pink lily, white peonies, and gerbera with a graduation bear.",
+    "fullDescription": "Medium size artificial bouquet of a pink lily, peach gerbera, white peonies, and white poppies with a graduation bear, wrapped in white paper and mesh with an iridescent ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Pink Lily",
+      "Peach Gerbera",
+      "3 White Peonies",
+      "2 White Poppies",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/49/a.jpg"
-    ],
-    "image": "Peach Blossom"
+    ]
   },
   {
-    "slug": "emerald-grace",
-    "name": "Emerald Grace",
+    "slug": "money-bouquet-with-red-roses-in-dusty-rose-paper",
+    "name": "Money Bouquet with Red Roses in Dusty Rose Paper",
     "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Emerald Grace is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Emerald Grace is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "price": 125000,
+    "image": "Money Bouquet with Red Roses in Dusty Rose Paper",
+    "description": "Rp100,000 notes with red roses and baby's breath.",
+    "fullDescription": "Large money bouquet with Rp100,000 notes on stems, red roses, red peonies, and red baby's breath, wrapped in dusty rose paper with a cream ribbon. Good for graduations, weddings, and birthdays.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "2 Red Roses",
+      "2 Red Peonies",
+      "Red Baby's Breath"
     ],
     "inStock": true,
     "images": [
       "/pic/50/a.jpg"
-    ],
-    "image": "Emerald Grace"
+    ]
   },
   {
-    "slug": "wild-berry",
-    "name": "Wild Berry",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Wild Berry is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Wild Berry is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-cream-and-terracotta-bouquet",
+    "name": "Artificial Cream and Terracotta Bouquet",
+    "category": "Artificial Flowers",
+    "price": 180000,
+    "image": "Artificial Cream and Terracotta Bouquet",
+    "description": "Cream peony and terracotta dahlias in cream paper.",
+    "fullDescription": "Medium to large artificial bouquet of a white peony, terracotta dahlias, cream cosmos, yellow carnations, and daisies, wrapped in cream and newspaper-print paper. Good for birthdays, home decor, and thank-you gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "White Peony",
+      "2 Terracotta Dahlias",
+      "2 Cream Cosmos",
+      "2 Yellow Carnations",
+      "White Dahlia",
+      "Cream Rose",
+      "Daisies"
     ],
     "inStock": true,
     "images": [
       "/pic/51/a.jpg"
-    ],
-    "image": "Wild Berry"
+    ]
   },
   {
-    "slug": "lemon-zest",
-    "name": "Lemon Zest",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Lemon Zest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Lemon Zest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-black-and-white-rose-graduation-bear-bouquet",
+    "name": "Artificial Black and White Rose Graduation Bear Bouquet",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Black and White Rose Graduation Bear Bouquet",
+    "description": "Black and white roses with a graduation bear.",
+    "fullDescription": "Medium size artificial bouquet of black and white roses with limonium and a graduation bear, wrapped in black paper with a white ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "4 Black Roses",
+      "4 White Roses",
+      "Limonium",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/52/a.jpg"
-    ],
-    "image": "Lemon Zest"
+    ]
   },
   {
-    "slug": "dusty-rose",
-    "name": "Dusty Rose",
-    "category": "Roses",
-    "price": 45000,
-    "description": "Dusty Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Dusty Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-purple-gerbera-and-carnation-bouquet",
+    "name": "Artificial Purple Gerbera and Carnation Bouquet",
+    "category": "Artificial Flowers",
+    "price": 145000,
+    "image": "Artificial Purple Gerbera and Carnation Bouquet",
+    "description": "Magenta flower, gerberas, and carnations in lilac paper.",
+    "fullDescription": "Small to medium artificial bouquet of a magenta daisy, cream and lilac gerberas, a pink rose, dusty pink ranunculus, carnation, and anemones, wrapped in lilac paper with a white ribbon. Good for birthdays and friendship gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Magenta Daisy",
+      "2 Cream Gerberas",
+      "Lilac Gerbera",
+      "Pink Rose",
+      "Dusty Pink Ranunculus",
+      "Lilac Carnation",
+      "2 Lilac Anemones"
     ],
     "inStock": true,
     "images": [
       "/pic/53/a.jpg"
-    ],
-    "image": "Dusty Rose"
+    ]
   },
   {
-    "slug": "tropical-sunset",
-    "name": "Tropical Sunset",
-    "category": "Tropical",
-    "price": 60000,
-    "description": "Tropical Sunset is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Tropical Sunset is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-pink-graduation-cap-flower-box",
+    "name": "Artificial Pink Graduation Cap Flower Box",
+    "category": "Artificial Flowers",
+    "price": 165000,
+    "image": "Artificial Pink Graduation Cap Flower Box",
+    "description": "Pink peonies, gerberas, and tulips in a graduation cap box.",
+    "fullDescription": "Small artificial arrangement in a black graduation cap box with gold tassel and \"Congratulations\" print, with hot pink gerberas, peach tulips, pink peonies, and dahlias. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "2 Hot Pink Gerberas",
+      "2 Peach Tulips",
+      "2 Pink Peonies",
+      "Dusty Pink Ranunculus",
+      "White Dahlia",
+      "Burgundy Dahlia",
+      "Cream Rose",
+      "Graduation Cap Box"
     ],
     "inStock": true,
     "images": [
       "/pic/54/a.jpg",
       "/pic/54/b.jpg"
-    ],
-    "image": "Tropical Sunset"
+    ]
   },
   {
-    "slug": "velvet-touch",
-    "name": "Velvet Touch",
-    "category": "Luxury",
-    "price": 85000,
-    "description": "Velvet Touch is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Velvet Touch is a luxury bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-peach-and-cream-graduation-bear-bouquet",
+    "name": "Artificial Peach and Cream Graduation Bear Bouquet",
+    "category": "Artificial Flowers",
+    "price": 155000,
+    "image": "Artificial Peach and Cream Graduation Bear Bouquet",
+    "description": "Cream lily, peach gerbera, and roses with a graduation bear.",
+    "fullDescription": "Medium size artificial bouquet of a cream-pink lily, white rose, peach gerbera, terracotta dahlia, and ranunculus with eucalyptus and a graduation bear, wrapped in sage green paper. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Cream-Pink Lily",
+      "White Rose",
+      "Peach Gerbera",
+      "Terracotta Dahlia",
+      "2 Peach Ranunculus",
+      "Cream Carnation",
+      "Eucalyptus",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/55/a.jpg"
-    ],
-    "image": "Velvet Touch"
+    ]
   },
   {
-    "slug": "snow-white",
-    "name": "Snow White",
-    "category": "Lilies",
-    "price": 70000,
-    "description": "Snow White is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Snow White is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "mixed-money-bouquet-with-pink-and-white-roses",
+    "name": "Mixed Money Bouquet with Pink and White Roses",
+    "category": "Mixed Bouquets",
+    "price": 450000,
+    "image": "Mixed Money Bouquet with Pink and White Roses",
+    "description": "Mixed Money Bouquet with Pink and White Roses",
+    "fullDescription": "Extra-large round money bouquet with Rp50,000 notes rolled into cones and arranged in a ring around a centre of white roses, framed by pink roses and baby's breath, wrapped in cream paper with a gold edge. Good for weddings, graduations, and milestone birthdays.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Rolled Rp50,000 Banknotes",
+      "7 White Roses",
+      "Pink Roses",
+      "Baby's Breath"
     ],
     "inStock": true,
     "images": [
       "/pic/56/a.jpg"
-    ],
-    "image": "Snow White"
+    ]
   },
   {
-    "slug": "autumn-harvest",
-    "name": "Autumn Harvest",
-    "category": "Seasonal",
-    "price": 50000,
-    "description": "Autumn Harvest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Autumn Harvest is a seasonal bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-blue-gerbera-graduation-bear-bouquet",
+    "name": "Artificial Blue Gerbera Graduation Bear Bouquet",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Blue Gerbera Graduation Bear Bouquet",
+    "description": "Blue gerbera, peonies, and white lily with a graduation bear.",
+    "fullDescription": "Medium size artificial bouquet of a blue gerbera, light blue and white peonies, a white lily, and blue poppies with a graduation bear, wrapped in white paper and mesh. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Blue Gerbera",
+      "Light Blue Peony",
+      "White Peony",
+      "White Lily",
+      "2 Blue Poppies",
+      "Light Blue Pompom",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/57/a.jpg"
-    ],
-    "image": "Autumn Harvest"
+    ]
   },
   {
-    "slug": "berry-bliss",
-    "name": "Berry Bliss",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Berry Bliss is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Berry Bliss is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-pink-lily-graduation-bear-bouquet",
+    "name": "Artificial Pink Lily Graduation Bear Bouquet",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Pink Lily Graduation Bear Bouquet",
+    "description": "Pink lily, peach gerbera, and peonies with a graduation bear.",
+    "fullDescription": "Medium size artificial bouquet of a pink lily, peach gerbera, pink and white peonies, carnation, and white poppies with a graduation bear, wrapped in white paper and mesh. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Pink Lily",
+      "Peach Gerbera",
+      "Pink Peony",
+      "White Peony",
+      "Pink Carnation",
+      "2 White Poppies",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/58/a.jpg"
-    ],
-    "image": "Berry Bliss"
+    ]
   },
   {
-    "slug": "pastel-garden",
-    "name": "Pastel Garden",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Pastel Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Pastel Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-sunflower-graduation-bear-bouquet-in-white-paper",
+    "name": "Artificial Sunflower Graduation Bear Bouquet in White Paper",
+    "category": "Artificial Flowers",
+    "price": 150000,
+    "image": "Artificial Sunflower Graduation Bear Bouquet in White Paper",
+    "description": "Three sunflowers with a graduation bear in white paper.",
+    "fullDescription": "Medium size artificial bouquet of three sunflowers, white chrysanthemums, and daisies with limonium and a brown graduation bear, wrapped in white paper with a white ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Sunflowers",
+      "White Chrysanthemums",
+      "White Daisies",
+      "Limonium",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/59/a.jpg"
-    ],
-    "image": "Pastel Garden"
+    ]
   },
   {
-    "slug": "soft-lilac",
-    "name": "Soft Lilac",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Soft Lilac is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Soft Lilac is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-sunflower-graduation-bear-bouquet-in-navy-paper",
+    "name": "Artificial Sunflower Graduation Bear Bouquet in Navy Paper",
+    "category": "Artificial Flowers",
+    "price": 185000,
+    "image": "Artificial Sunflower Graduation Bear Bouquet in Navy Paper",
+    "description": "Three sunflowers with a graduation bear in navy paper.",
+    "fullDescription": "Medium to large artificial bouquet of three sunflowers, white chrysanthemums, daisies, and white poppies with a brown graduation bear, wrapped in navy paper with a white ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Sunflowers",
+      "White Chrysanthemums",
+      "Daisies",
+      "White Poppies",
+      "Limonium",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/60/a.jpg"
-    ],
-    "image": "Soft Lilac"
+    ]
   },
   {
-    "slug": "golden-rose",
-    "name": "Golden Rose",
-    "category": "Roses",
+    "slug": "artificial-sunflower-graduation-bear-bouquet-in-brown-paper",
+    "name": "Artificial Sunflower Graduation Bear Bouquet in brown Paper",
+    "category": "Artificial Flowers",
     "price": 45000,
-    "description": "Golden Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Golden Rose is a rose bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "image": "Artificial Sunflower Graduation Bear Bouquet in Brown Paper",
+    "description": "Three sunflowers with a graduation bear in brown paper.",
+    "fullDescription": "Medium to large artificial bouquet of three sunflowers, white chrysanthemums, and white poppies with a brown graduation bear, wrapped in kraft paper with a white ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Sunflowers",
+      "White Chrysanthemums",
+      "White Poppies",
+      "Limonium",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/61/a.jpg"
-    ],
-    "image": "Golden Rose"
+    ]
   },
   {
-    "slug": "rainbow-garden",
-    "name": "Rainbow Garden",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Rainbow Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Rainbow Garden is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-pink-peony-graduation-bear-bouquet",
+    "name": "Artificial Pink Peony Graduation Bear Bouquet",
+    "category": "Artificial Flowers",
+    "price": 250000,
+    "image": "Artificial Pink Peony Graduation Bear Bouquet",
+    "description": "Pink peonies and roses with a graduation bear.",
+    "fullDescription": "Medium to large artificial bouquet of pink peonies and roses, a white lily, and white pompom with eucalyptus and a graduation bear, wrapped in pink paper with a cream ribbon. Good for graduation gifts.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "4 Pink Peonies",
+      "3 Pink Roses",
+      "White Pompom",
+      "White Lily",
+      "Pink Dahlia",
+      "Eucalyptus",
+      "Graduation Bear"
     ],
     "inStock": true,
     "images": [
       "/pic/62/a.jpg",
       "/pic/62/b.jpg",
       "/pic/62/c.jpg"
-    ],
-    "image": "Rainbow Garden"
+    ]
   },
   {
-    "slug": "orchid-paradise",
-    "name": "Orchid Paradise",
-    "category": "Orchids",
-    "price": 65000,
-    "description": "Orchid Paradise is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Orchid Paradise is an orchid bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-blue-peony-and-hydrangea-bouquet-in-black-paper",
+    "name": "Artificial Blue Peony and Hydrangea Bouquet in Black Paper",
+    "category": "Artificial Flowers",
+    "price": 125000,
+    "image": "Artificial Blue Peony and Hydrangea Bouquet in Black Paper",
+    "description": "Blue peonies and hydrangeas with white peonies in black paper.",
+    "fullDescription": "Medium to large artificial bouquet of blue roses, peonies, and hydrangeas with white peonies, daisies, and a dahlia, wrapped in black paper with white edges and a gray organza ribbon. Good for graduations, anniversaries, and gifts for men.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "Blue Rose",
+      "2 Blue Peonies",
+      "2 Blue Hydrangeas",
+      "Blue Poppy",
+      "2 White Peonies",
+      "White Daisies",
+      "White Dahlia"
     ],
     "inStock": true,
     "images": [
       "/pic/63/a.jpg",
       "/pic/63/b.jpg"
-    ],
-    "image": "Orchid Paradise"
+    ]
   },
   {
-    "slug": "lily-of-the-valley",
-    "name": "Lily of the Valley",
-    "category": "Lilies",
-    "price": 70000,
-    "description": "Lily of the Valley is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Lily of the Valley is a lily bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "large-fresh-mixed-gerbera-and-rose-bouquet",
+    "name": "Large Fresh Mixed Gerbera and Rose Bouquet",
+    "category": "Fresh Flowers",
+    "price": 450000,
+    "image": "Large Fresh Mixed Gerbera and Rose Bouquet",
+    "description": "Fresh gerberas, roses, and chrysanthemums in cream paper.",
+    "fullDescription": "Large fresh bouquet of pink, peach, and white gerberas with red, pink, and peach roses, white chrysanthemums, purple statice, aster, baby's breath, and ruscus, wrapped in cream paper with an èlore ribbon. Good for birthdays, anniversaries, and congratulations.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "3 Pink Gerberas",
+      "2 Peach Gerberas",
+      "White Gerbera",
+      "Red Roses",
+      "Pink Roses",
+      "Peach Roses",
+      "White Chrysanthemums",
+      "Purple Statice",
+      "White Aster",
+      "Baby's Breath",
+      "Ruscus Leaves"
     ],
     "inStock": true,
     "images": [
       "/pic/64/a.jpg",
       "/pic/64/b.jpg"
-    ],
-    "image": "Lily of the Valley"
+    ]
   },
   {
-    "slug": "sunset-glow",
-    "name": "Sunset Glow",
-    "category": "Tropical",
-    "price": 60000,
-    "description": "Sunset Glow is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Sunset Glow is a tropical bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-eternal-rose",
+    "name": "Artificial Eternal Rose",
+    "category": "Artificial Flowers",
+    "price": 185000,
+    "image": "Artificial Eternal Rose",
+    "description": "Red roses with baby's breath in black paper.",
+    "fullDescription": "Medium size artificial bouquet of 11 red roses with baby's breath, wrapped in black textured paper with a red ribbon. Good for Valentine's Day, anniversaries, and birthdays.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "11-12 Red Roses",
+      "Baby's Breath"
     ],
     "inStock": true,
     "images": [
       "/pic/65/a.jpg"
-    ],
-    "image": "Sunset Glow"
+    ]
   },
   {
-    "slug": "meadow-fresh",
-    "name": "Meadow Fresh",
-    "category": "Mixed Bouquets",
-    "price": 44000,
-    "description": "Meadow Fresh is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya.",
-    "fullDescription": "Meadow Fresh is a mixed bouquet arranged at Èlore Florist in Siwalankerto, Surabaya. The stems follow the season, so the shop confirms the bunch on WhatsApp before you pay. Pickup is at Jl. Siwalankerto Timur I No. 1B, or ask for delivery across Surabaya.",
+    "slug": "artificial-pink-lily-and-peony-bouquet-in-white-paper",
+    "name": "Artificial Pink Lily and Peony Bouquet in White Paper",
+    "category": "Artificial Flowers",
+    "price": 250000,
+    "image": "Artificial Pink Lily and Peony Bouquet in White Paper",
+    "description": "Pink lilies, peony, and gerbera in white paper.",
+    "fullDescription": "Medium to large artificial bouquet of two pink lilies, a pink peony, white gerberas, and peach pompoms with gold eucalyptus, wrapped in white paper with a white ribbon. Good for birthdays, anniversaries, and Mother's Day.",
     "includes": [
-      "Seasonal fresh flowers",
-      "Hand-arranged bouquet"
+      "2 Pink Lilies",
+      "Pink Peony",
+      "2 White Gerberas",
+      "White Peony",
+      "4 Peach Pompoms",
+      "Pink Rosebud",
+      "White Poppy",
+      "Gold Eucalyptus"
     ],
     "inStock": true,
     "images": [
       "/pic/67/a.jpg"
-    ],
-    "image": "Meadow Fresh"
+    ]
   }
 ]
